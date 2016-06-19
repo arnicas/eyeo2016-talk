@@ -1,6 +1,6 @@
 {
   "name": "Eyeo2016-talk",
   "tagline": "talk and toys made for eye2016 (and alt-ai conf at SFPC)",
-  "body": "# eyeo2016-talk\r\n\r\nThese are the slides and toys I built for my talk at Eyeo 2016.\r\n\r\nLinks:\r\n\r\n* [Rhyme-Finder](rhyme_finder)\r\n* [Neural Net UK Map](uk_nnet_map)\r\n* [Via 2.0 - Neural Net versions of Dante's Inferno start](Dante)\r\n* [Genetic Algorithm Castle-Poetry Generator](genetic_castles)\r\n* [Cocktail Remixes](cocktail_gen)\r\n\r\nSlides: [Slides link here](Eyeo_Talk.pdf)\r\n\r\n### Contact\r\n\r\nI can be found on twitter at @arnicas.\r\n",
+  "body": "# eyeo2016-talk\r\n\r\nThese are the slides and toys I built for my talk at Eyeo 2016.\r\n\r\nLinks:\r\n\r\n* [Rhyme-Finder](rhyme-finder)\r\n* [Neural Net UK Map](uk_nnet_map)\r\n* [Via 2.0 - Neural Net versions of Dante's Inferno start](Dante)\r\n* [Genetic Algorithm Castle-Poetry Generator](genetic_castles)\r\n* [Cocktail Remixes](cocktail_gen)\r\n\r\nSlides: [Slides link here](Eyeo_Talk.pdf)\r\n\r\n### Contact\r\n\r\nI can be found on twitter at @arnicas.\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
