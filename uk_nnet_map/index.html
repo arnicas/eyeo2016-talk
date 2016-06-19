@@ -217,23 +217,20 @@ function getCityData(bounds, limit) {
     " and latitude <= " + upperlat + " and longitude >= " + westlon + " and longitude <= " + eastlon + " ORDER by Random() Limit 30";
 
   if (!db) {
-    // terrible hack hopefully never needed?
-    db = loadDB(dbname);
-    setTimeout(function() {
+    setTimeOut(function() {
+      console.log("waiting...", db);
+    }, 5000);
+  }
+
+  if (db) {
       var contents = db.exec(query);
         // contents is now [{columns:['col1','col2',...], values:[[first row], [second row], ...]}]
       var towns = getNRandom(limit, contents[0].values);
       var names = getNames(towns.length);
         drawTowns(towns, names);
-      }, 6000);
-  } else {
-    var contents = db.exec(query);
-      // contents is now [{columns:['col1','col2',...], values:[[first row], [second row], ...]}]
-    if (contents[0]) {
-      var towns = getNRandom(10, contents[0].values);
-      var names = getNames(towns.length);
-      drawTowns(towns, names);
-    }
+      }
+  else {
+    console.log("Db of towns not loaded.");
   }
 }
 
