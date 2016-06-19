@@ -225,7 +225,7 @@ function getCityData(bounds, limit) {
       var towns = getNRandom(limit, contents[0].values);
       var names = getNames(towns.length);
         drawTowns(towns, names);
-      }, 5000);
+      }, 6000);
   } else {
     var contents = db.exec(query);
       // contents is now [{columns:['col1','col2',...], values:[[first row], [second row], ...]}]
