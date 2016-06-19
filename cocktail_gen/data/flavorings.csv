@@ -1,0 +1,168 @@
+"synsetid","wordid","casedwordid","lemma","senseid","sensenum","lexid","tagcount","sensekey","cased","pos","lexdomainid","definition","sampleset"
+107826609,12723,NULL,"beef tea",16857,1,0,0,"beef_tea%1:13:00::",NULL,"n",13,"an extract of beef (given to people who are ill)",NULL
+107826609,16556,4468,"bovril",22247,1,0,0,"bovril%1:13:00::","Bovril","n",13,"an extract of beef (given to people who are ill)",NULL
+107826721,76706,NULL,"lemon zest",106142,1,0,0,"lemon_zest%1:13:00::",NULL,"n",13,"tiny bits of lemon peel",NULL
+107826801,93758,NULL,"orange zest",129048,1,0,0,"orange_zest%1:13:00::",NULL,"n",13,"tiny bits of orange peel",NULL
+107826883,28614,NULL,"condiment",39397,1,0,0,"condiment%1:13:00::",NULL,"n",13,"a preparation (a sauce or relish or spice) to enhance flavor or enjoyment","mustard and ketchup are condiments"
+107827392,63468,NULL,"herb",87957,2,0,1,"herb%1:13:00::",NULL,"n",13,"aromatic potherb used in cookery for its savory qualities",NULL
+107828022,48570,NULL,"fines herbes",68227,1,0,0,"fines_herbes%1:13:00::",NULL,"n",13,"a mixture of finely chopped fresh herbs","an omelet flavored with fines herbes"
+107828160,123882,NULL,"spice",173143,2,0,0,"spice%1:13:00::",NULL,"n",13,"any of a variety of pungent aromatic vegetable substances used for flavoring food",NULL
+107828473,98385,NULL,"peppermint oil",135335,1,0,0,"peppermint_oil%1:13:00::",NULL,"n",13,"oil from the peppermint plant used as flavoring",NULL
+107828638,123547,NULL,"spearmint oil",172672,1,0,0,"spearmint_oil%1:13:00::",NULL,"n",13,"an aromatic oil obtained from the spearmint plant",NULL
+107828766,76698,NULL,"lemon oil",106128,1,0,0,"lemon_oil%1:13:00::",NULL,"n",13,"fragrant yellow oil obtained from the lemon peel",NULL
+107828889,92664,NULL,"oil of wintergreen",127615,1,0,0,"oil_of_wintergreen%1:13:00::",NULL,"n",13,"oil or flavoring obtained from the creeping wintergreen or teaberry plant",NULL
+107828889,145398,NULL,"wintergreen oil",204346,1,0,0,"wintergreen_oil%1:13:00::",NULL,"n",13,"oil or flavoring obtained from the creeping wintergreen or teaberry plant",NULL
+107829083,27950,NULL,"common salt",38336,2,0,0,"common_salt%1:13:00::",NULL,"n",13,"white crystalline form of especially sodium chloride used to season and preserve food",NULL
+107829083,114458,NULL,"salt",159137,2,0,5,"salt%1:13:00::",NULL,"n",13,"white crystalline form of especially sodium chloride used to season and preserve food",NULL
+107829083,129679,NULL,"table salt",182117,1,0,0,"table_salt%1:13:00::",NULL,"n",13,"white crystalline form of especially sodium chloride used to season and preserve food",NULL
+107829300,22293,NULL,"celery salt",30405,1,0,0,"celery_salt%1:13:00::",NULL,"n",13,"ground celery seed and salt",NULL
+107829385,52790,NULL,"garlic salt",74572,1,0,0,"garlic_salt%1:13:00::",NULL,"n",13,"ground dried garlic and salt",NULL
+107829471,93281,NULL,"onion salt",128355,1,0,0,"onion_salt%1:13:00::",NULL,"n",13,"ground dried onion and salt",NULL
+107829555,116731,NULL,"seasoned salt",162315,1,0,0,"seasoned_salt%1:13:00::",NULL,"n",13,"combination of salt and vegetable extracts and spices and monosodium glutamate",NULL
+107829693,123073,NULL,"sour salt",171980,1,0,0,"sour_salt%1:13:00::",NULL,"n",13,"crystals of citric acid used as seasoning",NULL
+107829809,49050,NULL,"five spice powder",68927,1,0,0,"five_spice_powder%1:13:00::",NULL,"n",13,"Chinese seasoning made by grinding star anise and fennel and pepper and cloves and cinnamon",NULL
+107829983,4057,NULL,"allspice",5442,3,0,0,"allspice%1:13:00::",NULL,"n",13,"ground dried berrylike fruit of a West Indian allspice tree; suggesting combined flavors of cinnamon and nutmeg and cloves",NULL
+107830179,25107,NULL,"cinnamon",34157,3,0,0,"cinnamon%1:13:00::",NULL,"n",13,"spice from the dried aromatic bark of the Ceylon cinnamon tree; used as rolled strips or ground",NULL
+107830366,125961,NULL,"stick cinnamon",176408,1,0,0,"stick_cinnamon%1:13:00::",NULL,"n",13,"dried rolled strips of cinnamon bark",NULL
+107830463,26320,NULL,"clove",35992,4,0,0,"clove%1:13:00::",NULL,"n",13,"spice from dried unopened flower bud of the clove tree; used whole or ground",NULL
+107830610,32385,NULL,"cumin",45155,2,0,0,"cumin%1:13:00::",NULL,"n",13,"aromatic seeds of the cumin herb of the carrot family",NULL
+107830610,32386,NULL,"cumin seed",45157,1,0,0,"cumin_seed%1:13:00::",NULL,"n",13,"aromatic seeds of the cumin herb of the carrot family",NULL
+107830766,47805,NULL,"fennel",67100,4,0,0,"fennel%1:13:00::",NULL,"n",13,"fennel seeds are ground and used as a spice or as an ingredient of a spice mixture",NULL
+107830901,57814,NULL,"ginger",80071,3,2,0,"ginger%1:13:02::",NULL,"n",13,"pungent rhizome of the common ginger plant; used fresh as a seasoning especially in Asian cookery",NULL
+107830901,57828,NULL,"gingerroot",80089,1,0,0,"gingerroot%1:13:00::",NULL,"n",13,"pungent rhizome of the common ginger plant; used fresh as a seasoning especially in Asian cookery",NULL
+107831139,57814,NULL,"ginger",80070,2,0,0,"ginger%1:13:00::",NULL,"n",13,"dried ground gingerroot",NULL
+107831139,103570,NULL,"powdered ginger",142441,1,0,0,"powdered_ginger%1:13:00::",NULL,"n",13,"dried ground gingerroot",NULL
+107831270,80365,NULL,"mace",111159,3,0,0,"mace%1:13:00::",NULL,"n",13,"spice made from the dried fleshy covering of the nutmeg seed",NULL
+107831400,91818,NULL,"nutmeg",126392,2,0,0,"nutmeg%1:13:00::",NULL,"n",13,"hard aromatic seed of the nutmeg tree used as spice when grated or ground",NULL
+107831564,98360,NULL,"pepper",135300,3,1,0,"pepper%1:13:01::",NULL,"n",13,"pungent seasoning from the berry of the common pepper plant of East India; use whole or ground",NULL
+107831564,98377,NULL,"peppercorn",135325,1,0,0,"peppercorn%1:13:00::",NULL,"n",13,"pungent seasoning from the berry of the common pepper plant of East India; use whole or ground",NULL
+107831815,14602,NULL,"black pepper",19437,2,0,0,"black_pepper%1:13:00::",NULL,"n",13,"pepper that is ground from whole peppercorns with husks on",NULL
+107831932,144445,NULL,"white pepper",203089,2,0,0,"white_pepper%1:13:00::",NULL,"n",13,"pepper ground from husked peppercorns",NULL
+107832028,115130,NULL,"sassafras",159978,2,0,0,"sassafras%1:13:00::",NULL,"n",13,"dried root bark of the sassafras tree",NULL
+107832140,11871,NULL,"basil",15653,3,0,0,"basil%1:13:00::",NULL,"n",13,"leaves of the common basil; used fresh or dried",NULL
+107832140,128979,NULL,"sweet basil",181146,2,0,0,"sweet_basil%1:13:00::",NULL,"n",13,"leaves of the common basil; used fresh or dried",NULL
+107832272,12278,NULL,"bay leaf",16198,1,0,0,"bay_leaf%1:13:00::",NULL,"n",13,"dried leaf of the bay laurel",NULL
+107832374,16200,NULL,"borage",21749,2,0,0,"borage%1:13:00::",NULL,"n",13,"an herb whose leaves are used to flavor sauces and punches; young leaves can be eaten in salads or cooked",NULL
+107832551,66838,NULL,"hyssop",92461,2,0,0,"hyssop%1:13:00::",NULL,"n",13,"bitter leaves used sparingly in salads; dried flowers used in soups and tisanes",NULL
+107832702,20814,NULL,"caraway",28369,2,0,0,"caraway%1:13:00::",NULL,"n",13,"leaves used sparingly in soups and stews",NULL
+107832815,23817,NULL,"chervil",32541,2,0,0,"chervil%1:13:00::",NULL,"n",13,"fresh ferny parsley-like leaves used as a garnish with chicken and veal and omelets and green salads and spinach",NULL
+107833000,24329,NULL,"chives",33203,2,0,0,"chives%1:13:00::",NULL,"n",13,"cylindrical leaves used fresh as a mild onion-flavored seasoning",NULL
+107833136,27625,NULL,"comfrey",37906,2,0,0,"comfrey%1:13:00::",NULL,"n",13,"leaves make a popular tisane; young leaves used in salads or cooked",NULL
+107833136,62616,NULL,"healing herb",86822,1,0,0,"healing_herb%1:13:00::",NULL,"n",13,"leaves make a popular tisane; young leaves used in salads or cooked",NULL
+107833291,24202,6739,"chinese parsley",33031,2,0,0,"chinese_parsley%1:13:00::","Chinese parsley","n",13,"parsley-like herb used as seasoning or garnish",NULL
+107833291,25031,NULL,"cilantro",34063,2,0,0,"cilantro%1:13:00::",NULL,"n",13,"parsley-like herb used as seasoning or garnish",NULL
+107833291,30013,NULL,"coriander",41676,3,0,0,"coriander%1:13:00::",NULL,"n",13,"parsley-like herb used as seasoning or garnish",NULL
+107833441,30013,NULL,"coriander",41677,2,2,0,"coriander%1:13:02::",NULL,"n",13,"dried coriander seeds used whole or ground",NULL
+107833441,30015,NULL,"coriander seed",41680,1,0,0,"coriander_seed%1:13:00::",NULL,"n",13,"dried coriander seeds used whole or ground",NULL
+107833575,30515,NULL,"costmary",42355,2,0,0,"costmary%1:13:00::",NULL,"n",13,"leaves used sparingly (because of bitter overtones) in sauces and soups and stuffings",NULL
+107833734,27858,NULL,"common fennel",38238,2,0,0,"common_fennel%1:13:00::",NULL,"n",13,"leaves used for seasoning",NULL
+107833734,47805,NULL,"fennel",67101,3,1,0,"fennel%1:13:01::",NULL,"n",13,"leaves used for seasoning",NULL
+107833847,47805,NULL,"fennel",67102,2,2,0,"fennel%1:13:02::",NULL,"n",13,"aromatic bulbous stem base eaten cooked or raw in salads",NULL
+107833847,48656,NULL,"finocchio",68359,1,0,0,"finocchio%1:13:00::",NULL,"n",13,"aromatic bulbous stem base eaten cooked or raw in salads",NULL
+107833847,49610,11581,"florence fennel",69899,2,0,0,"florence_fennel%1:13:00::","Florence fennel","n",13,"aromatic bulbous stem base eaten cooked or raw in salads",NULL
+107834005,47807,NULL,"fennel seed",67105,1,0,0,"fennel_seed%1:13:00::",NULL,"n",13,"aromatic anis-scented seeds",NULL
+107834109,47813,NULL,"fenugreek",67111,2,0,0,"fenugreek%1:13:00::",NULL,"n",13,"aromatic seeds used as seasoning especially in curry",NULL
+107834109,47814,NULL,"fenugreek seed",67113,1,0,0,"fenugreek_seed%1:13:00::",NULL,"n",13,"aromatic seeds used as seasoning especially in curry",NULL
+107834253,2973,NULL,"ail",4104,1,0,0,"ail%1:13:00::",NULL,"n",13,"aromatic bulb used as seasoning",NULL
+107834253,52783,NULL,"garlic",74563,2,0,0,"garlic%1:13:00::",NULL,"n",13,"aromatic bulb used as seasoning",NULL
+107834398,26320,NULL,"clove",35993,3,1,0,"clove%1:13:01::",NULL,"n",13,"one of the small bulblets that can be split off of the axis of a larger garlic bulb",NULL
+107834398,52787,NULL,"garlic clove",74569,1,0,0,"garlic_clove%1:13:00::",NULL,"n",13,"one of the small bulblets that can be split off of the axis of a larger garlic bulb",NULL
+107834548,52786,NULL,"garlic chive",74567,2,0,0,"garlic_chive%1:13:00::",NULL,"n",13,"large flat leaves used as chive is used",NULL
+107834665,76685,NULL,"lemon balm",106112,2,0,0,"lemon_balm%1:13:00::",NULL,"n",13,"lemony leaves used for a tisane or in soups or fruit punches",NULL
+107834801,79457,NULL,"lovage",110013,2,0,0,"lovage%1:13:00::",NULL,"n",13,"stalks eaten like celery or candied like angelica; seeds used for flavoring or pickled like capers",NULL
+107834971,82057,NULL,"marjoram",113452,2,0,0,"marjoram%1:13:00::",NULL,"n",13,"pungent leaves used as seasoning with meats and fowl and in stews and soups and omelets",NULL
+107834971,94241,NULL,"oregano",129592,2,0,0,"oregano%1:13:00::",NULL,"n",13,"pungent leaves used as seasoning with meats and fowl and in stews and soups and omelets",NULL
+107835142,85362,NULL,"mint",117807,4,1,0,"mint%1:13:01::",NULL,"n",13,"the leaves of a mint plant used fresh or candied",NULL
+107835279,88014,NULL,"mustard seed",121488,1,0,0,"mustard_seed%1:13:00::",NULL,"n",13,"black or white seeds ground to make mustard pastes or powders",NULL
+107835456,88006,NULL,"mustard",121478,2,0,0,"mustard%1:13:00::",NULL,"n",13,"pungent powder or paste prepared from ground mustard seeds",NULL
+107835456,129675,NULL,"table mustard",182113,1,0,0,"table_mustard%1:13:00::",NULL,"n",13,"pungent powder or paste prepared from ground mustard seeds",NULL
+107835658,24198,6735,"chinese mustard",33026,2,0,0,"chinese_mustard%1:13:00::","Chinese mustard","n",13,"very hot prepared mustard",NULL
+107835745,88786,NULL,"nasturtium",122446,3,0,0,"nasturtium%1:13:00::",NULL,"n",13,"flowers and seeds and leaves all used as flavorings",NULL
+107835872,96987,NULL,"parsley",133315,2,0,0,"parsley%1:13:00::",NULL,"n",13,"aromatic herb with flat or crinkly leaves that are cut finely and used to garnish food",NULL
+107836012,114255,NULL,"salad burnet",158892,2,0,0,"salad_burnet%1:13:00::",NULL,"n",13,"leaves sometimes used for salad",NULL
+107836121,112935,NULL,"rosemary",156884,2,0,0,"rosemary%1:13:00::",NULL,"n",13,"extremely pungent leaves used fresh or dried as seasoning for especially meats",NULL
+107836273,113394,NULL,"rue",157574,2,0,0,"rue%1:13:00::",NULL,"n",13,"leaves sometimes used for flavoring fruit or claret cup but should be used with great caution: can cause irritation like poison ivy",NULL
+107836473,114054,NULL,"sage",158637,2,0,1,"sage%1:13:00::",NULL,"n",13,"aromatic fresh or dried grey-green leaves used widely as seasoning for meats and fowl and game etc",NULL
+107836659,25557,NULL,"clary sage",34797,2,0,0,"clary_sage%1:13:00::",NULL,"n",13,"fresh leaves used in omelets and fritters and with lamb",NULL
+107836790,115350,NULL,"savory",160287,3,0,0,"savory%1:13:00::",NULL,"n",13,"either of two aromatic herbs of the mint family",NULL
+107836790,115355,NULL,"savoury",160302,1,0,0,"savoury%1:13:00::",NULL,"n",13,"either of two aromatic herbs of the mint family",NULL
+107836936,128053,NULL,"summer savory",179742,2,0,0,"summer_savory%1:13:00::",NULL,"n",13,"herb with delicately flavored leaves with many uses",NULL
+107836936,128054,NULL,"summer savoury",179744,1,0,0,"summer_savoury%1:13:00::",NULL,"n",13,"herb with delicately flavored leaves with many uses",NULL
+107837083,145379,NULL,"winter savory",204325,2,0,0,"winter_savory%1:13:00::",NULL,"n",13,"resinous leaves used in stews and stuffings and meat loaf",NULL
+107837083,145380,NULL,"winter savoury",204327,1,0,0,"winter_savoury%1:13:00::",NULL,"n",13,"resinous leaves used in stews and stuffings and meat loaf",NULL
+107837236,129042,NULL,"sweet woodruff",181227,2,0,0,"sweet_woodruff%1:13:00::",NULL,"n",13,"fragrant dark green leaves used to flavor May wine",NULL
+107837236,142728,NULL,"waldmeister",200436,2,0,0,"waldmeister%1:13:00::",NULL,"n",13,"fragrant dark green leaves used to flavor May wine",NULL
+107837380,128989,NULL,"sweet cicely",181159,3,0,0,"sweet_cicely%1:13:00::",NULL,"n",13,"fresh ferny leaves and green seeds used as garnish in salads and cold vegetables; dried seeds used in confectionery and liqueurs",NULL
+107837586,43766,NULL,"estragon",61583,2,0,0,"estragon%1:13:00::",NULL,"n",13,"fresh leaves (or leaves preserved in vinegar) used as seasoning",NULL
+107837586,130518,NULL,"tarragon",183386,2,0,0,"tarragon%1:13:00::",NULL,"n",13,"fresh leaves (or leaves preserved in vinegar) used as seasoning",NULL
+107837734,132922,NULL,"thyme",186691,2,0,0,"thyme%1:13:00::",NULL,"n",13,"leaves can be used as seasoning for almost any meat and stews and stuffings and vegetables",NULL
+107837895,136439,NULL,"turmeric",191808,2,0,0,"turmeric%1:13:00::",NULL,"n",13,"ground dried rhizome of the turmeric plant used as seasoning",NULL
+107838029,20362,NULL,"caper",27799,2,0,0,"caper%1:13:00::",NULL,"n",13,"pickled flower buds used as a pungent relish in various dishes and sauces",NULL
+107838173,22007,NULL,"catsup",30024,1,0,0,"catsup%1:13:00::",NULL,"n",13,"thick spicy sauce made from tomatoes",NULL
+107838173,22850,NULL,"cetchup",31103,1,0,0,"cetchup%1:13:00::",NULL,"n",13,"thick spicy sauce made from tomatoes",NULL
+107838173,73687,NULL,"ketchup",102053,1,0,0,"ketchup%1:13:00::",NULL,"n",13,"thick spicy sauce made from tomatoes",NULL
+107838173,133849,NULL,"tomato ketchup",187980,1,0,0,"tomato_ketchup%1:13:00::",NULL,"n",13,"thick spicy sauce made from tomatoes",NULL
+107838299,20936,NULL,"cardamom",28521,2,0,0,"cardamom%1:13:00::",NULL,"n",13,"aromatic seeds used as seasoning like cinnamon and cloves especially in pickles and barbecue sauces",NULL
+107838299,20937,NULL,"cardamon",28523,2,0,0,"cardamon%1:13:00::",NULL,"n",13,"aromatic seeds used as seasoning like cinnamon and cloves especially in pickles and barbecue sauces",NULL
+107838299,20938,NULL,"cardamum",28525,1,0,0,"cardamum%1:13:00::",NULL,"n",13,"aromatic seeds used as seasoning like cinnamon and cloves especially in pickles and barbecue sauces",NULL
+107838494,22162,NULL,"cayenne",30237,2,0,0,"cayenne%1:13:00::",NULL,"n",13,"ground pods and seeds of pungent red peppers of the genus Capsicum",NULL
+107838494,22164,NULL,"cayenne pepper",30241,2,0,0,"cayenne_pepper%1:13:00::",NULL,"n",13,"ground pods and seeds of pungent red peppers of the genus Capsicum",NULL
+107838494,109387,NULL,"red pepper",151271,1,0,0,"red_pepper%1:13:00::",NULL,"n",13,"ground pods and seeds of pungent red peppers of the genus Capsicum",NULL
+107838663,24071,NULL,"chili powder",32859,1,0,0,"chili_powder%1:13:00::",NULL,"n",13,"powder made of ground chili peppers mixed with e.g. cumin and garlic and oregano",NULL
+107838821,24072,NULL,"chili sauce",32860,1,0,0,"chili_sauce%1:13:00::",NULL,"n",13,"tomatoes and onions and peppers (sweet or hot) simmered with vinegar and sugar and various seasonings",NULL
+107838980,24073,NULL,"chili vinegar",32861,1,0,0,"chili_vinegar%1:13:00::",NULL,"n",13,"fiery vinegar flavored with chili peppers",NULL
+107839081,24950,NULL,"chutney",33979,1,0,0,"chutney%1:13:00::",NULL,"n",13,"a spicy condiment made of chopped fruits or vegetables cooked in vinegar and sugar with ginger and spices",NULL
+107839081,68670,15460,"indian relish",95101,1,0,0,"indian_relish%1:13:00::","Indian relish","n",13,"a spicy condiment made of chopped fruits or vegetables cooked in vinegar and sugar with ginger and spices",NULL
+107839256,125572,NULL,"steak sauce",175842,1,0,0,"steak_sauce%1:13:00::",NULL,"n",13,"pungent bottled sauce for steak",NULL
+107839345,129765,NULL,"taco sauce",182240,1,0,0,"taco_sauce%1:13:00::",NULL,"n",13,"spicy tomato-based sauce for tacos",NULL
+107839436,114451,NULL,"salsa",159125,1,0,0,"salsa%1:13:00::",NULL,"n",13,"spicy sauce of tomatoes and onions and chili peppers to accompany Mexican foods",NULL
+107839567,85367,NULL,"mint sauce",117818,1,0,0,"mint_sauce%1:13:00::",NULL,"n",13,"sweetened diluted vinegar with chopped mint leaves",NULL
+107839674,31163,NULL,"cranberry sauce",43343,1,0,0,"cranberry_sauce%1:13:00::",NULL,"n",13,"sauce made of cranberries and sugar",NULL
+107839790,32583,NULL,"curry powder",45430,1,0,0,"curry_powder%1:13:00::",NULL,"n",13,"pungent blend of cumin and ground coriander seed and turmeric and other spices",NULL
+107839927,32580,NULL,"curry",45424,1,0,0,"curry%1:13:00::",NULL,"n",13,"(East Indian cookery) a pungent dish of vegetables or meats flavored with curry powder and usually eaten with rice",NULL
+107840167,75171,NULL,"lamb curry",103992,1,0,0,"lamb_curry%1:13:00::",NULL,"n",13,"curry made with lamb",NULL
+107840244,39615,NULL,"duck sauce",56020,1,0,0,"duck_sauce%1:13:00::",NULL,"n",13,"a thick sweet and pungent Chinese condiment",NULL
+107840244,64573,NULL,"hoisin sauce",89395,1,0,0,"hoisin_sauce%1:13:00::",NULL,"n",13,"a thick sweet and pungent Chinese condiment",NULL
+107840359,65392,NULL,"horseradish",90613,3,0,0,"horseradish%1:13:00::",NULL,"n",13,"grated horseradish root",NULL
+107840478,82016,NULL,"marinade",113402,1,0,0,"marinade%1:13:00::",NULL,"n",13,"mixtures of vinegar or wine and oil with various spices and seasonings; used for soaking foods before cooking",NULL
+107840678,96524,NULL,"paprika",132713,2,0,0,"paprika%1:13:00::",NULL,"n",13,"a mild powdered seasoning made from dried pimientos",NULL
+107840839,123395,29864,"spanish paprika",172426,1,0,0,"spanish_paprika%1:13:00::","Spanish paprika","n",13,"a mild seasoning made from a variety of pimiento grown in Spain",NULL
+107840964,100164,NULL,"pickle",137553,1,0,1,"pickle%1:13:00::",NULL,"n",13,"vegetables (especially cucumbers) preserved in brine or vinegar",NULL
+107841170,36655,NULL,"dill pickle",51365,1,0,0,"dill_pickle%1:13:00::",NULL,"n",13,"pickle preserved in brine or vinegar flavored with dill seed",NULL
+107841288,24625,NULL,"chowchow",33592,1,2,0,"chowchow%1:13:02::",NULL,"n",13,"chopped pickles in mustard sauce",NULL
+107841375,17056,NULL,"bread and butter pickle",22963,1,0,0,"bread_and_butter_pickle%1:13:00::",NULL,"n",13,"thinly sliced sweet pickles",NULL
+107841472,100166,NULL,"pickle relish",137557,1,0,0,"pickle_relish%1:13:00::",NULL,"n",13,"relish of chopped (usually sweet) pickles",NULL
+107841573,100110,NULL,"piccalilli",137448,1,0,0,"piccalilli%1:13:00::",NULL,"n",13,"relish of chopped pickled cucumbers and green peppers and onion",NULL
+107841693,129021,NULL,"sweet pickle",181201,1,0,0,"sweet_pickle%1:13:00::",NULL,"n",13,"pickle cured in brine and preserved in sugar and vinegar",NULL
+107841826,7026,NULL,"apple sauce",9106,1,0,0,"apple_sauce%1:13:00::",NULL,"n",13,"puree of stewed apples usually sweetened and spiced",NULL
+107841826,7036,NULL,"applesauce",9116,1,0,0,"applesauce%1:13:00::",NULL,"n",13,"puree of stewed apples usually sweetened and spiced",NULL
+107841948,123261,NULL,"soy",172243,3,1,0,"soy%1:13:01::",NULL,"n",13,"thin sauce made of fermented soy beans",NULL
+107841948,123263,NULL,"soy sauce",172247,1,0,0,"soy_sauce%1:13:00::",NULL,"n",13,"thin sauce made of fermented soy beans",NULL
+107842067,129651,30802,"tabasco",182071,2,1,0,"tabasco%1:13:01::","Tabasco","n",13,"very spicy sauce (trade name Tabasco) made from fully-aged red peppers",NULL
+107842067,129654,30803,"tabasco sauce",182076,1,0,0,"tabasco_sauce%1:13:00::","Tabasco sauce","n",13,"very spicy sauce (trade name Tabasco) made from fully-aged red peppers",NULL
+107842226,133850,NULL,"tomato paste",187981,1,0,1,"tomato_paste%1:13:00::",NULL,"n",13,"thick concentrated tomato puree",NULL
+107842316,5598,NULL,"angelica",7327,3,1,0,"angelica%1:13:01::",NULL,"n",13,"aromatic stems or leaves or roots of Angelica Archangelica",NULL
+107842429,5598,NULL,"angelica",7328,2,2,0,"angelica%1:13:02::",NULL,"n",13,"candied stalks of the angelica plant",NULL
+107842520,4095,NULL,"almond extract",5498,1,0,0,"almond_extract%1:13:00::",NULL,"n",13,"flavoring made from almonds macerated in alcohol",NULL
+107842629,5856,NULL,"anise",7654,2,0,0,"anise%1:13:00::",NULL,"n",13,"liquorice-flavored seeds, used medicinally and in cooking and liquors",NULL
+107842629,5860,NULL,"anise seed",7660,1,0,0,"anise_seed%1:13:00::",NULL,"n",13,"liquorice-flavored seeds, used medicinally and in cooking and liquors",NULL
+107842629,5863,NULL,"aniseed",7662,1,0,0,"aniseed%1:13:00::",NULL,"n",13,"liquorice-flavored seeds, used medicinally and in cooking and liquors",NULL
+107842906,24170,6707,"chinese anise",32994,2,0,0,"chinese_anise%1:13:00::","Chinese anise","n",13,"anise-scented star-shaped fruit or seed used in Asian cooking and medicine",NULL
+107842906,125286,NULL,"star anise",175420,3,0,0,"star_anise%1:13:00::",NULL,"n",13,"anise-scented star-shaped fruit or seed used in Asian cooking and medicine",NULL
+107842906,125287,NULL,"star aniseed",175423,1,0,0,"star_aniseed%1:13:00::",NULL,"n",13,"anise-scented star-shaped fruit or seed used in Asian cooking and medicine",NULL
+107843106,72985,NULL,"juniper berries",101164,1,0,0,"juniper_berries%1:13:00::",NULL,"n",13,"berrylike cone of a common juniper; used in making gin",NULL
+107843260,114042,NULL,"saffron",158619,2,0,0,"saffron%1:13:00::",NULL,"n",13,"dried pungent stigmas of the Old World saffron crocus",NULL
+107843386,13237,NULL,"benniseed",17600,1,0,0,"benniseed%1:13:00::",NULL,"n",13,"small oval seeds of the sesame plant",NULL
+107843386,118180,NULL,"sesame seed",164373,1,0,0,"sesame_seed%1:13:00::",NULL,"n",13,"small oval seeds of the sesame plant",NULL
+107843530,20815,NULL,"caraway seed",28371,1,0,0,"caraway_seed%1:13:00::",NULL,"n",13,"aromatic seeds of the caraway plant; used widely as seasoning",NULL
+107843726,102902,NULL,"poppy seed",141447,1,0,0,"poppy_seed%1:13:00::",NULL,"n",13,"small grey seed of a poppy flower; used whole or ground in baked items",NULL
+107843872,36654,NULL,"dill",51363,2,0,0,"dill%1:13:00::",NULL,"n",13,"aromatic threadlike foliage of the dill plant used as seasoning",NULL
+107843872,36657,NULL,"dill weed",51367,1,0,0,"dill_weed%1:13:00::",NULL,"n",13,"aromatic threadlike foliage of the dill plant used as seasoning",NULL
+107844017,36656,NULL,"dill seed",51366,1,0,0,"dill_seed%1:13:00::",NULL,"n",13,"seed of the dill plant used as seasoning",NULL
+107844132,22294,NULL,"celery seed",30406,1,0,0,"celery_seed%1:13:00::",NULL,"n",13,"seed of the celery plant used as seasoning",NULL
+107844251,76690,NULL,"lemon extract",106118,1,0,0,"lemon_extract%1:13:00::",NULL,"n",13,"a flavoring made from (or imitating) lemons",NULL
+107844354,86418,NULL,"monosodium glutamate",119311,1,0,0,"monosodium_glutamate%1:13:00::",NULL,"n",13,"white crystalline compound used as a food additive to enhance flavor; often used in Chinese cooking","food manufacturers sometimes list MSG simply as `artificial flavors' in ingredient lists"
+107844354,87324,19403,"msg",120597,1,0,0,"msg%1:13:00::","MSG","n",13,"white crystalline compound used as a food additive to enhance flavor; often used in Chinese cooking","food manufacturers sometimes list MSG simply as `artificial flavors' in ingredient lists"
+107844618,140535,NULL,"vanilla bean",197456,1,0,0,"vanilla_bean%1:13:00::",NULL,"n",13,"long bean-like fruit; seeds are used as flavoring",NULL
+107844783,140534,NULL,"vanilla",197451,2,0,0,"vanilla%1:13:00::",NULL,"n",13,"a flavoring prepared from vanilla beans macerated in alcohol (or imitating vanilla beans)",NULL
+107844783,140536,NULL,"vanilla extract",197457,1,0,0,"vanilla_extract%1:13:00::",NULL,"n",13,"a flavoring prepared from vanilla beans macerated in alcohol (or imitating vanilla beans)",NULL

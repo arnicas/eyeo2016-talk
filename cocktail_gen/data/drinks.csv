@@ -1,0 +1,510 @@
+"synsetid","wordid","casedwordid","lemma","senseid","sensenum","lexid","tagcount","sensekey","cased","pos","lexdomainid","definition","sampleset"
+107900157,107173,NULL,"quaff",147690,1,0,0,"quaff%1:13:00::",NULL,"n",13,"a hearty draft",NULL
+107900241,113100,NULL,"round",157144,9,1,0,"round%1:13:01::",NULL,"n",13,"a serving to each of a group (usually alcoholic)","he ordered a second round"
+107900241,113112,NULL,"round of drinks",157193,1,0,0,"round_of_drinks%1:13:00::",NULL,"n",13,"a serving to each of a group (usually alcoholic)","he ordered a second round"
+107900388,101637,NULL,"pledge",139673,3,0,0,"pledge%1:13:00::",NULL,"n",13,"a drink in honor of or to the health of a person or event",NULL
+107900388,133625,NULL,"toast",187680,4,1,0,"toast%1:13:01::",NULL,"n",13,"a drink in honor of or to the health of a person or event",NULL
+107900542,3436,NULL,"alcohol",4662,1,0,3,"alcohol%1:13:00::",NULL,"n",13,"a liquor or brew containing alcohol as the active agent","alcohol (or drink) ruined him"
+107900542,3448,NULL,"alcoholic beverage",4677,1,0,0,"alcoholic_beverage%1:13:00::",NULL,"n",13,"a liquor or brew containing alcohol as the active agent","alcohol (or drink) ruined him"
+107900542,3450,NULL,"alcoholic drink",4679,1,0,0,"alcoholic_drink%1:13:00::",NULL,"n",13,"a liquor or brew containing alcohol as the active agent","alcohol (or drink) ruined him"
+107900542,68915,NULL,"inebriant",95471,1,0,0,"inebriant%1:13:00::",NULL,"n",13,"a liquor or brew containing alcohol as the active agent","alcohol (or drink) ruined him"
+107900542,70318,NULL,"intoxicant",97611,1,0,0,"intoxicant%1:13:00::",NULL,"n",13,"a liquor or brew containing alcohol as the active agent","alcohol (or drink) ruined him"
+107901198,39220,NULL,"drink",55398,1,4,20,"drink%1:13:04::",NULL,"n",13,"a single serving of a beverage","I asked for a hot drink|likes a drink before dinner"
+107901680,105232,NULL,"proof spirit",145032,1,0,0,"proof_spirit%1:13:00::",NULL,"n",13,"a mixture containing half alcohol by volume at 60 degrees Fahrenheit",NULL
+107901807,77281,NULL,"libation",106859,2,0,0,"libation%1:13:00::",NULL,"n",13,"a serving (of wine) poured out in honor of a deity",NULL
+107901912,77281,NULL,"libation",106860,1,2,0,"libation%1:13:02::",NULL,"n",13,"(facetious) a serving of an alcoholic beverage",NULL
+107902032,64778,NULL,"home brew",89766,1,0,0,"home_brew%1:13:00::",NULL,"n",13,"an alcoholic beverage (especially beer) made at home",NULL
+107902032,64829,NULL,"homebrew",89812,1,0,0,"homebrew%1:13:00::",NULL,"n",13,"an alcoholic beverage (especially beer) made at home",NULL
+107902151,65087,NULL,"hooch",90161,1,0,0,"hooch%1:13:00::",NULL,"n",13,"an illicitly distilled (and usually inferior) alcoholic liquor",NULL
+107902151,65165,NULL,"hootch",90292,1,0,0,"hootch%1:13:00::",NULL,"n",13,"an illicitly distilled (and usually inferior) alcoholic liquor",NULL
+107902292,73432,NULL,"kava",101712,1,0,0,"kava%1:13:00::",NULL,"n",13,"an alcoholic drink made from the aromatic roots of the kava shrub",NULL
+107902292,73433,NULL,"kavakava",101713,1,0,0,"kavakava%1:13:00::",NULL,"n",13,"an alcoholic drink made from the aromatic roots of the kava shrub",NULL
+107902438,6709,NULL,"aperitif",8711,1,0,0,"aperitif%1:13:00::",NULL,"n",13,"alcoholic beverage taken before a meal as an appetizer",NULL
+107902547,17247,NULL,"brew",23346,1,0,0,"brew%1:13:00::",NULL,"n",13,"drink made by steeping and boiling and fermenting rather than distilling",NULL
+107902547,17248,NULL,"brewage",23349,1,0,0,"brewage%1:13:00::",NULL,"n",13,"drink made by steeping and boiling and fermenting rather than distilling",NULL
+107902824,12750,NULL,"beer",16894,1,0,18,"beer%1:13:00::",NULL,"n",13,"a general name for alcoholic beverages made by fermenting a cereal (or mixture of cereals) flavored with hops",NULL
+107903074,38935,NULL,"draft beer",54863,1,0,0,"draft_beer%1:13:00::",NULL,"n",13,"beer drawn from a keg",NULL
+107903074,39030,NULL,"draught beer",55029,1,0,0,"draught_beer%1:13:00::",NULL,"n",13,"beer drawn from a keg",NULL
+107903167,127815,NULL,"suds",179381,2,0,0,"suds%1:13:00::",NULL,"n",13,"a dysphemism for beer (especially for lager that effervesces)",NULL
+107903279,87649,21504,"munchener",121021,1,0,0,"munchener%1:13:00::","Munchener","n",13,"a dark lager produced in Munich since the 10th century; has a distinctive taste of malt",NULL
+107903279,87665,21511,"munich beer",121047,1,0,0,"munich_beer%1:13:00::","Munich beer","n",13,"a dark lager produced in Munich since the 10th century; has a distinctive taste of malt",NULL
+107903436,15620,NULL,"bock",20922,1,0,0,"bock%1:13:00::",NULL,"n",13,"a very strong lager traditionally brewed in the fall and aged through the winter for consumption in the spring",NULL
+107903436,15621,NULL,"bock beer",20923,1,0,0,"bock_beer%1:13:00::",NULL,"n",13,"a very strong lager traditionally brewed in the fall and aged through the winter for consumption in the spring",NULL
+107903609,75035,NULL,"lager",103837,2,0,0,"lager%1:13:00::",NULL,"n",13,"a general term for beer made with bottom fermenting yeast (usually by decoction mashing); originally it was brewed in March or April and matured until September",NULL
+107903609,75036,NULL,"lager beer",103838,1,0,0,"lager_beer%1:13:00::",NULL,"n",13,"a general term for beer made with bottom fermenting yeast (usually by decoction mashing); originally it was brewed in March or April and matured until September",NULL
+107903942,77538,NULL,"light beer",107342,1,0,0,"light_beer%1:13:00::",NULL,"n",13,"lager with reduced alcohol content",NULL
+107904033,92338,22876,"octoberfest",127136,1,0,0,"octoberfest%1:13:00::","Octoberfest","n",13,"a strong lager made originally in Germany for the Oktoberfest celebration; sweet and copper-colored",NULL
+107904033,92733,22970,"oktoberfest",127701,1,0,0,"oktoberfest%1:13:00::","Oktoberfest","n",13,"a strong lager made originally in Germany for the Oktoberfest celebration; sweet and copper-colored",NULL
+107904204,100498,24850,"pilsener",138036,1,0,0,"pilsener%1:13:00::","Pilsener","n",13,"a pale lager with strong flavor of hops; first brewed in the Bohemian town of Pilsen",NULL
+107904204,100499,24851,"pilsner",138037,1,0,0,"pilsner%1:13:00::","Pilsner","n",13,"a pale lager with strong flavor of hops; first brewed in the Bohemian town of Pilsen",NULL
+107904353,118759,NULL,"shebeen",165407,1,2,0,"shebeen%1:13:02::",NULL,"n",13,"unlicensed drinking establishment",NULL
+107904440,143777,33543,"weissbier",202106,1,0,0,"weissbier%1:13:00::","Weissbier","n",13,"a general name for beers made from wheat by top fermentation; usually very pale and cloudy and effervescent",NULL
+107904440,144137,NULL,"wheat beer",202589,1,0,0,"wheat_beer%1:13:00::",NULL,"n",13,"a general name for beers made from wheat by top fermentation; usually very pale and cloudy and effervescent",NULL
+107904440,144346,NULL,"white beer",202980,1,0,0,"white_beer%1:13:00::",NULL,"n",13,"a general name for beers made from wheat by top fermentation; usually very pale and cloudy and effervescent",NULL
+107904684,143779,33545,"weizenbier",202108,1,0,0,"weizenbier%1:13:00::","Weizenbier","n",13,"a general name in southern Germany for wheat beers",NULL
+107904791,143780,33546,"weizenbock",202109,1,0,0,"weizenbock%1:13:00::","Weizenbock","n",13,"a German wheat beer of bock strength",NULL
+107904884,81305,NULL,"malt",112420,3,1,0,"malt%1:13:01::",NULL,"n",13,"a cereal grain (usually barley) that is kiln-dried after having been germinated by soaking in water; used especially in brewing and distilling",NULL
+107905168,146144,NULL,"wort",205441,2,0,0,"wort%1:13:00::",NULL,"n",13,"unfermented or fermenting malt",NULL
+107905249,81305,NULL,"malt",112421,2,2,0,"malt%1:13:02::",NULL,"n",13,"a lager of high alcohol content; by law it is considered too alcoholic to be sold as lager or beer",NULL
+107905249,81306,NULL,"malt liquor",112427,1,0,0,"malt_liquor%1:13:00::",NULL,"n",13,"a lager of high alcohol content; by law it is considered too alcoholic to be sold as lager or beer",NULL
+107905485,3491,NULL,"ale",4725,1,0,0,"ale%1:13:00::",NULL,"n",13,"a general name for beer made with a top fermenting yeast; in some of the United States an ale is (by law) a brew of more than 4% alcohol by volume",NULL
+107905789,14407,NULL,"bitter",19118,1,0,0,"bitter%1:13:00::",NULL,"n",13,"English term for a dry sharp-tasting ale with strong flavor of hops (usually on draft)",NULL
+107905965,18596,4959,"burton",25387,3,0,0,"burton%1:13:00::","Burton","n",13,"a strong dark English ale",NULL
+107906043,95999,NULL,"pale ale",132058,1,0,0,"pale_ale%1:13:00::",NULL,"n",13,"an amber colored ale brewed with pale malts; similar to bitter but drier and lighter",NULL
+107906201,103062,NULL,"porter",141652,7,0,0,"porter%1:13:00::",NULL,"n",13,"a very dark sweet ale brewed from roasted unmalted barley",NULL
+107906201,103063,NULL,"porter's beer",141660,1,0,0,"porter's_beer%1:13:00::",NULL,"n",13,"a very dark sweet ale brewed from roasted unmalted barley",NULL
+107906327,126452,NULL,"stout",177204,1,0,0,"stout%1:13:00::",NULL,"n",13,"a strong very dark heavy-bodied ale made from pale malt and roasted unmalted barley and (often) caramel malt with hops",NULL
+107906515,60671,13439,"guinness",84121,2,0,0,"guinness%1:13:00::","Guinness","n",13,"a kind of bitter stout",NULL
+107906592,74666,NULL,"kvass",103370,1,0,0,"kvass%1:13:00::",NULL,"n",13,"fermented beverage resembling beer but made from rye or barley",NULL
+107906725,82999,NULL,"mead",114767,3,0,0,"mead%1:13:00::",NULL,"n",13,"made of fermented honey and water",NULL
+107906865,84302,NULL,"metheglin",116465,1,0,0,"metheglin%1:13:00::",NULL,"n",13,"spiced or medicated mead",NULL
+107906945,66366,NULL,"hydromel",91948,1,0,0,"hydromel%1:13:00::",NULL,"n",13,"honey diluted in water; becomes mead when fermented",NULL
+107907070,92458,NULL,"oenomel",127284,1,0,0,"oenomel%1:13:00::",NULL,"n",13,"wine mixed with honey",NULL
+107907164,89109,NULL,"near beer",122904,1,0,0,"near_beer%1:13:00::",NULL,"n",13,"drink that resembles beer but with less than 1/2 percent alcohol",NULL
+107907284,57816,NULL,"ginger beer",80077,1,0,0,"ginger_beer%1:13:00::",NULL,"n",13,"carbonated slightly alcoholic drink flavored with fermented ginger",NULL
+107907408,111637,NULL,"rice beer",154980,1,0,0,"rice_beer%1:13:00::",NULL,"n",13,"Japanese alcoholic beverage made from fermented rice; usually served hot",NULL
+107907408,114233,NULL,"sake",158864,2,0,0,"sake%1:13:00::",NULL,"n",13,"Japanese alcoholic beverage made from fermented rice; usually served hot",NULL
+107907408,114235,NULL,"saki",158867,2,0,0,"saki%1:13:00::",NULL,"n",13,"Japanese alcoholic beverage made from fermented rice; usually served hot",NULL
+107907588,90381,NULL,"nipa",124549,2,0,0,"nipa%1:13:00::",NULL,"n",13,"made from sap of the Australasian nipa palm",NULL
+107907701,141815,NULL,"vino",199158,1,0,0,"vino%1:13:00::",NULL,"n",13,"fermented juice (of grapes especially)",NULL
+107907701,145266,NULL,"wine",204152,1,0,9,"wine%1:13:00::",NULL,"n",13,"fermented juice (of grapes especially)",NULL
+107908393,141819,NULL,"vintage",199163,1,0,1,"vintage%1:13:00::",NULL,"n",13,"a season's yield of wine from a vineyard",NULL
+107908487,109430,NULL,"red wine",151323,1,0,0,"red_wine%1:13:00::",NULL,"n",13,"wine having a red color derived from skins of dark-colored grapes",NULL
+107908788,144506,NULL,"white wine",203162,1,0,0,"white_wine%1:13:00::",NULL,"n",13,"pale yellowish wine made from white grapes or red grapes with skins removed before fermentation",NULL
+107909228,15494,NULL,"blush wine",20744,1,0,0,"blush_wine%1:13:00::",NULL,"n",13,"pinkish table wine from red grapes whose skins were removed after fermentation began",NULL
+107909228,100658,NULL,"pink wine",138266,1,0,0,"pink_wine%1:13:00::",NULL,"n",13,"pinkish table wine from red grapes whose skins were removed after fermentation began",NULL
+107909228,112878,NULL,"rose",156818,2,0,0,"rose%1:13:00::",NULL,"n",13,"pinkish table wine from red grapes whose skins were removed after fermentation began",NULL
+107909228,112907,NULL,"rose wine",156867,1,0,0,"rose_wine%1:13:00::",NULL,"n",13,"pinkish table wine from red grapes whose skins were removed after fermentation began",NULL
+107909400,4295,NULL,"altar wine",5730,1,0,0,"altar_wine%1:13:00::",NULL,"n",13,"used in a communion service",NULL
+107909400,113896,NULL,"sacramental wine",158423,1,0,0,"sacramental_wine%1:13:00::",NULL,"n",13,"used in a communion service",NULL
+107909503,123452,NULL,"sparkling wine",172525,1,0,0,"sparkling_wine%1:13:00::",NULL,"n",13,"effervescent wine",NULL
+107909617,17977,NULL,"bubbly",24419,1,0,0,"bubbly%1:13:00::",NULL,"n",13,"a white sparkling wine either produced in Champagne or resembling that produced there",NULL
+107909617,23079,NULL,"champagne",31417,1,0,6,"champagne%1:13:00::",NULL,"n",13,"a white sparkling wine either produced in Champagne or resembling that produced there",NULL
+107909767,27071,NULL,"cold duck",37022,1,0,0,"cold_duck%1:13:00::",NULL,"n",13,"pink sparkling wine originally from Germany",NULL
+107909866,18482,4924,"burgundy",25187,2,0,0,"burgundy%1:13:00::","Burgundy","n",13,"red table wine from the Burgundy region of France (or any similar wine made elsewhere)",NULL
+107909866,18484,4926,"burgundy wine",25190,1,0,0,"burgundy_wine%1:13:00::","Burgundy wine","n",13,"red table wine from the Burgundy region of France (or any similar wine made elsewhere)",NULL
+107910077,12540,3657,"beaujolais",16620,1,0,0,"beaujolais%1:13:00::","Beaujolais","n",13,"dry fruity light red wine drunk within a few months after it is made; from the Beaujolais district in southeastern France",NULL
+107910273,83337,20418,"medoc",115238,1,0,0,"medoc%1:13:00::","Medoc","n",13,"red Bordeaux wine from the Medoc district of southwestern France",NULL
+107910426,19990,5489,"canary wine",27274,1,0,0,"canary_wine%1:13:00::","Canary wine","n",13,"a sweet white wine from the Canary Islands",NULL
+107910526,22893,6301,"chablis",31151,2,0,0,"chablis%1:13:00::","Chablis","n",13,"dry white table wine of Chablis, France or a wine resembling it",NULL
+107910526,144354,40846,"white burgundy",202988,1,0,0,"white_burgundy%1:13:00::","white Burgundy","n",13,"dry white table wine of Chablis, France or a wine resembling it",NULL
+107910678,86515,21259,"montrachet",119439,1,0,0,"montrachet%1:13:00::","Montrachet","n",13,"a white Burgundy wine",NULL
+107910774,23281,6408,"chardonnay",31744,2,0,0,"chardonnay%1:13:00::","Chardonnay","n",13,"dry white table wine resembling Chablis but made from Chardonnay grapes",NULL
+107910774,100713,24894,"pinot chardonnay",138318,1,0,0,"pinot_chardonnay%1:13:00::","Pinot Chardonnay","n",13,"dry white table wine resembling Chablis but made from Chardonnay grapes",NULL
+107910940,100715,24897,"pinot noir",138320,2,0,0,"pinot_noir%1:13:00::","Pinot noir","n",13,"dry red California table wine made from purple Pinot grapes",NULL
+107911075,100712,24895,"pinot blanc",138316,2,0,0,"pinot_blanc%1:13:00::","Pinot blanc","n",13,"dry white California table wine made from white Pinot grapes",NULL
+107911212,16210,4369,"bordeaux",21760,2,0,0,"bordeaux%1:13:00::","Bordeaux","n",13,"any of several red or white wines produced around Bordeaux, France or wines resembling them",NULL
+107911212,16212,4371,"bordeaux wine",21763,1,0,0,"bordeaux_wine%1:13:00::","Bordeaux wine","n",13,"any of several red or white wines produced around Bordeaux, France or wines resembling them",NULL
+107911410,25537,NULL,"claret",34767,2,0,0,"claret%1:13:00::",NULL,"n",13,"dry red Bordeaux or Bordeaux-like wine",NULL
+107911410,109314,40502,"red bordeaux",151174,1,0,0,"red_bordeaux%1:13:00::","red Bordeaux","n",13,"dry red Bordeaux or Bordeaux-like wine",NULL
+107911570,23897,6635,"chianti",32643,1,0,0,"chianti%1:13:00::","Chianti","n",13,"dry red Italian table wine from the Chianti region of Tuscany",NULL
+107911685,19057,5110,"cabernet",26048,1,0,0,"cabernet%1:13:00::","Cabernet","n",13,"superior Bordeaux type of red wine",NULL
+107911685,19058,5111,"cabernet sauvignon",26049,1,0,0,"cabernet_sauvignon%1:13:00::","Cabernet Sauvignon","n",13,"superior Bordeaux type of red wine",NULL
+107911814,83998,20645,"merlot",116083,2,0,0,"merlot%1:13:00::","Merlot","n",13,"dry red wine made from a grape grown widely in Bordeaux and California",NULL
+107911937,115310,28312,"sauvignon blanc",160206,2,0,0,"sauvignon_blanc%1:13:00::","Sauvignon blanc","n",13,"a California wine",NULL
+107912035,19503,5257,"california wine",26605,1,0,0,"california_wine%1:13:00::","California wine","n",13,"any of various wines produced in California",NULL
+107912140,30540,7855,"cotes de provence",42389,1,0,0,"cotes_de_provence%1:13:00::","Cotes de Provence","n",13,"a wine from southeastern France on the Mediterranean coast",NULL
+107912262,35759,NULL,"dessert wine",50077,1,0,0,"dessert_wine%1:13:00::",NULL,"n",13,"still sweet wine often served with dessert or after a meal",NULL
+107912397,39592,9515,"dubonnet",55986,1,0,0,"dubonnet%1:13:00::","Dubonnet","n",13,"(trademark) a sweet aromatic French wine (red or white) used chiefly as an aperitif",NULL
+107912535,72818,NULL,"jug wine",100912,1,0,0,"jug_wine%1:13:00::",NULL,"n",13,"inexpensive wine sold in large bottles or jugs",NULL
+107912636,80455,NULL,"macon",111278,2,0,0,"macon%1:13:00::",NULL,"n",13,"fine Burgundy wine usually white and dry",NULL
+107912636,80456,NULL,"maconnais",111280,1,0,0,"maconnais%1:13:00::",NULL,"n",13,"fine Burgundy wine usually white and dry",NULL
+107912740,86822,21347,"moselle",119896,1,0,0,"moselle%1:13:00::","Moselle","n",13,"German white wine from the Moselle valley or a similar wine made elsewhere",NULL
+107912868,87756,21549,"muscadet",121164,2,0,0,"muscadet%1:13:00::","Muscadet","n",13,"dry white wine from the Loire valley in France",NULL
+107912969,101766,NULL,"plonk",139838,1,0,0,"plonk%1:13:00::",NULL,"n",13,"a cheap wine of inferior quality",NULL
+107913091,111132,NULL,"retsina",154254,1,0,0,"retsina%1:13:00::",NULL,"n",13,"Greek wine flavored with resin",NULL
+107913175,64500,NULL,"hock",89300,1,0,0,"hock%1:13:00::",NULL,"n",13,"any of several white wines from the Rhine River valley in Germany (`hock' is British usage)",NULL
+107913175,111382,26844,"rhenish",154674,1,0,0,"rhenish%1:13:00::","Rhenish","n",13,"any of several white wines from the Rhine River valley in Germany (`hock' is British usage)",NULL
+107913175,111426,26859,"rhine wine",154729,1,0,0,"rhine_wine%1:13:00::","Rhine wine","n",13,"any of several white wines from the Rhine River valley in Germany (`hock' is British usage)",NULL
+107913413,111794,27019,"riesling",155208,2,0,0,"riesling%1:13:00::","Riesling","n",13,"fragrant dry or sweet white wine from the Rhine valley or a similar wine from California",NULL
+107913575,77423,NULL,"liebfraumilch",107072,1,0,0,"liebfraumilch%1:13:00::",NULL,"n",13,"a sweetened Rhenish wine (especially one from Hesse in western Germany)",NULL
+107913725,111532,26911,"rhone wine",154840,1,0,0,"rhone_wine%1:13:00::","Rhone wine","n",13,"any of various wines from the Rhone River valley in France",NULL
+107913840,112033,27053,"rioja",155594,1,0,0,"rioja%1:13:00::","Rioja","n",13,"dry red table wine from the Rioja region of northern Spain",NULL
+107913950,113872,NULL,"sack",158390,4,0,0,"sack%1:13:00::",NULL,"n",13,"any of various light dry strong white wine from Spain and Canary Islands (including sherry)",NULL
+107914092,114157,27773,"saint emilion",158777,1,0,0,"saint_emilion%1:13:00::","Saint Emilion","n",13,"full-bodied red wine from around the town of Saint Emilion in Bordeaux",NULL
+107914222,122128,29583,"soave",170628,1,0,0,"soave%1:13:00::","Soave","n",13,"dry white Italian wine from Verona",NULL
+107914308,147290,NULL,"zinfandel",207002,2,0,0,"zinfandel%1:13:00::",NULL,"n",13,"dry fruity red wine from California",NULL
+107914418,115308,28310,"sauterne",160204,1,0,0,"sauterne%1:13:00::","Sauterne","n",13,"semisweet golden-colored table or dessert wine from around Bordeaux in France; similar wine from California",NULL
+107914418,115309,28311,"sauternes",160205,1,0,0,"sauternes%1:13:00::","Sauternes","n",13,"semisweet golden-colored table or dessert wine from around Bordeaux in France; similar wine from California",NULL
+107914592,126640,NULL,"straw wine",177544,1,0,0,"straw_wine%1:13:00::",NULL,"n",13,"sweet wine from grapes partially sun-dried on the vine or on straw mats",NULL
+107914720,129688,NULL,"table wine",182126,1,0,0,"table_wine%1:13:00::",NULL,"n",13,"wine containing not more than 14 percent alcohol usually served with a meal",NULL
+107914870,133766,31713,"tokay",187867,1,2,0,"tokay%1:13:02::","Tokay","n",13,"Hungarian wine made from Tokay grapes",NULL
+107914978,141765,NULL,"vin ordinaire",199096,1,0,0,"vin_ordinaire%1:13:00::",NULL,"n",13,"cheap French table wine of unspecified origin",NULL
+107915083,141282,NULL,"vermouth",198433,1,0,1,"vermouth%1:13:00::",NULL,"n",13,"any of several white wines flavored with aromatic herbs; used as aperitifs or in mixed drinks",NULL
+107915267,71233,15856,"italian vermouth",98868,1,0,0,"italian_vermouth%1:13:00::","Italian vermouth","n",13,"sweet dark amber variety",NULL
+107915267,129036,NULL,"sweet vermouth",181221,1,0,0,"sweet_vermouth%1:13:00::",NULL,"n",13,"sweet dark amber variety",NULL
+107915409,39504,NULL,"dry vermouth",55891,1,0,0,"dry_vermouth%1:13:00::",NULL,"n",13,"dry pale amber variety",NULL
+107915409,51379,11951,"french vermouth",72568,1,0,0,"french_vermouth%1:13:00::","French vermouth","n",13,"dry pale amber variety",NULL
+107915508,23758,6584,"chenin blanc",32465,2,0,0,"chenin_blanc%1:13:00::","Chenin blanc","n",13,"made in California and the Loire valley in France",NULL
+107915635,141235,32957,"verdicchio",198365,2,0,0,"verdicchio%1:13:00::","Verdicchio","n",13,"a dry white Italian wine made from Verdicchio grapes",NULL
+107915744,142503,33309,"vouvray",200111,1,0,0,"vouvray%1:13:00::","Vouvray","n",13,"a dry white French wine (either still or sparkling) made in the Loire valley",NULL
+107915874,147032,34324,"yquem",206682,1,0,0,"yquem%1:13:00::","Yquem","n",13,"a sweet white French wine",NULL
+107915951,53311,NULL,"generic",75264,1,0,0,"generic%1:13:00::",NULL,"n",13,"wine that does not meet the minimum qualifications and standards for use of a designation by appellation of origin (where the grapes are grown) or by varietal content; may only be labeled by proprietary (made-up) name, by general color (such as `vin rouge', `vino rosso', `rotwein', `red wine', etc.), or by general class (as `vin ordinaire', `vin de table', `vino da tavola', `tafelwein', `table wine', etc.)",NULL
+107915951,53314,NULL,"generic wine",75270,1,0,0,"generic_wine%1:13:00::",NULL,"n",13,"wine that does not meet the minimum qualifications and standards for use of a designation by appellation of origin (where the grapes are grown) or by varietal content; may only be labeled by proprietary (made-up) name, by general color (such as `vin rouge', `vino rosso', `rotwein', `red wine', etc.), or by general class (as `vin ordinaire', `vin de table', `vino da tavola', `tafelwein', `table wine', etc.)",NULL
+107916465,140641,NULL,"varietal",197624,1,0,0,"varietal%1:13:00::",NULL,"n",13,"a wine made principally from one grape and carrying the name of that grape",NULL
+107916465,140642,NULL,"varietal wine",197625,1,0,0,"varietal_wine%1:13:00::",NULL,"n",13,"a wine made principally from one grape and carrying the name of that grape",NULL
+107916646,50617,NULL,"fortified wine",71510,1,0,0,"fortified_wine%1:13:00::",NULL,"n",13,"wine to which alcohol (usually grape brandy) has been added",NULL
+107916856,80566,19504,"madeira",111416,3,0,0,"madeira%1:13:00::","Madeira","n",13,"an amber dessert wine from the Madeira Islands",NULL
+107916974,81270,NULL,"malmsey",112384,1,0,0,"malmsey%1:13:00::",NULL,"n",13,"sweet Madeira wine",NULL
+107917065,103021,NULL,"port",141590,2,0,1,"port%1:13:00::",NULL,"n",13,"sweet dark-red dessert wine originally from Portugal",NULL
+107917065,103035,NULL,"port wine",141620,1,0,0,"port_wine%1:13:00::",NULL,"n",13,"sweet dark-red dessert wine originally from Portugal",NULL
+107917198,118914,NULL,"sherry",165640,1,0,3,"sherry%1:13:00::",NULL,"n",13,"dry to sweet amber wine from the Jerez region of southern Spain or similar wines produced elsewhere; usually drunk as an aperitif",NULL
+107917416,81773,19857,"manzanilla",113088,1,0,0,"manzanilla%1:13:00::","Manzanilla","n",13,"very dry pale sherry from Spain",NULL
+107917504,4935,1532,"amontillado",6512,1,0,0,"amontillado%1:13:00::","Amontillado","n",13,"pale medium-dry sherry from Spain",NULL
+107917595,82215,20044,"marsala",113687,1,0,0,"marsala%1:13:00::","Marsala","n",13,"dark sweet or semisweet dessert wine from Sicily",NULL
+107917697,87754,NULL,"muscadel",121162,1,2,0,"muscadel%1:13:02::",NULL,"n",13,"wine from muscat grapes",NULL
+107917697,87755,NULL,"muscadelle",121163,1,2,0,"muscadelle%1:13:02::",NULL,"n",13,"wine from muscat grapes",NULL
+107917697,87764,NULL,"muscat",121175,3,2,0,"muscat%1:13:02::",NULL,"n",13,"wine from muscat grapes",NULL
+107917697,87767,NULL,"muscatel",121181,1,2,0,"muscatel%1:13:02::",NULL,"n",13,"wine from muscat grapes",NULL
+107917827,16191,NULL,"booze",21736,1,0,1,"booze%1:13:00::",NULL,"n",13,"an alcoholic beverage that is distilled rather than fermented",NULL
+107917827,61973,NULL,"hard drink",85865,1,0,0,"hard_drink%1:13:00::",NULL,"n",13,"an alcoholic beverage that is distilled rather than fermented",NULL
+107917827,61981,NULL,"hard liquor",85875,1,0,0,"hard_liquor%1:13:00::",NULL,"n",13,"an alcoholic beverage that is distilled rather than fermented",NULL
+107917827,72332,16531,"john barleycorn",100296,1,0,0,"john_barleycorn%1:13:00::","John Barleycorn","n",13,"an alcoholic beverage that is distilled rather than fermented",NULL
+107917827,78224,NULL,"liquor",108299,1,0,11,"liquor%1:13:00::",NULL,"n",13,"an alcoholic beverage that is distilled rather than fermented",NULL
+107917827,124118,NULL,"spirits",173494,1,0,1,"spirits%1:13:00::",NULL,"n",13,"an alcoholic beverage that is distilled rather than fermented",NULL
+107917827,126948,NULL,"strong drink",178115,1,0,0,"strong_drink%1:13:00::",NULL,"n",13,"an alcoholic beverage that is distilled rather than fermented",NULL
+107918361,43905,NULL,"ethyl alcohol",61756,2,0,0,"ethyl_alcohol%1:13:00::",NULL,"n",13,"nonflavored alcohol of 95 percent or 190 proof used for blending with straight whiskies and in making gin and liqueurs",NULL
+107918361,89783,NULL,"neutral spirits",123787,1,0,0,"neutral_spirits%1:13:00::",NULL,"n",13,"nonflavored alcohol of 95 percent or 190 proof used for blending with straight whiskies and in making gin and liqueurs",NULL
+107918576,7189,NULL,"aqua vitae",9384,1,0,0,"aqua_vitae%1:13:00::",NULL,"n",13,"strong distilled liquor or brandy",NULL
+107918576,7603,NULL,"ardent spirits",9874,1,0,0,"ardent_spirits%1:13:00::",NULL,"n",13,"strong distilled liquor or brandy",NULL
+107918683,40421,NULL,"eau de vie",57139,1,0,0,"eau_de_vie%1:13:00::",NULL,"n",13,"strong coarse brandy",NULL
+107918760,16179,NULL,"bootleg",21718,1,0,0,"bootleg%1:13:00::",NULL,"n",13,"whiskey illegally distilled from a corn mash",NULL
+107918760,30071,NULL,"corn liquor",41759,1,0,0,"corn_liquor%1:13:00::",NULL,"n",13,"whiskey illegally distilled from a corn mash",NULL
+107918760,86566,NULL,"moonshine",119516,2,0,0,"moonshine%1:13:00::",NULL,"n",13,"whiskey illegally distilled from a corn mash",NULL
+107918938,12062,NULL,"bathtub gin",15925,1,0,1,"bathtub_gin%1:13:00::",NULL,"n",13,"homemade gin especially that made illegally",NULL
+107919039,3221,NULL,"akvavit",4418,1,0,0,"akvavit%1:13:00::",NULL,"n",13,"Scandinavian liquor usually flavored with caraway seeds",NULL
+107919039,7210,NULL,"aquavit",9414,1,0,0,"aquavit%1:13:00::",NULL,"n",13,"Scandinavian liquor usually flavored with caraway seeds",NULL
+107919177,7291,NULL,"arak",9512,1,0,0,"arak%1:13:00::",NULL,"n",13,"any of various strong liquors distilled from the fermented sap of toddy palms or from fermented molasses",NULL
+107919177,8011,NULL,"arrack",10418,1,0,0,"arrack%1:13:00::",NULL,"n",13,"any of various strong liquors distilled from the fermented sap of toddy palms or from fermented molasses",NULL
+107919341,14437,NULL,"bitters",19164,1,0,1,"bitters%1:13:00::",NULL,"n",13,"alcoholic liquor flavored with bitter herbs and roots",NULL
+107919448,16926,NULL,"brandy",22791,1,0,3,"brandy%1:13:00::",NULL,"n",13,"distilled from wine or fermented fruit juice",NULL
+107919783,7034,NULL,"applejack",9113,1,0,1,"applejack%1:13:00::",NULL,"n",13,"distilled from hard cider",NULL
+107919883,19697,5343,"calvados",26912,1,0,0,"calvados%1:13:00::","Calvados","n",13,"dry apple brandy made in Normandy",NULL
+107919971,7843,2457,"armagnac",10183,1,0,0,"armagnac%1:13:00::","Armagnac","n",13,"dry brandy distilled in the Armagnac district of France",NULL
+107920081,26951,7363,"cognac",36824,1,0,0,"cognac%1:13:00::","Cognac","n",13,"high quality grape brandy distilled in the Cognac district of France",NULL
+107920202,59493,NULL,"grappa",82469,1,0,0,"grappa%1:13:00::",NULL,"n",13,"Italian brandy made from residue of grapes after pressing",NULL
+107920312,74117,NULL,"kirsch",102658,1,0,0,"kirsch%1:13:00::",NULL,"n",13,"from fermented juice of black morello cherries",NULL
+107920430,81866,NULL,"marc",113216,1,0,0,"marc%1:13:00::",NULL,"n",13,"made from residue of grapes or apples after pressing",NULL
+107920533,121390,NULL,"slivovitz",169379,1,0,0,"slivovitz%1:13:00::",NULL,"n",13,"a colorless plum brandy popular in the Balkans",NULL
+107920635,57806,NULL,"gin",80059,1,0,0,"gin%1:13:00::",NULL,"n",13,"strong liquor flavored with juniper berries",NULL
+107920877,121399,NULL,"sloe gin",169391,1,0,0,"sloe_gin%1:13:00::",NULL,"n",13,"gin flavored with sloes (fruit of the blackthorn)",NULL
+107921000,53348,NULL,"geneva",75315,2,0,0,"geneva%1:13:00::",NULL,"n",13,"gin made in the Netherlands",NULL
+107921000,64653,14641,"holland gin",89578,1,0,0,"holland_gin%1:13:00::","Holland gin","n",13,"gin made in the Netherlands",NULL
+107921000,64656,14643,"hollands",89581,1,0,0,"hollands%1:13:00::","Hollands","n",13,"gin made in the Netherlands",NULL
+107921105,60226,NULL,"grog",83455,1,0,0,"grog%1:13:00::",NULL,"n",13,"rum cut with water",NULL
+107921174,95079,NULL,"ouzo",130733,1,0,0,"ouzo%1:13:00::",NULL,"n",13,"a Greek liquor flavored with anise",NULL
+107921278,113461,NULL,"rum",157705,1,0,0,"rum%1:13:00::",NULL,"n",13,"liquor distilled from fermented molasses",NULL
+107921536,34994,NULL,"demerara",48948,4,1,0,"demerara%1:13:01::",NULL,"n",13,"dark rum from Guyana",NULL
+107921536,34995,NULL,"demerara rum",48952,1,0,0,"demerara_rum%1:13:00::",NULL,"n",13,"dark rum from Guyana",NULL
+107921626,71574,16045,"jamaica rum",99333,1,0,0,"jamaica_rum%1:13:00::","Jamaica rum","n",13,"heavy pungent rum from Jamaica",NULL
+107921714,115815,NULL,"schnapps",160975,1,0,0,"schnapps%1:13:00::",NULL,"n",13,"any of various strong liquors especially a Dutch spirit distilled from potatoes",NULL
+107921714,115816,NULL,"schnaps",160976,1,0,0,"schnaps%1:13:00::",NULL,"n",13,"any of various strong liquors especially a Dutch spirit distilled from potatoes",NULL
+107921858,106408,NULL,"pulque",146566,1,0,0,"pulque%1:13:00::",NULL,"n",13,"fermented Mexican drink from juice of various agave plants especially the maguey",NULL
+107922010,84038,NULL,"mescal",116133,2,0,0,"mescal%1:13:00::",NULL,"n",13,"a colorless Mexican liquor distilled from fermented juices of certain desert plants of the genus Agavaceae (especially the century plant)",NULL
+107922219,131482,NULL,"tequila",184697,1,0,0,"tequila%1:13:00::",NULL,"n",13,"Mexican liquor made from fermented juices of an agave plant",NULL
+107922351,142313,NULL,"vodka",199814,1,0,0,"vodka%1:13:00::",NULL,"n",13,"unaged colorless liquor originating in Russia",NULL
+107922524,144294,NULL,"whiskey",202837,1,0,6,"whiskey%1:13:00::",NULL,"n",13,"a liquor made from fermented mash of grain",NULL
+107922524,144300,NULL,"whisky",202843,1,0,19,"whisky%1:13:00::",NULL,"n",13,"a liquor made from fermented mash of grain",NULL
+107922812,14956,NULL,"blended whiskey",19921,1,0,0,"blended_whiskey%1:13:00::",NULL,"n",13,"mixture of two or more whiskeys or of a whiskey and neutral spirits",NULL
+107922812,14957,NULL,"blended whisky",19922,1,0,0,"blended_whisky%1:13:00::",NULL,"n",13,"mixture of two or more whiskeys or of a whiskey and neutral spirits",NULL
+107922958,16522,NULL,"bourbon",22198,2,0,1,"bourbon%1:13:00::",NULL,"n",13,"whiskey distilled from a mash of corn and malt and rye and aged in charred oak barrels",NULL
+107923117,30048,NULL,"corn",41727,6,3,0,"corn%1:13:03::",NULL,"n",13,"whiskey distilled from a mash of not less than 80 percent corn",NULL
+107923117,30091,NULL,"corn whiskey",41781,1,0,0,"corn_whiskey%1:13:00::",NULL,"n",13,"whiskey distilled from a mash of not less than 80 percent corn",NULL
+107923117,30092,NULL,"corn whisky",41782,1,0,0,"corn_whisky%1:13:00::",NULL,"n",13,"whiskey distilled from a mash of not less than 80 percent corn",NULL
+107923277,48768,NULL,"firewater",68519,1,0,0,"firewater%1:13:00::",NULL,"n",13,"any strong spirits (such as strong whisky or rum)",NULL
+107923401,70774,15670,"irish",98267,2,0,0,"irish%1:13:00::","Irish","n",13,"whiskey made in Ireland chiefly from barley",NULL
+107923401,70798,15694,"irish whiskey",98293,1,0,0,"irish_whiskey%1:13:00::","Irish whiskey","n",13,"whiskey made in Ireland chiefly from barley",NULL
+107923401,70799,15695,"irish whisky",98294,1,0,0,"irish_whisky%1:13:00::","Irish whisky","n",13,"whiskey made in Ireland chiefly from barley",NULL
+107923582,103421,NULL,"poteen",142204,1,0,0,"poteen%1:13:00::",NULL,"n",13,"unlawfully distilled Irish whiskey",NULL
+107923669,113757,NULL,"rye",158229,3,0,0,"rye%1:13:00::",NULL,"n",13,"whiskey distilled from rye or rye and malt",NULL
+107923669,113761,NULL,"rye whiskey",158235,1,0,0,"rye_whiskey%1:13:00::",NULL,"n",13,"whiskey distilled from rye or rye and malt",NULL
+107923669,113762,NULL,"rye whisky",158236,1,0,0,"rye_whisky%1:13:00::",NULL,"n",13,"whiskey distilled from rye or rye and malt",NULL
+107923788,81308,NULL,"malt whiskey",112429,1,0,0,"malt_whiskey%1:13:00::",NULL,"n",13,"whiskey distilled in Scotland; especially whiskey made from malted barley in a pot still",NULL
+107923788,81309,NULL,"malt whisky",112430,1,0,0,"malt_whisky%1:13:00::",NULL,"n",13,"whiskey distilled in Scotland; especially whiskey made from malted barley in a pot still",NULL
+107923788,116158,28561,"scotch",161437,2,0,0,"scotch%1:13:00::","Scotch","n",13,"whiskey distilled in Scotland; especially whiskey made from malted barley in a pot still",NULL
+107923788,116168,28571,"scotch malt whiskey",161452,1,0,0,"scotch_malt_whiskey%1:13:00::","Scotch malt whiskey","n",13,"whiskey distilled in Scotland; especially whiskey made from malted barley in a pot still",NULL
+107923788,116169,28572,"scotch malt whisky",161453,1,0,0,"scotch_malt_whisky%1:13:00::","Scotch malt whisky","n",13,"whiskey distilled in Scotland; especially whiskey made from malted barley in a pot still",NULL
+107923788,116176,28579,"scotch whiskey",161461,1,0,0,"scotch_whiskey%1:13:00::","Scotch whiskey","n",13,"whiskey distilled in Scotland; especially whiskey made from malted barley in a pot still",NULL
+107923788,116177,28580,"scotch whisky",161462,1,0,0,"scotch_whisky%1:13:00::","Scotch whisky","n",13,"whiskey distilled in Scotland; especially whiskey made from malted barley in a pot still",NULL
+107924071,123069,NULL,"sour mash",171974,2,0,0,"sour_mash%1:13:00::",NULL,"n",13,"any whiskey distilled from sour mash",NULL
+107924071,123070,NULL,"sour mash whiskey",171976,1,0,0,"sour_mash_whiskey%1:13:00::",NULL,"n",13,"any whiskey distilled from sour mash",NULL
+107924183,29961,NULL,"cordial",41601,1,0,0,"cordial%1:13:00::",NULL,"n",13,"strong highly flavored sweet liquor usually drunk after a meal",NULL
+107924183,78188,NULL,"liqueur",108238,1,0,0,"liqueur%1:13:00::",NULL,"n",13,"strong highly flavored sweet liquor usually drunk after a meal",NULL
+107924651,736,NULL,"absinth",941,1,0,0,"absinth%1:13:00::",NULL,"n",13,"strong green liqueur flavored with wormwood and anise",NULL
+107924651,737,NULL,"absinthe",942,2,0,0,"absinthe%1:13:00::",NULL,"n",13,"strong green liqueur flavored with wormwood and anise",NULL
+107924807,4445,NULL,"amaretto",5936,1,0,0,"amaretto%1:13:00::",NULL,"n",13,"an Italian almond liqueur",NULL
+107924887,5866,NULL,"anisette",7665,1,0,0,"anisette%1:13:00::",NULL,"n",13,"liquorice-flavored usually colorless sweet liqueur made from aniseed",NULL
+107924887,5867,34593,"anisette de bordeaux",7666,1,0,0,"anisette_de_bordeaux%1:13:00::","anisette de Bordeaux","n",13,"liquorice-flavored usually colorless sweet liqueur made from aniseed",NULL
+107925052,13151,NULL,"benedictine",17481,2,0,0,"benedictine%1:13:00::",NULL,"n",13,"a French liqueur originally made by Benedictine monks",NULL
+107925163,23450,6518,"chartreuse",32004,1,0,0,"chartreuse%1:13:00::","Chartreuse","n",13,"aromatic green or yellow liqueur flavored with orange peel and hyssop and peppermint oils; made at monastery near Grenoble, France",NULL
+107925369,26914,NULL,"coffee liqueur",36778,1,0,0,"coffee_liqueur%1:13:00::",NULL,"n",13,"coffee-flavored liqueur",NULL
+107925471,31444,NULL,"creme de cacao",43770,1,0,0,"creme_de_cacao%1:13:00::",NULL,"n",13,"sweet liqueur flavored with vanilla and cacao beans",NULL
+107925602,31446,NULL,"creme de menthe",43772,1,0,0,"creme_de_menthe%1:13:00::",NULL,"n",13,"sweet green or white mint-flavored liqueur",NULL
+107925744,31445,NULL,"creme de fraise",43771,1,0,0,"creme_de_fraise%1:13:00::",NULL,"n",13,"strawberry-flavored liqueur",NULL
+107925833,39022,9451,"drambuie",55007,1,0,0,"drambuie%1:13:00::","Drambuie","n",13,"a sweet Scotch whisky liqueur",NULL
+107925954,52462,12255,"galliano",74134,1,0,0,"galliano%1:13:00::","Galliano","n",13,"golden Italian liqueur flavored with herbs",NULL
+107926051,93740,NULL,"orange liqueur",129029,1,0,0,"orange_liqueur%1:13:00::",NULL,"n",13,"liqueur flavored with orange",NULL
+107926194,32482,NULL,"curacao",45279,2,0,0,"curacao%1:13:00::",NULL,"n",13,"flavored with sour orange peel",NULL
+107926194,32483,NULL,"curacoa",45281,1,0,0,"curacoa%1:13:00::",NULL,"n",13,"flavored with sour orange peel",NULL
+107926288,135636,NULL,"triple sec",190680,1,0,0,"triple_sec%1:13:00::",NULL,"n",13,"type of curacao having higher alcoholic content",NULL
+107926392,59353,13175,"grand marnier",82278,1,0,0,"grand_marnier%1:13:00::","Grand Marnier","n",13,"an orange-flavored French liqueur",NULL
+107926485,74615,NULL,"kummel",103312,1,0,0,"kummel%1:13:00::",NULL,"n",13,"liqueur flavored with caraway seed or cumin",NULL
+107926619,81827,NULL,"maraschino",113166,1,2,0,"maraschino%1:13:02::",NULL,"n",13,"distilled from fermented juice of bitter wild marasca cherries",NULL
+107926619,81829,NULL,"maraschino liqueur",113169,1,0,0,"maraschino_liqueur%1:13:00::",NULL,"n",13,"distilled from fermented juice of bitter wild marasca cherries",NULL
+107926778,97326,NULL,"pastis",133872,1,0,0,"pastis%1:13:00::",NULL,"n",13,"similar to absinthe but containing no wormwood",NULL
+107926896,98777,24341,"pernod",135854,1,0,0,"pernod%1:13:00::","Pernod","n",13,"(registered trademark) a liqueur flavored with anise",NULL
+107927039,103535,NULL,"pousse-cafe",142395,1,0,0,"pousse-cafe%1:13:00::",NULL,"n",13,"small drink served after dinner (especially several liqueurs poured carefully so as to remain in separate layers)",NULL
+107927210,73163,17009,"kahlua",101410,1,0,0,"kahlua%1:13:00::","Kahlua","n",13,"coffee-flavored liqueur made in Mexico",NULL
+107927301,108506,NULL,"ratafee",149717,1,1,0,"ratafee%1:13:01::",NULL,"n",13,"sweet liqueur made from wine and brandy flavored with plum or peach or apricot kernels and bitter almonds",NULL
+107927301,108507,NULL,"ratafia",149718,1,1,0,"ratafia%1:13:01::",NULL,"n",13,"sweet liqueur made from wine and brandy flavored with plum or peach or apricot kernels and bitter almonds",NULL
+107927489,114587,NULL,"sambuca",159313,1,0,0,"sambuca%1:13:00::",NULL,"n",13,"an Italian liqueur made with elderberries and flavored with licorice",NULL
+107927611,85754,NULL,"mixed drink",118378,1,0,0,"mixed_drink%1:13:00::",NULL,"n",13,"made of two or more ingredients",NULL
+107927917,26750,NULL,"cocktail",36577,1,0,0,"cocktail%1:13:00::",NULL,"n",13,"a short mixed drink",NULL
+107928333,38309,9301,"dom pedro",53957,1,0,0,"dom_pedro%1:13:00::","Dom Pedro","n",13,"South African mixed drink made by mixing ice cream with whisky",NULL
+107928451,64082,NULL,"highball",88718,1,0,0,"highball%1:13:00::",NULL,"n",13,"a mixed drink made of alcoholic liquor mixed with water or a carbonated beverage and served in a tall glass",NULL
+107928739,45279,NULL,"eye opener",63838,1,0,0,"eye_opener%1:13:00::",NULL,"n",13,"an alcoholic drink intended to wake one up early in the morning",NULL
+107928859,90235,NULL,"nightcap",124366,1,0,0,"nightcap%1:13:00::",NULL,"n",13,"an alcoholic drink taken at bedtime; often alcoholic",NULL
+107928966,61317,NULL,"hair of the dog",84933,1,0,0,"hair_of_the_dog%1:13:00::",NULL,"n",13,"an alcoholic drink supposed to cure a hangover",NULL
+107929074,118619,NULL,"shandy",165150,1,0,0,"shandy%1:13:00::",NULL,"n",13,"a drink made of beer and lemonade",NULL
+107929074,118620,NULL,"shandygaff",165151,1,0,0,"shandygaff%1:13:00::",NULL,"n",13,"a drink made of beer and lemonade",NULL
+107929173,126136,NULL,"stirrup cup",176723,1,0,0,"stirrup_cup%1:13:00::",NULL,"n",13,"a farewell drink (especially one offered to a horseman ready to depart); usually alcoholic",NULL
+107929321,128165,NULL,"sundowner",179879,2,0,0,"sundowner%1:13:00::",NULL,"n",13,"a drink taken at sundown",NULL
+107929420,85762,NULL,"mixer",118386,2,0,0,"mixer%1:13:00::",NULL,"n",13,"club soda or fruit juice used to mix with alcohol",NULL
+107929540,14337,NULL,"bishop",19013,2,0,0,"bishop%1:13:00::",NULL,"n",13,"port wine mulled with oranges and cloves",NULL
+107929633,15213,4175,"bloody mary",20314,2,0,0,"bloody_mary%1:13:00::","Bloody Mary","n",13,"a cocktail made with vodka and spicy tomato juice",NULL
+107929777,15214,NULL,"bloody shame",20316,1,0,0,"bloody_shame%1:13:00::",NULL,"n",13,"a Bloody Mary made without alcohol",NULL
+107929777,141939,33186,"virgin mary",199312,2,0,0,"virgin_mary%1:13:00::","Virgin Mary","n",13,"a Bloody Mary made without alcohol",NULL
+107929884,18299,NULL,"bullshot",24905,1,0,0,"bullshot%1:13:00::",NULL,"n",13,"a cocktail made with vodka and beef bouillon or consomme",NULL
+107930014,26636,NULL,"cobbler",36427,2,2,0,"cobbler%1:13:02::",NULL,"n",13,"tall sweetened iced drink of wine or liquor with fruit",NULL
+107930122,27229,NULL,"collins",37248,2,0,0,"collins%1:13:00::",NULL,"n",13,"tall iced drink of liquor (usually gin) with fruit juice",NULL
+107930122,133829,31730,"tom collins",187955,1,0,0,"tom_collins%1:13:00::","Tom Collins","n",13,"tall iced drink of liquor (usually gin) with fruit juice",NULL
+107930246,29719,NULL,"cooler",41287,2,0,0,"cooler%1:13:00::",NULL,"n",13,"an iced drink especially white wine and fruit juice",NULL
+107930368,109796,NULL,"refresher",151855,2,0,0,"refresher%1:13:00::",NULL,"n",13,"a drink that refreshes","he stopped at the bar for a quick refresher"
+107930511,121761,NULL,"smoothie",170009,2,0,0,"smoothie%1:13:00::",NULL,"n",13,"a thick smooth drink consisting of fresh fruit pureed with ice cream or yoghurt or milk",NULL
+107930653,33319,NULL,"daiquiri",46444,1,0,1,"daiquiri%1:13:00::",NULL,"n",13,"a cocktail made with rum and lime or lemon juice",NULL
+107930653,113464,NULL,"rum cocktail",157710,1,0,0,"rum_cocktail%1:13:00::",NULL,"n",13,"a cocktail made with rum and lime or lemon juice",NULL
+107930826,126646,NULL,"strawberry daiquiri",177552,1,0,0,"strawberry_daiquiri%1:13:00::",NULL,"n",13,"daiquiri with crushed strawberries",NULL
+107930926,88449,21742,"nada daiquiri",121997,1,0,0,"nada_daiquiri%1:13:00::","NADA daiquiri","n",13,"a daiquiri made without alcohol",NULL
+107931017,124590,NULL,"spritzer",174278,1,0,0,"spritzer%1:13:00::",NULL,"n",13,"a mixed drink made of wine mixed with a sparkling water",NULL
+107931127,49508,NULL,"flip",69696,2,0,0,"flip%1:13:00::",NULL,"n",13,"hot or cold alcoholic mixed drink containing a beaten egg",NULL
+107931235,57800,NULL,"gimlet",80047,1,0,0,"gimlet%1:13:00::",NULL,"n",13,"a cocktail made of gin or vodka and lime juice",NULL
+107931334,57808,NULL,"gin and tonic",80063,1,0,0,"gin_and_tonic%1:13:00::",NULL,"n",13,"gin and quinine water",NULL
+107931453,59533,NULL,"grasshopper",82540,2,0,0,"grasshopper%1:13:00::",NULL,"n",13,"a cocktail made of creme de menthe and cream (sometimes with creme de cacao)",NULL
+107931606,62250,13944,"harvey wallbanger",86248,1,0,0,"harvey_wallbanger%1:13:00::","Harvey Wallbanger","n",13,"a cocktail made of vodka or gin and orange juice and Galliano",NULL
+107931731,72856,NULL,"julep",100974,1,0,0,"julep%1:13:00::",NULL,"n",13,"bourbon and sugar and mint over crushed ice",NULL
+107931731,85366,NULL,"mint julep",117817,1,0,0,"mint_julep%1:13:00::",NULL,"n",13,"bourbon and sugar and mint over crushed ice",NULL
+107931858,81576,NULL,"manhattan",112792,2,0,0,"manhattan%1:13:00::",NULL,"n",13,"a cocktail made with whiskey and sweet vermouth with a dash of bitters",NULL
+107932040,112246,27088,"rob roy",155941,2,0,0,"rob_roy%1:13:00::","Rob Roy","n",13,"a manhattan cocktail made with Scotch whiskey",NULL
+107932158,81944,NULL,"margarita",113315,1,0,0,"margarita%1:13:00::",NULL,"n",13,"a cocktail made of tequila and triple sec with lime and lemon juice",NULL
+107932281,82315,NULL,"martini",113812,1,0,2,"martini%1:13:00::",NULL,"n",13,"a cocktail made of gin (or vodka) with dry vermouth",NULL
+107932423,57807,NULL,"gin and it",80062,1,0,0,"gin_and_it%1:13:00::",NULL,"n",13,"a cocktail made of gin and sweet vermouth",NULL
+107932559,142314,NULL,"vodka martini",199815,1,0,0,"vodka_martini%1:13:00::",NULL,"n",13,"martini made with vodka rather than gin",NULL
+107932677,92757,NULL,"old fashioned",127753,1,0,0,"old_fashioned%1:13:00::",NULL,"n",13,"a cocktail made of whiskey and bitters and sugar with fruit slices",NULL
+107932822,100651,NULL,"pink lady",138259,1,0,0,"pink_lady%1:13:00::",NULL,"n",13,"a cocktail made of gin and brandy with lemon juice and grenadine shaken with an egg white and ice",NULL
+107933013,103169,NULL,"posset",141862,1,0,0,"posset%1:13:00::",NULL,"n",13,"sweet spiced hot milk curdled with ale or beer",NULL
+107933112,120018,NULL,"sillabub",167354,1,2,0,"sillabub%1:13:02::",NULL,"n",13,"spiced hot milk with rum or wine",NULL
+107933112,129255,NULL,"syllabub",181547,1,2,0,"syllabub%1:13:02::",NULL,"n",13,"spiced hot milk with rum or wine",NULL
+107933210,114814,NULL,"sangaree",159607,1,0,0,"sangaree%1:13:00::",NULL,"n",13,"sweetened red wine and orange or lemon juice with soda water",NULL
+107933210,114820,NULL,"sangria",159614,1,0,0,"sangria%1:13:00::",NULL,"n",13,"sweetened red wine and orange or lemon juice with soda water",NULL
+107933373,115439,28356,"sazerac",160417,1,0,0,"sazerac%1:13:00::","Sazerac","n",13,"a cocktail made with bourbon with bitters and Pernod and sugar served with lemon peel",NULL
+107933512,116339,NULL,"screwdriver",161760,2,0,0,"screwdriver%1:13:00::",NULL,"n",13,"a cocktail made with vodka and orange juice",NULL
+107933632,119730,NULL,"sidecar",166935,1,0,0,"sidecar%1:13:00::",NULL,"n",13,"a cocktail made of orange liqueur with lemon juice and brandy",NULL
+107933747,116159,28562,"scotch and soda",161443,1,0,1,"scotch_and_soda%1:13:00::","Scotch and soda","n",13,"a highball with Scotch malt whiskey and club soda",NULL
+107933858,121331,NULL,"sling",169276,1,0,0,"sling%1:13:00::",NULL,"n",13,"a highball with liquor and water with sugar and lemon or lime juice",NULL
+107934031,16929,NULL,"brandy sling",22794,1,0,0,"brandy_sling%1:13:00::",NULL,"n",13,"a sling made with brandy",NULL
+107934114,57812,NULL,"gin sling",80067,1,0,0,"gin_sling%1:13:00::",NULL,"n",13,"a sling made with gin",NULL
+107934191,113466,NULL,"rum sling",157712,1,0,0,"rum_sling%1:13:00::",NULL,"n",13,"a sling made with rum",NULL
+107934268,123058,NULL,"sour",171949,1,0,0,"sour%1:13:00::",NULL,"n",13,"a cocktail made of a liquor (especially whiskey or gin) mixed with lemon or lime juice and sugar",NULL
+107934433,144299,NULL,"whiskey sour",202842,1,0,0,"whiskey_sour%1:13:00::",NULL,"n",13,"a sour made with whiskey",NULL
+107934433,144303,NULL,"whisky sour",202846,1,0,0,"whisky_sour%1:13:00::",NULL,"n",13,"a sour made with whiskey",NULL
+107934549,126071,NULL,"stinger",176613,1,0,0,"stinger%1:13:00::",NULL,"n",13,"a cocktail made of made of creme de menthe and brandy",NULL
+107934694,144297,NULL,"whiskey neat",202840,1,0,0,"whiskey_neat%1:13:00::",NULL,"n",13,"a drink consisting of whiskey without a mixer","he ordered a whiskey neat"
+107934694,144301,NULL,"whisky neat",202844,1,0,0,"whisky_neat%1:13:00::",NULL,"n",13,"a drink consisting of whiskey without a mixer","he ordered a whiskey neat"
+107934841,144298,NULL,"whiskey on the rocks",202841,1,0,0,"whiskey_on_the_rocks%1:13:00::",NULL,"n",13,"whiskey with ice",NULL
+107934841,144302,NULL,"whisky on the rocks",202845,1,0,1,"whisky_on_the_rocks%1:13:00::",NULL,"n",13,"whiskey with ice",NULL
+107934946,129192,NULL,"swizzle",181459,1,0,0,"swizzle%1:13:00::",NULL,"n",13,"any of various tall frothy mixed drinks made usually of rum and lime juice and sugar shaken with ice",NULL
+107935119,65502,NULL,"hot toddy",90809,1,0,0,"hot_toddy%1:13:00::",NULL,"n",13,"a mixed drink made of liquor and water with sugar and spices and served hot",NULL
+107935119,133684,NULL,"toddy",187755,1,0,1,"toddy%1:13:00::",NULL,"n",13,"a mixed drink made of liquor and water with sugar and spices and served hot",NULL
+107935295,133827,31737,"tom and jerry",187953,1,0,0,"tom_and_jerry%1:13:00::","Tom and Jerry","n",13,"hot rum toddy with a beaten egg",NULL
+107935405,147356,NULL,"zombi",207084,5,0,0,"zombi%1:13:00::",NULL,"n",13,"several kinds of rum with fruit juice and usually apricot liqueur",NULL
+107935405,147358,NULL,"zombie",207090,5,0,0,"zombie%1:13:00::",NULL,"n",13,"several kinds of rum with fruit juice and usually apricot liqueur",NULL
+107935550,49107,NULL,"fizz",69009,1,0,0,"fizz%1:13:00::",NULL,"n",13,"an effervescent beverage (usually alcoholic)",NULL
+107935681,70778,15679,"irish coffee",98273,1,0,0,"irish_coffee%1:13:00::","Irish coffee","n",13,"sweetened coffee with Irish whiskey and whipped cream",NULL
+107935812,19229,NULL,"cafe au lait",26268,1,0,0,"cafe_au_lait%1:13:00::",NULL,"n",13,"equal parts of coffee and hot milk",NULL
+107935905,19230,NULL,"cafe noir",26269,1,0,0,"cafe_noir%1:13:00::",NULL,"n",13,"small cup of strong black coffee without milk or cream",NULL
+107935905,35022,NULL,"demitasse",48988,1,0,0,"demitasse%1:13:00::",NULL,"n",13,"small cup of strong black coffee without milk or cream",NULL
+107936027,34204,NULL,"decaf",47690,1,0,0,"decaf%1:13:00::",NULL,"n",13,"coffee with the caffeine removed",NULL
+107936027,34206,NULL,"decaffeinated coffee",47692,1,0,0,"decaffeinated_coffee%1:13:00::",NULL,"n",13,"coffee with the caffeine removed",NULL
+107936134,39237,NULL,"drip coffee",55431,1,0,0,"drip_coffee%1:13:00::",NULL,"n",13,"coffee made by passing boiling water through a perforated container packed with finely ground coffee",NULL
+107936292,43688,NULL,"espresso",61448,1,0,0,"espresso%1:13:00::",NULL,"n",13,"strong black coffee brewed by forcing hot water under pressure through finely ground coffee beans",NULL
+107936462,19236,NULL,"caffe latte",26275,1,0,0,"caffe_latte%1:13:00::",NULL,"n",13,"strong espresso coffee with a topping of frothed steamed milk",NULL
+107936462,75870,NULL,"latte",104942,1,0,0,"latte%1:13:00::",NULL,"n",13,"strong espresso coffee with a topping of frothed steamed milk",NULL
+107936589,20632,NULL,"cappuccino",28118,1,0,0,"cappuccino%1:13:00::",NULL,"n",13,"equal parts of espresso and hot milk topped with cinnamon and nutmeg and usually whipped cream",NULL
+107936589,20633,NULL,"cappuccino coffee",28119,1,0,0,"cappuccino_coffee%1:13:00::",NULL,"n",13,"equal parts of espresso and hot milk topped with cinnamon and nutmeg and usually whipped cream",NULL
+107936589,26906,NULL,"coffee cappuccino",36770,1,0,0,"coffee_cappuccino%1:13:00::",NULL,"n",13,"equal parts of espresso and hot milk topped with cinnamon and nutmeg and usually whipped cream",NULL
+107936780,66938,NULL,"ice coffee",92601,1,0,0,"ice_coffee%1:13:00::",NULL,"n",13,"a strong sweetened coffee served over ice with cream",NULL
+107936780,66992,NULL,"iced coffee",92647,1,0,0,"iced_coffee%1:13:00::",NULL,"n",13,"a strong sweetened coffee served over ice with cream",NULL
+107936903,69700,NULL,"instant coffee",96671,1,0,0,"instant_coffee%1:13:00::",NULL,"n",13,"dehydrated coffee that can be made into a drink by adding hot water","the advantages of instant coffee are speed of preparation and long shelf life"
+107937112,85826,NULL,"mocha",118482,3,1,0,"mocha%1:13:01::",NULL,"n",13,"a superior dark coffee made from beans from Arabia",NULL
+107937112,85827,NULL,"mocha coffee",118485,1,0,0,"mocha_coffee%1:13:00::",NULL,"n",13,"a superior dark coffee made from beans from Arabia",NULL
+107937229,85826,NULL,"mocha",118483,2,2,0,"mocha%1:13:02::",NULL,"n",13,"a flavoring made from coffee mixed with chocolate",NULL
+107937330,21603,NULL,"cassareep",29433,1,0,0,"cassareep%1:13:00::",NULL,"n",13,"a flavoring made by boiling down the juice of the bitter cassava; used in West Indian cooking",NULL
+107937479,136423,32207,"turkish coffee",191788,1,0,0,"turkish_coffee%1:13:00::","Turkish coffee","n",13,"a drink made from pulverized coffee beans; usually sweetened",NULL
+107937600,24443,NULL,"chocolate milk",33332,1,0,0,"chocolate_milk%1:13:00::",NULL,"n",13,"milk flavored with chocolate syrup",NULL
+107937695,25006,NULL,"cider",34038,1,0,0,"cider%1:13:00::",NULL,"n",13,"a beverage made from juice pressed from apples",NULL
+107937695,32940,NULL,"cyder",46006,1,0,0,"cyder%1:13:00::",NULL,"n",13,"a beverage made from juice pressed from apples",NULL
+107937855,61965,NULL,"hard cider",85856,1,0,0,"hard_cider%1:13:00::",NULL,"n",13,"alcoholic drink from fermented cider; `cider' and `cyder' are European (especially British) usages for the fermented beverage",NULL
+107938074,116412,NULL,"scrumpy",161864,1,0,0,"scrumpy%1:13:00::",NULL,"n",13,"strong cider (as made in western England)",NULL
+107938188,128990,NULL,"sweet cider",181162,1,0,0,"sweet_cider%1:13:00::",NULL,"n",13,"unfermented cider",NULL
+107938281,87512,NULL,"mulled cider",120845,1,0,0,"mulled_cider%1:13:00::",NULL,"n",13,"sweet cider heated with spices and citrus fruit",NULL
+107938387,98829,NULL,"perry",135922,4,0,0,"perry%1:13:00::",NULL,"n",13,"a fermented and often effervescent beverage made from juice of pears; similar in taste to hard cider",NULL
+107938539,105715,NULL,"pruno",145706,1,0,0,"pruno%1:13:00::",NULL,"n",13,"a liquor concocted from a mixture of ingredients (such as prunes and raisins and milk and sugar) that can be fermented to produce alcohol; made by prison inmates",NULL
+107938752,113013,NULL,"rotgut",156998,1,0,0,"rotgut%1:13:00::",NULL,"n",13,"any alcoholic beverage of inferior quality",NULL
+107938847,121490,NULL,"slug",169555,5,0,0,"slug%1:13:00::",NULL,"n",13,"an amount of an alcoholic drink (usually liquor) that is poured or gulped","he took a slug of hard liquor"
+107939004,24431,NULL,"chocolate",33317,1,2,1,"chocolate%1:13:02::",NULL,"n",13,"a beverage made from cocoa powder and milk and sugar; usually drunk hot",NULL
+107939004,26765,NULL,"cocoa",36595,1,2,0,"cocoa%1:13:02::",NULL,"n",13,"a beverage made from cocoa powder and milk and sugar; usually drunk hot",NULL
+107939004,39229,NULL,"drinking chocolate",55416,1,0,0,"drinking_chocolate%1:13:00::",NULL,"n",13,"a beverage made from cocoa powder and milk and sugar; usually drunk hot",NULL
+107939004,65477,NULL,"hot chocolate",90775,1,0,0,"hot_chocolate%1:13:00::",NULL,"n",13,"a beverage made from cocoa powder and milk and sugar; usually drunk hot",NULL
+107939195,31611,NULL,"criollo",44007,2,0,0,"criollo%1:13:00::",NULL,"n",13,"cocoa of superior quality",NULL
+107939274,49534,NULL,"float",69750,3,0,0,"float%1:13:00::",NULL,"n",13,"a drink with ice cream floating in it",NULL
+107939274,66974,NULL,"ice-cream float",92585,1,0,0,"ice-cream_float%1:13:00::",NULL,"n",13,"a drink with ice cream floating in it",NULL
+107939274,66975,NULL,"ice-cream soda",92586,1,0,0,"ice-cream_soda%1:13:00::",NULL,"n",13,"a drink with ice cream floating in it",NULL
+107939416,112792,NULL,"root beer float",156715,1,0,0,"root_beer_float%1:13:00::",NULL,"n",13,"an ice-cream soda made with ice cream floating in root beer",NULL
+107939537,85013,NULL,"milk shake",117328,1,0,0,"milk_shake%1:13:00::",NULL,"n",13,"frothy drink of milk and flavoring and sometimes fruit or ice cream",NULL
+107939537,85034,NULL,"milkshake",117348,1,0,0,"milkshake%1:13:00::",NULL,"n",13,"frothy drink of milk and flavoring and sometimes fruit or ice cream",NULL
+107939537,118545,NULL,"shake",165017,2,0,0,"shake%1:13:00::",NULL,"n",13,"frothy drink of milk and flavoring and sometimes fruit or ice cream",NULL
+107939735,41018,NULL,"eggshake",57903,1,0,0,"eggshake%1:13:00::",NULL,"n",13,"a milkshake with egg in it",NULL
+107939816,51086,NULL,"frappe",72180,2,2,0,"frappe%1:13:02::",NULL,"n",13,"thick milkshake containing ice cream",NULL
+107939905,51086,NULL,"frappe",72181,1,3,0,"frappe%1:13:03::",NULL,"n",13,"liqueur poured over shaved ice",NULL
+107939988,72840,NULL,"juice",100947,1,0,2,"juice%1:13:00::",NULL,"n",13,"the liquid part that can be extracted from plant or animal tissue by squeezing or cooking",NULL
+107940273,51758,NULL,"fruit crush",73111,1,0,0,"fruit_crush%1:13:00::",NULL,"n",13,"drink produced by squeezing or crushing fruit",NULL
+107940273,51763,NULL,"fruit juice",73116,1,0,0,"fruit_juice%1:13:00::",NULL,"n",13,"drink produced by squeezing or crushing fruit",NULL
+107940516,89211,NULL,"nectar",123041,2,2,0,"nectar%1:13:02::",NULL,"n",13,"fruit juice especially when undiluted",NULL
+107940606,7016,NULL,"apple juice",9095,1,0,0,"apple_juice%1:13:00::",NULL,"n",13,"the juice of apples",NULL
+107940683,31162,NULL,"cranberry juice",43342,1,0,0,"cranberry_juice%1:13:00::",NULL,"n",13,"the juice of cranberries (always diluted and sweetened)",NULL
+107940800,59455,NULL,"grape juice",82417,1,0,0,"grape_juice%1:13:00::",NULL,"n",13,"the juice of grapes",NULL
+107940895,87995,NULL,"must",121465,2,0,0,"must%1:13:00::",NULL,"n",13,"grape juice before or during fermentation",NULL
+107940987,59463,NULL,"grapefruit juice",82424,1,0,0,"grapefruit_juice%1:13:00::",NULL,"n",13,"the juice of grapefruits",NULL
+107941074,93739,NULL,"orange juice",129028,1,0,0,"orange_juice%1:13:00::",NULL,"n",13,"bottled or freshly squeezed juice of oranges",NULL
+107941195,51740,NULL,"frozen orange juice",73085,1,0,0,"frozen_orange_juice%1:13:00::",NULL,"n",13,"orange juice that has been concentrated and frozen",NULL
+107941195,93765,NULL,"orange-juice concentrate",129015,1,0,0,"orange-juice_concentrate%1:13:00::",NULL,"n",13,"orange juice that has been concentrated and frozen",NULL
+107941356,100608,NULL,"pineapple juice",138189,1,0,0,"pineapple_juice%1:13:00::",NULL,"n",13,"the juice of pineapples (usually bottled or canned)",NULL
+107941469,76694,NULL,"lemon juice",106123,1,0,0,"lemon_juice%1:13:00::",NULL,"n",13,"usually freshly squeezed juice of lemons",NULL
+107941567,77777,NULL,"lime juice",107657,1,0,0,"lime_juice%1:13:00::",NULL,"n",13,"usually freshly squeezed juice of limes",NULL
+107941663,96434,NULL,"papaya juice",132607,1,0,0,"papaya_juice%1:13:00::",NULL,"n",13,"juice from papayas",NULL
+107941740,133848,NULL,"tomato juice",187979,1,0,0,"tomato_juice%1:13:00::",NULL,"n",13,"the juice of tomatoes (usually bottled or canned)",NULL
+107941848,21348,NULL,"carrot juice",29045,1,0,0,"carrot_juice%1:13:00::",NULL,"n",13,"usually freshly squeezed juice of carrots",NULL
+107941948,140243,32743,"v-8 juice",197070,1,0,0,"v-8_juice%1:13:00::","V-8 juice","n",13,"brand name for canned mixed vegetable juices",NULL
+107942048,74525,NULL,"koumiss",103212,1,0,0,"koumiss%1:13:00::",NULL,"n",13,"an alcoholic beverage made from fermented mare's milk; made originally by nomads of central Asia",NULL
+107942048,74614,NULL,"kumis",103311,1,0,0,"kumis%1:13:00::",NULL,"n",13,"an alcoholic beverage made from fermented mare's milk; made originally by nomads of central Asia",NULL
+107942206,1861,NULL,"ade",2540,1,0,0,"ade%1:13:00::",NULL,"n",13,"a sweetened beverage of diluted fruit juice",NULL
+107942206,51760,NULL,"fruit drink",73113,1,0,0,"fruit_drink%1:13:00::",NULL,"n",13,"a sweetened beverage of diluted fruit juice",NULL
+107942367,74871,NULL,"lacing",103637,1,0,0,"lacing%1:13:00::",NULL,"n",13,"a small amount of liquor added to a food or beverage",NULL
+107942490,76711,NULL,"lemonade",106143,1,0,1,"lemonade%1:13:00::",NULL,"n",13,"sweetened beverage of diluted lemon juice",NULL
+107942586,77779,NULL,"limeade",107660,1,0,0,"limeade%1:13:00::",NULL,"n",13,"sweetened beverage of lime juice and water",NULL
+107942682,93768,NULL,"orangeade",129049,1,0,0,"orangeade%1:13:00::",NULL,"n",13,"sweetened beverage of diluted orange juice",NULL
+107942780,81313,NULL,"malted milk",112436,2,1,0,"malted_milk%1:13:01::",NULL,"n",13,"powder made of dried milk and malted cereals",NULL
+107942882,81305,NULL,"malt",112422,1,3,0,"malt%1:13:03::",NULL,"n",13,"a milkshake made with malt powder",NULL
+107942882,81312,NULL,"malted",112434,1,0,0,"malted%1:13:00::",NULL,"n",13,"a milkshake made with malt powder",NULL
+107942882,81313,NULL,"malted milk",112437,1,2,0,"malted_milk%1:13:02::",NULL,"n",13,"a milkshake made with malt powder",NULL
+107943025,82634,NULL,"mate",114271,9,0,0,"mate%1:13:00::",NULL,"n",13,"South American tea-like drink made from leaves of a South American holly called mate",NULL
+107943160,87513,NULL,"mulled wine",120846,1,0,0,"mulled_wine%1:13:00::",NULL,"n",13,"wine heated with sugar and spices and often citrus fruit",NULL
+107943310,89330,NULL,"negus",123226,1,0,0,"negus%1:13:00::",NULL,"n",13,"wine and hot water with sugar and lemon juice and nutmeg",NULL
+107943437,122344,NULL,"soft drink",170947,1,0,2,"soft_drink%1:13:00::",NULL,"n",13,"nonalcoholic beverage (usually carbonated)",NULL
+107943752,102857,NULL,"pop",141374,2,0,0,"pop%1:13:00::",NULL,"n",13,"a sweet drink containing carbonated water and flavoring","in New England they call sodas tonics"
+107943752,122273,NULL,"soda",170822,2,0,0,"soda%1:13:00::",NULL,"n",13,"a sweet drink containing carbonated water and flavoring","in New England they call sodas tonics"
+107943752,122284,NULL,"soda pop",170835,1,0,0,"soda_pop%1:13:00::",NULL,"n",13,"a sweet drink containing carbonated water and flavoring","in New England they call sodas tonics"
+107943752,122285,NULL,"soda water",170837,2,2,0,"soda_water%1:13:02::",NULL,"n",13,"a sweet drink containing carbonated water and flavoring","in New England they call sodas tonics"
+107943752,133935,NULL,"tonic",188108,2,1,0,"tonic%1:13:01::",NULL,"n",13,"a sweet drink containing carbonated water and flavoring","in New England they call sodas tonics"
+107943956,14210,NULL,"birch beer",18852,1,0,0,"birch_beer%1:13:00::",NULL,"n",13,"carbonated drink containing an extract from bark of birch trees",NULL
+107944076,14419,NULL,"bitter lemon",19141,1,0,0,"bitter_lemon%1:13:00::",NULL,"n",13,"tart lemon-flavored carbonated drink",NULL
+107944171,27047,NULL,"cola",36974,2,0,0,"cola%1:13:00::",NULL,"n",13,"carbonated drink flavored with extract from kola nuts (`dope' is a southernism in the United States)",NULL
+107944171,38492,NULL,"dope",54225,3,0,0,"dope%1:13:00::",NULL,"n",13,"carbonated drink flavored with extract from kola nuts (`dope' is a southernism in the United States)",NULL
+107944403,31307,NULL,"cream soda",43580,1,0,0,"cream_soda%1:13:00::",NULL,"n",13,"sweet carbonated drink flavored with vanilla",NULL
+107944504,40987,NULL,"egg cream",57877,1,0,0,"egg_cream%1:13:00::",NULL,"n",13,"made of milk and flavored syrup with soda water",NULL
+107944607,57815,NULL,"ginger ale",80076,1,0,0,"ginger_ale%1:13:00::",NULL,"n",13,"ginger-flavored carbonated drink",NULL
+107944607,57819,NULL,"ginger pop",80080,1,0,0,"ginger_pop%1:13:00::",NULL,"n",13,"ginger-flavored carbonated drink",NULL
+107944728,93753,NULL,"orange soda",129043,1,0,0,"orange_soda%1:13:00::",NULL,"n",13,"orange-flavored carbonated drink",NULL
+107944818,99717,NULL,"phosphate",137005,2,0,0,"phosphate%1:13:00::",NULL,"n",13,"carbonated drink with fruit syrup and a little phosphoric acid",NULL
+107944936,26649,7311,"coca cola",36449,1,0,1,"coca_cola%1:13:00::","Coca Cola","n",13,"Coca Cola is a trademarked cola",NULL
+107944936,27045,7367,"coke",36970,2,0,0,"coke%1:13:00::","Coke","n",13,"Coca Cola is a trademarked cola",NULL
+107945030,98394,24274,"pepsi",135345,1,0,0,"pepsi%1:13:00::","Pepsi","n",13,"Pepsi Cola is a trademarked cola",NULL
+107945030,98395,24275,"pepsi cola",135346,1,0,0,"pepsi_cola%1:13:00::","Pepsi Cola","n",13,"Pepsi Cola is a trademarked cola",NULL
+107945127,112791,NULL,"root beer",156714,1,0,0,"root_beer%1:13:00::",NULL,"n",13,"carbonated drink containing extracts of roots and herbs",NULL
+107945238,115106,NULL,"sarsaparilla",159944,2,0,0,"sarsaparilla%1:13:00::",NULL,"n",13,"carbonated drink flavored with an extract from sarsaparilla root or with birch oil and sassafras",NULL
+107945412,107567,NULL,"quinine water",148309,1,0,0,"quinine_water%1:13:00::",NULL,"n",13,"lime- or lemon-flavored carbonated water containing quinine",NULL
+107945412,133935,NULL,"tonic",188109,1,2,0,"tonic%1:13:02::",NULL,"n",13,"lime- or lemon-flavored carbonated water containing quinine",NULL
+107945412,133940,NULL,"tonic water",188119,1,0,0,"tonic_water%1:13:00::",NULL,"n",13,"lime- or lemon-flavored carbonated water containing quinine",NULL
+107945591,26898,NULL,"coffee",36760,3,1,0,"coffee%1:13:01::",NULL,"n",13,"a seed of the coffee tree; ground to make coffee",NULL
+107945591,26900,NULL,"coffee bean",36764,1,0,0,"coffee_bean%1:13:00::",NULL,"n",13,"a seed of the coffee tree; ground to make coffee",NULL
+107945591,26901,NULL,"coffee berry",36765,1,0,0,"coffee_berry%1:13:00::",NULL,"n",13,"a seed of the coffee tree; ground to make coffee",NULL
+107945759,26898,NULL,"coffee",36759,1,0,46,"coffee%1:13:00::",NULL,"n",13,"a beverage consisting of an infusion of ground coffee beans","he ordered a cup of coffee"
+107945759,71853,NULL,"java",99662,2,0,1,"java%1:13:00::",NULL,"n",13,"a beverage consisting of an infusion of ground coffee beans","he ordered a cup of coffee"
+107946180,19231,NULL,"cafe royale",26270,1,0,0,"cafe_royale%1:13:00::",NULL,"n",13,"black coffee with Cognac and lemon peel and sugar",NULL
+107946180,26921,NULL,"coffee royal",36785,1,0,0,"coffee_royal%1:13:00::",NULL,"n",13,"black coffee with Cognac and lemon peel and sugar",NULL
+107946302,51766,NULL,"fruit punch",73119,1,0,0,"fruit_punch%1:13:00::",NULL,"n",13,"a punch made of fruit juices mixed with water or soda water (with or without alcohol)",NULL
+107946445,85011,NULL,"milk punch",117326,1,0,0,"milk_punch%1:13:00::",NULL,"n",13,"a punch made of spirits and milk and sugar and spices",NULL
+107946555,18012,NULL,"buck's fizz",24463,1,0,0,"buck's_fizz%1:13:00::",NULL,"n",13,"a mixed drink containing champagne and orange juice",NULL
+107946555,85152,NULL,"mimosa",117510,3,0,0,"mimosa%1:13:00::",NULL,"n",13,"a mixed drink containing champagne and orange juice",NULL
+107946673,100543,NULL,"pina colada",138104,1,0,0,"pina_colada%1:13:00::",NULL,"n",13,"a mixed drink made of pineapple juice and coconut cream and rum",NULL
+107946794,106459,NULL,"punch",146651,2,0,0,"punch%1:13:00::",NULL,"n",13,"an iced mixed drink usually containing alcohol and prepared for multiple servings; normally served in a punch bowl",NULL
+107947104,32427,NULL,"cup",45210,6,0,0,"cup%1:13:00::",NULL,"n",13,"a punch served in a pitcher instead of a punch bowl",NULL
+107947241,23080,NULL,"champagne cup",31420,1,0,0,"champagne_cup%1:13:00::",NULL,"n",13,"a punch containing a sparkling wine",NULL
+107947336,25538,NULL,"claret cup",34769,1,0,0,"claret_cup%1:13:00::",NULL,"n",13,"a punch made of claret and brandy with lemon juice and sugar and sometimes sherry or curacao and fresh fruit",NULL
+107947520,143100,NULL,"wassail",201078,1,0,0,"wassail%1:13:00::",NULL,"n",13,"a punch made of sweetened ale or wine heated with spices and roasted apples; especially at Christmas",NULL
+107947692,101330,NULL,"planter's punch",139204,1,0,0,"planter's_punch%1:13:00::",NULL,"n",13,"a cocktail made of rum and lime or lemon juice with sugar and sometimes bitters",NULL
+107947852,144463,33685,"white russian",203113,2,0,0,"white_russian%1:13:00::","White Russian","n",13,"a cocktail made with vodka, coffee liqueur, and milk or cream",NULL
+107947973,48931,NULL,"fish house punch",68744,1,0,0,"fish_house_punch%1:13:00::",NULL,"n",13,"a punch made of rum and brandy and water or tea sweetened with sugar syrup",NULL
+107948110,82915,20316,"may wine",114665,1,0,0,"may_wine%1:13:00::","May wine","n",13,"a punch made of Moselle and sugar and sparkling water or champagne flavored with sweet woodruff",NULL
+107948279,41013,NULL,"eggnog",57897,1,0,0,"eggnog%1:13:00::",NULL,"n",13,"a punch made of sweetened milk or cream mixed with eggs and usually alcoholic liquor",NULL
+107948416,58231,NULL,"glogg",80684,1,0,0,"glogg%1:13:00::",NULL,"n",13,"Scandinavian punch made of claret and aquavit with spices and raisins and orange peel and sugar",NULL
+107948563,21636,NULL,"cassiri",29472,1,0,0,"cassiri%1:13:00::",NULL,"n",13,"a drink resembling beer; made from fermented cassava juice",NULL
+107948694,124599,NULL,"spruce beer",174297,1,0,0,"spruce_beer%1:13:00::",NULL,"n",13,"a brew made by fermenting molasses and other sugars with the sap of spruce trees (sometimes with malt)",NULL
+107948854,111734,NULL,"rickey",155105,1,0,0,"rickey%1:13:00::",NULL,"n",13,"a mixed drink made of sweetened lime juice and soda water usually with liquor",NULL
+107949002,57810,NULL,"gin rickey",80065,1,0,0,"gin_rickey%1:13:00::",NULL,"n",13,"a rickey made with gin",NULL
+107949081,130787,NULL,"tea",183748,5,2,0,"tea%1:13:02::",NULL,"n",13,"dried leaves of the tea shrub; used to make tea","the store shelves held many different kinds of tea|they threw the tea into Boston harbor"
+107949081,130803,NULL,"tea leaf",183770,1,0,0,"tea_leaf%1:13:00::",NULL,"n",13,"dried leaves of the tea shrub; used to make tea","the store shelves held many different kinds of tea|they threw the tea into Boston harbor"
+107949394,130788,NULL,"tea bag",183755,1,0,0,"tea_bag%1:13:00::",NULL,"n",13,"a measured amount of tea in a bag for an individual serving of tea",NULL
+107949514,130787,NULL,"tea",183746,1,0,5,"tea%1:13:00::",NULL,"n",13,"a beverage made by steeping tea leaves in water","iced tea is a cooling drink"
+107949770,130819,NULL,"tea-like drink",183751,1,0,0,"tea-like_drink%1:13:00::",NULL,"n",13,"a beverage that resembles tea but is not made from tea leaves",NULL
+107949892,19776,NULL,"cambric tea",27007,1,0,0,"cambric_tea%1:13:00::",NULL,"n",13,"a beverage for children containing hot water and milk and sugar and a small amount of tea",NULL
+107950039,32450,NULL,"cuppa",45244,1,0,0,"cuppa%1:13:00::",NULL,"n",13,"a cup of tea",NULL
+107950039,32451,NULL,"cupper",45245,1,0,0,"cupper%1:13:00::",NULL,"n",13,"a cup of tea",NULL
+107950131,63479,NULL,"herb tea",87969,1,0,0,"herb_tea%1:13:00::",NULL,"n",13,"tea-like drink made of leaves of various herbs",NULL
+107950131,63484,NULL,"herbal",87974,1,0,0,"herbal%1:13:00::",NULL,"n",13,"tea-like drink made of leaves of various herbs",NULL
+107950131,63486,NULL,"herbal tea",87978,1,0,0,"herbal_tea%1:13:00::",NULL,"n",13,"tea-like drink made of leaves of various herbs",NULL
+107950272,133479,NULL,"tisane",187491,1,0,0,"tisane%1:13:00::",NULL,"n",13,"infusion of e.g. dried or fresh flowers or leaves",NULL
+107950392,19823,NULL,"camomile tea",27062,1,0,0,"camomile_tea%1:13:00::",NULL,"n",13,"tea-like drink made from camomile leaves and flowers",NULL
+107950522,66963,NULL,"ice tea",92628,1,0,0,"ice_tea%1:13:00::",NULL,"n",13,"strong tea served over ice",NULL
+107950522,66993,NULL,"iced tea",92648,1,0,0,"iced_tea%1:13:00::",NULL,"n",13,"strong tea served over ice",NULL
+107950613,128118,NULL,"sun tea",179832,1,0,0,"sun_tea%1:13:00::",NULL,"n",13,"tea made by exposing tea leaves steeped in water to the direct rays of the sun; usually served with ice",NULL
+107950770,14636,NULL,"black tea",19479,1,0,0,"black_tea%1:13:00::",NULL,"n",13,"fermented tea leaves",NULL
+107950918,28865,NULL,"congo",39828,4,0,0,"congo%1:13:00::",NULL,"n",13,"black tea grown in China",NULL
+107950918,28876,NULL,"congou",39843,1,0,0,"congou%1:13:00::",NULL,"n",13,"black tea grown in China",NULL
+107950918,28877,NULL,"congou tea",39844,1,0,0,"congou_tea%1:13:00::",NULL,"n",13,"black tea grown in China",NULL
+107950918,42487,10316,"english breakfast tea",59888,1,0,0,"english_breakfast_tea%1:13:00::","English breakfast tea","n",13,"black tea grown in China",NULL
+107951040,33616,8631,"darjeeling",46828,1,0,0,"darjeeling%1:13:00::","Darjeeling","n",13,"a fine variety of black tea grown in northern India",NULL
+107951148,93748,NULL,"orange pekoe",129038,1,0,0,"orange_pekoe%1:13:00::",NULL,"n",13,"a superior grade of black tea; grown in India and Sri Lanka and Java",NULL
+107951148,98007,NULL,"pekoe",134858,1,0,0,"pekoe%1:13:00::",NULL,"n",13,"a superior grade of black tea; grown in India and Sri Lanka and Java",NULL
+107951283,122816,NULL,"soochong",171572,1,0,0,"soochong%1:13:00::",NULL,"n",13,"a fine quality of black tea native to China",NULL
+107951283,122967,NULL,"souchong",171808,1,0,0,"souchong%1:13:00::",NULL,"n",13,"a fine quality of black tea native to China",NULL
+107951392,59929,NULL,"green tea",83061,1,0,0,"green_tea%1:13:00::",NULL,"n",13,"tea leaves that have been steamed and dried without fermenting",NULL
+107951528,66837,NULL,"hyson",92460,1,0,0,"hyson%1:13:00::",NULL,"n",13,"a Chinese green tea with twisted leaves",NULL
+107951619,93355,NULL,"oolong",128452,1,0,0,"oolong%1:13:00::",NULL,"n",13,"Chinese tea leaves that have been partially fermented before being dried",NULL
+107951744,143166,NULL,"water",201192,6,0,0,"water%1:13:00::",NULL,"n",13,"a liquid necessary for the life of most animals and plants","he asked for a drink of water"
+107951977,16412,NULL,"bottled water",22026,1,0,0,"bottled_water%1:13:00::",NULL,"n",13,"drinking water (often spring water) that is put into bottles and offered for sale",NULL
+107952118,16890,NULL,"branch water",22738,1,0,0,"branch_water%1:13:00::",NULL,"n",13,"pure natural water from a stream or brook; often distinguished from soda water",NULL
+107952255,124558,NULL,"spring water",174232,2,0,0,"spring_water%1:13:00::",NULL,"n",13,"water from a spring",NULL
+107952333,127879,NULL,"sugar water",179489,1,0,0,"sugar_water%1:13:00::",NULL,"n",13,"water sweetened with sugar",NULL
+107952417,130378,NULL,"tap water",183195,1,0,0,"tap_water%1:13:00::",NULL,"n",13,"water directly from the spigot",NULL
+107952503,39235,NULL,"drinking water",55422,1,0,1,"drinking_water%1:13:00::",NULL,"n",13,"water suitable for drinking",NULL
+107952699,66967,NULL,"ice water",92632,1,0,3,"ice_water%1:13:00::",NULL,"n",13,"water served ice-cold or with ice",NULL
+107952788,20860,NULL,"carbonated water",28422,1,0,0,"carbonated_water%1:13:00::",NULL,"n",13,"effervescent beverage artificially charged with carbon dioxide",NULL
+107952788,26363,NULL,"club soda",36058,1,0,0,"club_soda%1:13:00::",NULL,"n",13,"effervescent beverage artificially charged with carbon dioxide",NULL
+107952788,117487,NULL,"seltzer",163400,2,2,0,"seltzer%1:13:02::",NULL,"n",13,"effervescent beverage artificially charged with carbon dioxide",NULL
+107952788,122285,NULL,"soda water",170836,1,0,0,"soda_water%1:13:00::",NULL,"n",13,"effervescent beverage artificially charged with carbon dioxide",NULL
+107952788,123451,NULL,"sparkling water",172524,1,0,0,"sparkling_water%1:13:00::",NULL,"n",13,"effervescent beverage artificially charged with carbon dioxide",NULL
+107952985,85225,NULL,"mineral water",117618,1,1,0,"mineral_water%1:13:01::",NULL,"n",13,"water naturally or artificially impregnated with mineral salts or gasses; often effervescent; often used therapeutically",NULL
+107953219,117487,NULL,"seltzer",163399,1,1,0,"seltzer%1:13:01::",NULL,"n",13,"naturally effervescent mineral water",NULL
+107953309,141583,33041,"vichy water",198833,1,1,0,"vichy_water%1:13:01::","Vichy water","n",13,"sparkling mineral water from springs at Vichy, France or water similar to it",NULL
+107953443,17387,NULL,"brine",23557,2,0,0,"brine%1:13:00::",NULL,"n",13,"a strong solution of salt and water used for pickling",NULL

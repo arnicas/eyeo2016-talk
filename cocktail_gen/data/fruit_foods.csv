@@ -1,0 +1,349 @@
+"synsetid","wordid","casedwordid","lemma","senseid","sensenum","lexid","tagcount","sensekey","cased","pos","lexdomainid","definition","sampleset"
+107754546,11208,NULL,"banana peel",14706,1,0,0,"banana_peel%1:13:00::",NULL,"n",13,"the skin of a banana (especially when it is stripped off and discarded)","he slipped on a banana skin and almost fell"
+107754546,11211,NULL,"banana skin",14709,1,0,0,"banana_skin%1:13:00::",NULL,"n",13,"the skin of a banana (especially when it is stripped off and discarded)","he slipped on a banana skin and almost fell"
+107754736,76699,NULL,"lemon peel",106129,1,0,0,"lemon_peel%1:13:00::",NULL,"n",13,"the rind of a lemon",NULL
+107754736,76700,NULL,"lemon rind",106131,1,0,0,"lemon_rind%1:13:00::",NULL,"n",13,"the rind of a lemon",NULL
+107754881,93746,NULL,"orange peel",129035,1,0,0,"orange_peel%1:13:00::",NULL,"n",13,"the rind of an orange",NULL
+107754881,93750,NULL,"orange rind",129040,1,0,0,"orange_rind%1:13:00::",NULL,"n",13,"the rind of an orange",NULL
+107755011,145203,NULL,"windfall",204067,1,0,0,"windfall%1:13:00::",NULL,"n",13,"fruit that has fallen from the tree",NULL
+107755101,7007,NULL,"apple",9082,1,0,1,"apple%1:13:00::",NULL,"n",13,"fruit with red or yellow or green skin and sweet to tart crisp whitish flesh",NULL
+107755320,31066,NULL,"crab apple",43174,3,0,0,"crab_apple%1:13:00::",NULL,"n",13,"small sour apple; suitable for preserving","crabapples make a tangy jelly"
+107755320,31080,NULL,"crabapple",43184,3,0,0,"crabapple%1:13:00::",NULL,"n",13,"small sour apple; suitable for preserving","crabapples make a tangy jelly"
+107755482,35756,NULL,"dessert apple",50074,1,0,0,"dessert_apple%1:13:00::",NULL,"n",13,"an apple used primarily for eating raw without cooking",NULL
+107755482,40408,NULL,"eating apple",57126,1,0,0,"eating_apple%1:13:00::",NULL,"n",13,"an apple used primarily for eating raw without cooking",NULL
+107755899,11009,3333,"baldwin",14441,3,0,0,"baldwin%1:13:00::","Baldwin","n",13,"an American eating apple with red or yellow and red skin",NULL
+107756009,30366,7807,"cortland",42174,1,0,0,"cortland%1:13:00::","Cortland","n",13,"large apple with a red skin",NULL
+107756091,31032,7914,"cox's orange pippin",43112,1,0,0,"cox's_orange_pippin%1:13:00::","Cox's Orange Pippin","n",13,"a yellow Pippin with distinctive flavor",NULL
+107756196,34870,8824,"delicious",48747,1,0,0,"delicious%1:13:00::","Delicious","n",13,"variety of sweet eating apples",NULL
+107756318,58695,13001,"golden delicious",81385,1,0,0,"golden_delicious%1:13:00::","Golden Delicious","n",13,"a sweet eating apple with yellow skin",NULL
+107756318,146747,34264,"yellow delicious",206330,1,0,0,"yellow_delicious%1:13:00::","Yellow Delicious","n",13,"a sweet eating apple with yellow skin",NULL
+107756437,109336,26585,"red delicious",151203,1,0,0,"red_delicious%1:13:00::","Red Delicious","n",13,"a sweet eating apple with bright red skin; most widely grown apple worldwide",NULL
+107756573,42069,10272,"empire",59239,5,0,0,"empire%1:13:00::","Empire","n",13,"an eating apple that somewhat resembles a McIntosh; used as both an eating and a cooking apple",NULL
+107756720,60155,13349,"grimes' golden",83346,1,0,0,"grimes'_golden%1:13:00::","Grimes' golden","n",13,"yellow apple that ripens in late autumn; eaten raw",NULL
+107756831,72589,16741,"jonathan",100602,1,0,0,"jonathan%1:13:00::","Jonathan","n",13,"red late-ripening apple; primarily eaten raw",NULL
+107756930,82985,20356,"mcintosh",114749,1,0,0,"mcintosh%1:13:00::","McIntosh","n",13,"early-ripening apple popular in the northeastern United States; primarily eaten raw but suitable for applesauce",NULL
+107757114,80457,19460,"macoun",111281,1,0,0,"macoun%1:13:00::","Macoun","n",13,"similar to McIntosh; juicy and late-ripening",NULL
+107757211,91307,22616,"northern spy",125691,1,0,0,"northern_spy%1:13:00::","Northern Spy","n",13,"large late-ripening apple with skin striped with yellow and red",NULL
+107757333,97799,24118,"pearmain",134570,1,0,0,"pearmain%1:13:00::","Pearmain","n",13,"any of several varieties of apples with red skins",NULL
+107757437,100855,24956,"pippin",138499,1,0,0,"pippin%1:13:00::","Pippin","n",13,"any of numerous superior eating apples with yellow or greenish yellow skin flushed with red",NULL
+107757599,104506,25641,"prima",143886,1,0,0,"prima%1:13:00::","Prima","n",13,"used primarily as eating apples",NULL
+107757682,125551,30213,"stayman",175806,1,0,0,"stayman%1:13:00::","Stayman","n",13,"apple grown chiefly in the Shenandoah Valley",NULL
+107757780,145297,33943,"winesap",204189,1,0,0,"winesap%1:13:00::","Winesap","n",13,"crisp apple with dark red skin",NULL
+107757864,125552,30214,"stayman winesap",175807,1,0,0,"stayman_winesap%1:13:00::","Stayman Winesap","n",13,"crisp tart apple; good for eating raw and suitable for cooking",NULL
+107757988,29698,NULL,"cooking apple",41248,1,0,0,"cooking_apple%1:13:00::",NULL,"n",13,"an apple used primarily in cooking for pies and applesauce etc",NULL
+107758200,16882,4539,"bramley's seedling",22722,1,0,0,"bramley's_seedling%1:13:00::","Bramley's Seedling","n",13,"very large cooking apple",NULL
+107758289,59412,13186,"granny smith",82351,1,0,0,"granny_smith%1:13:00::","Granny Smith","n",13,"apple with a green skin and hard tart flesh",NULL
+107758391,75390,17966,"lane's prince albert",104287,1,0,0,"lane's_prince_albert%1:13:00::","Lane's Prince Albert","n",13,"apple used primarily in cooking",NULL
+107758489,90042,22337,"newtown wonder",124104,1,0,0,"newtown_wonder%1:13:00::","Newtown Wonder","n",13,"apple used primarily in cooking",NULL
+107758581,112723,27327,"rome beauty",156605,1,0,0,"rome_beauty%1:13:00::","Rome Beauty","n",13,"large red apple used primarily for baking",NULL
+107758680,13385,NULL,"berry",17772,1,0,3,"berry%1:13:00::",NULL,"n",13,"any of numerous small and pulpy edible fruits; used as desserts or in making jams and jellies and preserves",NULL
+107759200,13882,NULL,"bilberry",18417,3,0,0,"bilberry%1:13:00::",NULL,"n",13,"blue-black berries similar to American blueberries",NULL
+107759200,44181,10951,"european blueberry",62058,1,0,0,"european_blueberry%1:13:00::","European blueberry","n",13,"blue-black berries similar to American blueberries",NULL
+107759200,144684,NULL,"whortleberry",203365,2,0,0,"whortleberry%1:13:00::",NULL,"n",13,"blue-black berries similar to American blueberries",NULL
+107759360,65783,NULL,"huckleberry",91148,3,0,0,"huckleberry%1:13:00::",NULL,"n",13,"blue-black berry similar to blueberries and bilberries of the eastern United States",NULL
+107759520,15420,NULL,"blueberry",20626,2,0,0,"blueberry%1:13:00::",NULL,"n",13,"sweet edible dark-blue berries of either low-growing or high-growing blueberry plants",NULL
+107759699,16651,NULL,"boxberry",22404,2,0,0,"boxberry%1:13:00::",NULL,"n",13,"spicy red berrylike fruit; source of wintergreen oil",NULL
+107759699,23558,NULL,"checkerberry",32222,2,0,0,"checkerberry%1:13:00::",NULL,"n",13,"spicy red berrylike fruit; source of wintergreen oil",NULL
+107759699,123891,NULL,"spiceberry",173157,2,1,0,"spiceberry%1:13:01::",NULL,"n",13,"spicy red berrylike fruit; source of wintergreen oil",NULL
+107759699,130822,NULL,"teaberry",183786,2,0,0,"teaberry%1:13:00::",NULL,"n",13,"spicy red berrylike fruit; source of wintergreen oil",NULL
+107759699,145396,NULL,"wintergreen",204342,3,0,0,"wintergreen%1:13:00::",NULL,"n",13,"spicy red berrylike fruit; source of wintergreen oil",NULL
+107759878,31158,NULL,"cranberry",43337,2,0,0,"cranberry%1:13:00::",NULL,"n",13,"very tart red berry used for sauce or juice",NULL
+107760033,30991,NULL,"cowberry",43056,2,0,0,"cowberry%1:13:00::",NULL,"n",13,"tart red berries similar to American cranberries but smaller",NULL
+107760033,78003,NULL,"lingonberry",108006,2,0,0,"lingonberry%1:13:00::",NULL,"n",13,"tart red berries similar to American cranberries but smaller",NULL
+107760033,79597,NULL,"lowbush cranberry",110202,1,0,0,"lowbush_cranberry%1:13:00::",NULL,"n",13,"tart red berries similar to American cranberries but smaller",NULL
+107760033,87105,NULL,"mountain cranberry",120278,2,0,0,"mountain_cranberry%1:13:00::",NULL,"n",13,"tart red berries similar to American cranberries but smaller",NULL
+107760222,32560,NULL,"currant",45394,1,1,1,"currant%1:13:01::",NULL,"n",13,"any of several tart red or black berries used primarily for jellies and jams",NULL
+107760406,58995,NULL,"gooseberry",81759,2,0,0,"gooseberry%1:13:00::",NULL,"n",13,"currant-like berry used primarily in jams and jellies",NULL
+107760535,14524,NULL,"black currant",19341,2,0,0,"black_currant%1:13:00::",NULL,"n",13,"small black berries used in jams and jellies",NULL
+107760658,109332,NULL,"red currant",151198,2,0,0,"red_currant%1:13:00::",NULL,"n",13,"small red berries used primarily in jams and jellies",NULL
+107760787,14691,NULL,"blackberry",19505,1,0,2,"blackberry%1:13:00::",NULL,"n",13,"large sweet black or very dark purple edible aggregate fruit of any of various bushes of the genus Rubus",NULL
+107761022,16692,NULL,"boysenberry",22458,2,0,0,"boysenberry%1:13:00::",NULL,"n",13,"large raspberry-flavored fruit; cross between blackberries and raspberries",NULL
+107761173,36044,NULL,"dewberry",50557,2,0,0,"dewberry%1:13:00::",NULL,"n",13,"blackberry-like fruits of any of several trailing blackberry bushes",NULL
+107761333,78830,NULL,"loganberry",109156,2,0,0,"loganberry%1:13:00::",NULL,"n",13,"large red variety of the dewberry",NULL
+107761442,108473,NULL,"raspberry",149669,2,0,0,"raspberry%1:13:00::",NULL,"n",13,"red or black edible aggregate berries usually smaller than the related blackberries",NULL
+107761637,72954,NULL,"juneberry",101122,2,0,0,"juneberry%1:13:00::",NULL,"n",13,"edible purple or red berries",NULL
+107761637,115126,NULL,"saskatoon",159972,2,0,0,"saskatoon%1:13:00::",NULL,"n",13,"edible purple or red berries",NULL
+107761637,118158,NULL,"serviceberry",164347,2,0,0,"serviceberry%1:13:00::",NULL,"n",13,"edible purple or red berries",NULL
+107761637,118491,NULL,"shadberry",164904,1,0,0,"shadberry%1:13:00::",NULL,"n",13,"edible purple or red berries",NULL
+107761779,75446,NULL,"lansa",104361,1,0,0,"lansa%1:13:00::",NULL,"n",13,"East Indian tart yellow berrylike fruit",NULL
+107761779,75447,NULL,"lansat",104362,1,0,0,"lansat%1:13:00::",NULL,"n",13,"East Indian tart yellow berrylike fruit",NULL
+107761779,75448,NULL,"lanseh",104363,1,0,0,"lanseh%1:13:00::",NULL,"n",13,"East Indian tart yellow berrylike fruit",NULL
+107761779,75450,NULL,"lanset",104365,1,0,0,"lanset%1:13:00::",NULL,"n",13,"East Indian tart yellow berrylike fruit",NULL
+107761916,126643,NULL,"strawberry",177546,1,0,1,"strawberry%1:13:00::",NULL,"n",13,"sweet fleshy red fruit",NULL
+107762014,61132,NULL,"hackberry",84712,2,0,0,"hackberry%1:13:00::",NULL,"n",13,"small edible dark purple to black berry with large pits; southern United States",NULL
+107762014,127882,NULL,"sugarberry",179490,2,0,0,"sugarberry%1:13:00::",NULL,"n",13,"small edible dark purple to black berry with large pits; southern United States",NULL
+107762162,98862,NULL,"persimmon",135967,2,0,0,"persimmon%1:13:00::",NULL,"n",13,"orange fruit resembling a plum; edible when fully ripe",NULL
+107762310,1209,NULL,"acerola",1657,2,0,0,"acerola%1:13:00::",NULL,"n",13,"acid red or yellow cherry-like fruit of a tropical American shrub very rich in vitamin C",NULL
+107762310,11451,NULL,"barbados cherry",15066,2,0,0,"barbados_cherry%1:13:00::",NULL,"n",13,"acid red or yellow cherry-like fruit of a tropical American shrub very rich in vitamin C",NULL
+107762310,128619,NULL,"surinam cherry",180570,3,0,0,"surinam_cherry%1:13:00::",NULL,"n",13,"acid red or yellow cherry-like fruit of a tropical American shrub very rich in vitamin C",NULL
+107762310,143958,33608,"west indian cherry",202364,2,0,0,"west_indian_cherry%1:13:00::","West Indian cherry","n",13,"acid red or yellow cherry-like fruit of a tropical American shrub very rich in vitamin C",NULL
+107762527,20781,NULL,"carambola",28325,2,0,0,"carambola%1:13:00::",NULL,"n",13,"deeply ridged yellow-brown tropical fruit; used raw as a vegetable or in salad or when fully ripe as a dessert",NULL
+107762527,125295,NULL,"star fruit",175431,1,0,0,"star_fruit%1:13:00::",NULL,"n",13,"deeply ridged yellow-brown tropical fruit; used raw as a vegetable or in salad or when fully ripe as a dessert",NULL
+107762725,22749,NULL,"ceriman",30973,2,0,0,"ceriman%1:13:00::",NULL,"n",13,"tropical cylindrical fruit resembling a pinecone with pineapple-banana flavor",NULL
+107762725,86462,NULL,"monstera",119373,2,0,0,"monstera%1:13:00::",NULL,"n",13,"tropical cylindrical fruit resembling a pinecone with pineapple-banana flavor",NULL
+107762886,21118,NULL,"carissa plum",28759,1,0,0,"carissa_plum%1:13:00::",NULL,"n",13,"edible scarlet plumlike fruit of a South African plant",NULL
+107762886,88796,NULL,"natal plum",122464,3,0,0,"natal_plum%1:13:00::",NULL,"n",13,"edible scarlet plumlike fruit of a South African plant",NULL
+107763031,25310,NULL,"citrous fruit",34459,1,0,0,"citrous_fruit%1:13:00::",NULL,"n",13,"any of numerous fruits of the genus Citrus having thick rind and juicy pulp; grown in warm regions",NULL
+107763031,25314,NULL,"citrus",34463,1,0,1,"citrus%1:13:00::",NULL,"n",13,"any of numerous fruits of the genus Citrus having thick rind and juicy pulp; grown in warm regions",NULL
+107763031,25319,NULL,"citrus fruit",34469,1,0,0,"citrus_fruit%1:13:00::",NULL,"n",13,"any of numerous fruits of the genus Citrus having thick rind and juicy pulp; grown in warm regions",NULL
+107763431,116960,NULL,"section",162652,13,0,0,"section%1:13:00::",NULL,"n",13,"a segment of a citrus fruit","he ate a section of the orange"
+107763583,93728,NULL,"orange",129004,1,0,4,"orange%1:13:00::",NULL,"n",13,"round yellow to orange fruit of any of several citrus trees",NULL
+107763787,131242,NULL,"temple orange",184359,2,0,0,"temple_orange%1:13:00::",NULL,"n",13,"large sweet easily-peeled Florida fruit with deep orange rind",NULL
+107763927,81476,NULL,"mandarin",112658,5,0,0,"mandarin%1:13:00::",NULL,"n",13,"a somewhat flat reddish-orange loose skinned citrus of China",NULL
+107763927,81480,NULL,"mandarin orange",112666,2,0,0,"mandarin_orange%1:13:00::",NULL,"n",13,"a somewhat flat reddish-orange loose skinned citrus of China",NULL
+107764133,25906,NULL,"clementine",35334,2,0,0,"clementine%1:13:00::",NULL,"n",13,"a mandarin orange of a deep reddish orange color and few seeds",NULL
+107764252,115197,NULL,"satsuma",160065,2,0,0,"satsuma%1:13:00::",NULL,"n",13,"medium-sized largely seedless mandarin orange with thin smooth skin",NULL
+107764392,130276,NULL,"tangerine",183032,2,0,0,"tangerine%1:13:00::",NULL,"n",13,"any of various deep orange mandarins grown in the United States and southern Africa",NULL
+107764550,130269,NULL,"tangelo",183020,2,0,0,"tangelo%1:13:00::",NULL,"n",13,"large sweet juicy hybrid between tangerine and grapefruit having a thick wrinkled skin",NULL
+107764550,136996,NULL,"ugli",192675,1,0,0,"ugli%1:13:00::",NULL,"n",13,"large sweet juicy hybrid between tangerine and grapefruit having a thick wrinkled skin",NULL
+107764550,136997,NULL,"ugli fruit",192676,2,0,0,"ugli_fruit%1:13:00::",NULL,"n",13,"large sweet juicy hybrid between tangerine and grapefruit having a thick wrinkled skin",NULL
+107764729,14420,NULL,"bitter orange",19142,2,0,0,"bitter_orange%1:13:00::",NULL,"n",13,"highly acidic orange used especially in marmalade",NULL
+107764729,118344,28949,"seville orange",164713,2,0,0,"seville_orange%1:13:00::","Seville orange","n",13,"highly acidic orange used especially in marmalade",NULL
+107764729,123072,NULL,"sour orange",171978,2,0,0,"sour_orange%1:13:00::",NULL,"n",13,"highly acidic orange used especially in marmalade",NULL
+107764888,129015,NULL,"sweet orange",181193,1,0,1,"sweet_orange%1:13:00::",NULL,"n",13,"orange with sweet juicy pulp; often has a thin skin",NULL
+107765071,71501,16006,"jaffa orange",99237,1,0,0,"jaffa_orange%1:13:00::","Jaffa orange","n",13,"sweet almost seedless orange of Israel",NULL
+107765168,89045,NULL,"navel orange",122805,1,0,0,"navel_orange%1:13:00::",NULL,"n",13,"seedless orange enclosing a small secondary fruit at the apex",NULL
+107765288,140374,32796,"valencia orange",197239,1,0,0,"valencia_orange%1:13:00::","Valencia orange","n",13,"variety of sweet orange cultivated extensively in Florida and California",NULL
+107765422,74616,NULL,"kumquat",103313,2,0,0,"kumquat%1:13:00::",NULL,"n",13,"small oval citrus fruit with thin sweet rind and very acid pulp",NULL
+107765558,76684,NULL,"lemon",106106,1,0,4,"lemon%1:13:00::",NULL,"n",13,"yellow oval fruit with juicy acidic flesh",NULL
+107765707,77774,NULL,"lime",107647,6,0,0,"lime%1:13:00::",NULL,"n",13,"the green acidic fruit of any of various lime trees",NULL
+107765846,73723,NULL,"key lime",102114,1,0,0,"key_lime%1:13:00::",NULL,"n",13,"small yellow-green limes of southern Florida",NULL
+107765945,59462,NULL,"grapefruit",82422,2,0,0,"grapefruit%1:13:00::",NULL,"n",13,"large yellow fruit with somewhat acid juicy pulp; usual serving consists of a half",NULL
+107766122,102720,NULL,"pomelo",141175,2,0,0,"pomelo%1:13:00::",NULL,"n",13,"large pear-shaped fruit similar to grapefruit but with coarse dry pulp",NULL
+107766122,118494,NULL,"shaddock",164907,2,0,0,"shaddock%1:13:00::",NULL,"n",13,"large pear-shaped fruit similar to grapefruit but with coarse dry pulp",NULL
+107766275,25294,NULL,"citrange",34438,2,0,0,"citrange%1:13:00::",NULL,"n",13,"more aromatic and acid tasting than oranges; used in beverages and marmalade",NULL
+107766425,25302,NULL,"citron",34448,1,0,1,"citron%1:13:00::",NULL,"n",13,"large lemonlike fruit with thick aromatic rind; usually preserved",NULL
+107766562,4092,NULL,"almond",5490,2,0,0,"almond%1:13:00::",NULL,"n",13,"oval-shaped edible seed of the almond tree",NULL
+107766712,72607,16755,"jordan almond",100629,2,0,0,"jordan_almond%1:13:00::","Jordan almond","n",13,"an almond covered with a sugar coating that is hard and flavored and colored",NULL
+107766848,7152,NULL,"apricot",9333,2,0,0,"apricot%1:13:00::",NULL,"n",13,"downy yellow to rosy-colored fruit resembling a small peach",NULL
+107766980,97713,NULL,"peach",134456,3,0,0,"peach%1:13:00::",NULL,"n",13,"downy juicy fruit with sweet yellowish or whitish flesh",NULL
+107767124,89214,NULL,"nectarine",123045,2,0,0,"nectarine%1:13:00::",NULL,"n",13,"a variety or mutation of the peach that has a smooth skin",NULL
+107767256,100963,NULL,"pitahaya",138649,2,0,0,"pitahaya%1:13:00::",NULL,"n",13,"highly colored edible fruit of pitahaya cactus having bright red juice; often as large as a peach",NULL
+107767427,101825,NULL,"plum",139945,2,0,0,"plum%1:13:00::",NULL,"n",13,"any of numerous varieties of small to medium-sized round or oval fruit having a smooth skin and a single pit",NULL
+107767713,33468,NULL,"damson",46644,1,0,0,"damson%1:13:00::",NULL,"n",13,"dark purple plum of the damson tree",NULL
+107767713,33469,NULL,"damson plum",46645,3,0,0,"damson_plum%1:13:00::",NULL,"n",13,"dark purple plum of the damson tree",NULL
+107767834,59952,NULL,"greengage",83077,1,0,0,"greengage%1:13:00::",NULL,"n",13,"sweet green or greenish-yellow variety of plum",NULL
+107767834,59953,NULL,"greengage plum",83078,1,0,0,"greengage_plum%1:13:00::",NULL,"n",13,"sweet green or greenish-yellow variety of plum",NULL
+107767953,12364,NULL,"beach plum",16304,2,0,0,"beach_plum%1:13:00::",NULL,"n",13,"small dark purple fruit used especially in jams and pies",NULL
+107768085,121398,NULL,"sloe",169388,3,0,0,"sloe%1:13:00::",NULL,"n",13,"small sour dark purple fruit of especially the Allegheny plum bush",NULL
+107768240,141630,33068,"victoria plum",198899,1,0,0,"victoria_plum%1:13:00::","Victoria plum","n",13,"a large red plum served as dessert",NULL
+107768353,39181,NULL,"dried fruit",55330,1,0,0,"dried_fruit%1:13:00::",NULL,"n",13,"fruit preserved by drying",NULL
+107768490,39180,NULL,"dried apricot",55329,1,0,0,"dried_apricot%1:13:00::",NULL,"n",13,"apricots preserved by drying",NULL
+107768578,105702,NULL,"prune",145688,1,0,0,"prune%1:13:00::",NULL,"n",13,"dried plum",NULL
+107768640,108137,NULL,"raisin",149168,1,0,0,"raisin%1:13:00::",NULL,"n",13,"dried grape",NULL
+107768758,117095,NULL,"seedless raisin",162895,1,0,0,"seedless_raisin%1:13:00::",NULL,"n",13,"dried seedless grape",NULL
+107768758,128008,NULL,"sultana",179669,2,1,0,"sultana%1:13:01::",NULL,"n",13,"dried seedless grape",NULL
+107768850,117091,NULL,"seeded raisin",162889,1,0,0,"seeded_raisin%1:13:00::",NULL,"n",13,"seeded grape that has been dried",NULL
+107768942,32560,NULL,"currant",45395,3,2,0,"currant%1:13:02::",NULL,"n",13,"small dried seedless raisin grown in the Mediterranean region and California; used in cooking",NULL
+107769089,48300,NULL,"fig",67761,4,0,0,"fig%1:13:00::",NULL,"n",13,"fleshy sweet pear-shaped yellowish or purple multiple fruit eaten fresh or preserved or dried",NULL
+107769251,5258,NULL,"ananas",6926,2,0,0,"ananas%1:13:00::",NULL,"n",13,"large sweet fleshy tropical fruit with a terminal tuft of stiff leaves; widely cultivated",NULL
+107769251,100605,NULL,"pineapple",138185,2,0,0,"pineapple%1:13:00::",NULL,"n",13,"large sweet fleshy tropical fruit with a terminal tuft of stiff leaves; widely cultivated",NULL
+107769424,5379,NULL,"anchovy pear",7072,2,0,0,"anchovy_pear%1:13:00::",NULL,"n",13,"West Indian fruit resembling the mango; often pickled",NULL
+107769424,112158,NULL,"river pear",155811,1,0,0,"river_pear%1:13:00::",NULL,"n",13,"West Indian fruit resembling the mango; often pickled",NULL
+107769568,11202,NULL,"banana",14699,2,0,1,"banana%1:13:00::",NULL,"n",13,"elongated crescent-shaped yellow fruit with soft sweet flesh",NULL
+107769719,97257,NULL,"passion fruit",133777,1,0,0,"passion_fruit%1:13:00::",NULL,"n",13,"egg-shaped tropical fruit of certain passionflower vines; used for sherbets and confectionery and drinks",NULL
+107769956,59328,NULL,"granadilla",82238,4,0,0,"granadilla%1:13:00::",NULL,"n",13,"the egg-shaped edible fruit of tropical American vines related to passionflowers",NULL
+107770131,128984,NULL,"sweet calabash",181152,2,0,0,"sweet_calabash%1:13:00::",NULL,"n",13,"apple-sized passion fruit of the West Indies",NULL
+107770255,12956,NULL,"bell apple",17216,1,0,0,"bell_apple%1:13:00::",NULL,"n",13,"the edible yellow fruit of the Jamaica honeysuckle",NULL
+107770255,128995,NULL,"sweet cup",181169,1,0,0,"sweet_cup%1:13:00::",NULL,"n",13,"the edible yellow fruit of the Jamaica honeysuckle",NULL
+107770255,143241,NULL,"water lemon",201320,1,0,0,"water_lemon%1:13:00::",NULL,"n",13,"the edible yellow fruit of the Jamaica honeysuckle",NULL
+107770255,146758,NULL,"yellow granadilla",206341,2,0,0,"yellow_granadilla%1:13:00::",NULL,"n",13,"the edible yellow fruit of the Jamaica honeysuckle",NULL
+107770427,17071,NULL,"breadfruit",22977,2,0,0,"breadfruit%1:13:00::",NULL,"n",13,"a large round seedless or seeded fruit with a texture like bread; eaten boiled or baked or roasted or ground into flour; the roasted seeds resemble chestnuts",NULL
+107770660,71374,NULL,"jack",99059,4,0,0,"jack%1:13:00::",NULL,"n",13,"immense East Indian fruit resembling breadfruit; it contains an edible pulp and nutritious seeds that are commonly roasted",NULL
+107770660,71415,NULL,"jackfruit",99116,2,0,0,"jackfruit%1:13:00::",NULL,"n",13,"immense East Indian fruit resembling breadfruit; it contains an edible pulp and nutritious seeds that are commonly roasted",NULL
+107770660,71543,NULL,"jak",99288,1,0,0,"jak%1:13:00::",NULL,"n",13,"immense East Indian fruit resembling breadfruit; it contains an edible pulp and nutritious seeds that are commonly roasted",NULL
+107770870,19100,NULL,"cacao bean",26110,1,0,0,"cacao_bean%1:13:00::",NULL,"n",13,"seed of the cacao tree; ground roasted beans are source of chocolate",NULL
+107770870,26766,NULL,"cocoa bean",36596,1,0,0,"cocoa_bean%1:13:00::",NULL,"n",13,"seed of the cacao tree; ground roasted beans are source of chocolate",NULL
+107771065,26765,NULL,"cocoa",36594,2,1,0,"cocoa%1:13:01::",NULL,"n",13,"powder of ground roasted cacao beans with most of the fat removed",NULL
+107771238,20126,NULL,"canistel",27444,2,0,0,"canistel%1:13:00::",NULL,"n",13,"ovoid orange-yellow mealy sweet fruit of Florida and West Indies",NULL
+107771238,41011,NULL,"eggfruit",57895,1,0,0,"eggfruit%1:13:00::",NULL,"n",13,"ovoid orange-yellow mealy sweet fruit of Florida and West Indies",NULL
+107771387,83581,NULL,"melon",115550,1,0,2,"melon%1:13:00::",NULL,"n",13,"any of numerous fruits of the gourd family having a hard rind and sweet juicy flesh",NULL
+107771595,83582,NULL,"melon ball",115552,1,0,0,"melon_ball%1:13:00::",NULL,"n",13,"a bite of melon cut as a sphere",NULL
+107771683,87964,NULL,"muskmelon",121424,2,0,0,"muskmelon%1:13:00::",NULL,"n",13,"the fruit of a muskmelon vine; any of several sweet melons related to cucumbers",NULL
+107771683,129011,NULL,"sweet melon",181188,2,0,0,"sweet_melon%1:13:00::",NULL,"n",13,"the fruit of a muskmelon vine; any of several sweet melons related to cucumbers",NULL
+107771905,20222,NULL,"cantaloup",27583,2,0,0,"cantaloup%1:13:00::",NULL,"n",13,"the fruit of a cantaloup vine; small to medium-sized melon with yellowish flesh",NULL
+107771905,20224,NULL,"cantaloupe",27586,2,0,0,"cantaloupe%1:13:00::",NULL,"n",13,"the fruit of a cantaloup vine; small to medium-sized melon with yellowish flesh",NULL
+107772072,145372,NULL,"winter melon",204317,2,0,0,"winter_melon%1:13:00::",NULL,"n",13,"the fruit of the winter melon vine; a green melon with pale green to orange flesh that keeps well",NULL
+107772301,65030,NULL,"honeydew",90073,1,0,0,"honeydew%1:13:00::",NULL,"n",13,"the fruit of a variety of winter melon vine; a large smooth greenish-white melon with pale green flesh",NULL
+107772301,65031,NULL,"honeydew melon",90074,2,0,0,"honeydew_melon%1:13:00::",NULL,"n",13,"the fruit of a variety of winter melon vine; a large smooth greenish-white melon with pale green flesh",NULL
+107772475,98858,24380,"persian melon",135962,2,0,0,"persian_melon%1:13:00::","Persian melon","n",13,"the fruit of a variety of winter melon vine; a large green melon with orange flesh",NULL
+107772617,89641,NULL,"net melon",123610,2,0,0,"net_melon%1:13:00::",NULL,"n",13,"the fruit of a variety of muskmelon vine; a melon with netlike markings and deep green flesh",NULL
+107772617,89661,NULL,"netted melon",123635,2,0,0,"netted_melon%1:13:00::",NULL,"n",13,"the fruit of a variety of muskmelon vine; a melon with netlike markings and deep green flesh",NULL
+107772617,91823,NULL,"nutmeg melon",126400,2,0,0,"nutmeg_melon%1:13:00::",NULL,"n",13,"the fruit of a variety of muskmelon vine; a melon with netlike markings and deep green flesh",NULL
+107772814,21490,NULL,"casaba",29271,1,0,0,"casaba%1:13:00::",NULL,"n",13,"melon having yellowish rind and whitish flesh",NULL
+107772814,21491,NULL,"casaba melon",29272,1,0,0,"casaba_melon%1:13:00::",NULL,"n",13,"melon having yellowish rind and whitish flesh",NULL
+107772927,143386,NULL,"watermelon",201479,2,0,0,"watermelon%1:13:00::",NULL,"n",13,"large oblong or roundish melon with a hard green rind and sweet watery red or occasionally yellowish pulp",NULL
+107773108,23795,NULL,"cherry",32511,3,0,0,"cherry%1:13:00::",NULL,"n",13,"a red fruit with a single hard stone",NULL
+107773288,14517,NULL,"black cherry",19332,2,0,0,"black_cherry%1:13:00::",NULL,"n",13,"any of several fruits of cultivated cherry trees that have sweet flesh",NULL
+107773288,128987,NULL,"sweet cherry",181156,2,0,0,"sweet_cherry%1:13:00::",NULL,"n",13,"any of several fruits of cultivated cherry trees that have sweet flesh",NULL
+107773487,14041,NULL,"bing cherry",18655,1,0,0,"bing_cherry%1:13:00::",NULL,"n",13,"dark red or blackish sweet cherry",NULL
+107773578,62670,NULL,"heart cherry",86920,2,0,0,"heart_cherry%1:13:00::",NULL,"n",13,"large heart-shaped sweet cherry with soft flesh",NULL
+107773578,95522,NULL,"oxheart",131366,2,0,0,"oxheart%1:13:00::",NULL,"n",13,"large heart-shaped sweet cherry with soft flesh",NULL
+107773578,95523,NULL,"oxheart cherry",131368,2,0,0,"oxheart_cherry%1:13:00::",NULL,"n",13,"large heart-shaped sweet cherry with soft flesh",NULL
+107773729,14719,NULL,"blackheart",19547,2,0,0,"blackheart%1:13:00::",NULL,"n",13,"heart cherry with dark flesh and skin cherry",NULL
+107773729,14720,NULL,"blackheart cherry",19549,1,0,0,"blackheart_cherry%1:13:00::",NULL,"n",13,"heart cherry with dark flesh and skin cherry",NULL
+107773850,20725,NULL,"capulin",28263,2,0,0,"capulin%1:13:00::",NULL,"n",13,"Mexican black cherry",NULL
+107773850,84428,20724,"mexican black cherry",116619,1,0,0,"mexican_black_cherry%1:13:00::","Mexican black cherry","n",13,"Mexican black cherry",NULL
+107773966,123060,NULL,"sour cherry",171961,3,0,0,"sour_cherry%1:13:00::",NULL,"n",13,"acid cherries used for pies and preserves",NULL
+107774101,4444,NULL,"amarelle",5934,2,0,0,"amarelle%1:13:00::",NULL,"n",13,"pale red sour cherry with colorless or nearly colorless juice",NULL
+107774236,86680,NULL,"morello",119691,2,0,0,"morello%1:13:00::",NULL,"n",13,"cultivated sour cherry with dark-colored skin and juice",NULL
+107774383,26763,NULL,"coco plum",36591,2,0,0,"coco_plum%1:13:00::",NULL,"n",13,"plum-shaped whitish to almost black fruit used for preserves; tropical American",NULL
+107774383,26769,NULL,"cocoa plum",36600,2,0,0,"cocoa_plum%1:13:00::",NULL,"n",13,"plum-shaped whitish to almost black fruit used for preserves; tropical American",NULL
+107774383,66925,NULL,"icaco",92563,2,0,0,"icaco%1:13:00::",NULL,"n",13,"plum-shaped whitish to almost black fruit used for preserves; tropical American",NULL
+107774558,57591,NULL,"gherkin",79773,1,2,0,"gherkin%1:13:02::",NULL,"n",13,"any of various small cucumbers pickled whole",NULL
+107774656,59449,NULL,"grape",82408,1,0,2,"grape%1:13:00::",NULL,"n",13,"any of various juicy fruit of the genus Vitis with green or purple skins; grow in clusters",NULL
+107774926,50857,NULL,"fox grape",71874,2,0,0,"fox_grape%1:13:00::",NULL,"n",13,"purplish-black wild grape of the eastern United States with tough skins that slip easily from the flesh; cultivated in many varieties",NULL
+107775170,28561,7539,"concord grape",39295,1,0,0,"concord_grape%1:13:00::","Concord grape","n",13,"slipskin grape; a purple table grape of the northeastern United States",NULL
+107775300,21853,5981,"catawba",29788,2,0,0,"catawba%1:13:00::","Catawba","n",13,"slipskin grape; a reddish American table grape",NULL
+107775400,18251,NULL,"bullace grape",24840,1,0,0,"bullace_grape%1:13:00::",NULL,"n",13,"dull-purple grape of southern United States",NULL
+107775400,87757,NULL,"muscadine",121166,2,0,0,"muscadine%1:13:00::",NULL,"n",13,"dull-purple grape of southern United States",NULL
+107775552,116464,NULL,"scuppernong",161959,1,0,0,"scuppernong%1:13:00::",NULL,"n",13,"amber-green muscadine grape of southeastern United States",NULL
+107775667,121378,NULL,"slipskin grape",169358,1,0,0,"slipskin_grape%1:13:00::",NULL,"n",13,"a grape whose skin slips readily from the pulp",NULL
+107775792,141812,NULL,"vinifera grape",199154,2,0,0,"vinifera_grape%1:13:00::",NULL,"n",13,"grape from a cultivated variety of the common grape vine of Europe",NULL
+107776046,42048,NULL,"emperor",59210,2,0,0,"emperor%1:13:00::",NULL,"n",13,"red table grape of California",NULL
+107776129,87764,NULL,"muscat",121174,4,1,0,"muscat%1:13:01::",NULL,"n",13,"sweet aromatic grape used for raisins and wine",NULL
+107776129,87766,NULL,"muscat grape",121179,1,0,0,"muscat_grape%1:13:00::",NULL,"n",13,"sweet aromatic grape used for raisins and wine",NULL
+107776129,87767,NULL,"muscatel",121180,2,1,0,"muscatel%1:13:01::",NULL,"n",13,"sweet aromatic grape used for raisins and wine",NULL
+107776273,111625,NULL,"ribier",154963,1,0,0,"ribier%1:13:00::",NULL,"n",13,"dark reddish-purple table grape of California",NULL
+107776371,128008,NULL,"sultana",179670,1,2,0,"sultana%1:13:02::",NULL,"n",13,"pale yellow seedless grape used for raisins and wine",NULL
+107776477,133766,31713,"tokay",187866,2,1,0,"tokay%1:13:01::","Tokay","n",13,"variety of wine grape originally grown in Hungary; the prototype of vinifera grapes",NULL
+107776649,49191,NULL,"flame tokay",69152,1,0,0,"flame_tokay%1:13:00::",NULL,"n",13,"purplish-red table grape",NULL
+107776731,132542,31486,"thompson seedless",186091,1,0,0,"thompson_seedless%1:13:00::","Thompson Seedless","n",13,"seedless green table grape of California",NULL
+107776835,32675,NULL,"custard apple",45569,2,0,0,"custard_apple%1:13:00::",NULL,"n",13,"the fruit of any of several tropical American trees of the genus Annona having soft edible pulp",NULL
+107777117,23784,NULL,"cherimolla",32497,1,0,0,"cherimolla%1:13:00::",NULL,"n",13,"large tropical fruit with leathery skin and soft pulp; related to custard apples",NULL
+107777117,23785,NULL,"cherimoya",32498,2,0,0,"cherimoya%1:13:00::",NULL,"n",13,"large tropical fruit with leathery skin and soft pulp; related to custard apples",NULL
+107777285,60508,NULL,"guanabana",83880,1,0,0,"guanabana%1:13:00::",NULL,"n",13,"large spiny tropical fruit with tart pulp related to custard apples",NULL
+107777285,123094,NULL,"soursop",172013,2,0,0,"soursop%1:13:00::",NULL,"n",13,"large spiny tropical fruit with tart pulp related to custard apples",NULL
+107777437,18291,NULL,"bullock's heart",24891,2,0,0,"bullock's_heart%1:13:00::",NULL,"n",13,"large heart-shaped tropical fruit with soft acid pulp",NULL
+107777437,71568,16039,"jamaica apple",99326,1,0,0,"jamaica_apple%1:13:00::","Jamaica apple","n",13,"large heart-shaped tropical fruit with soft acid pulp",NULL
+107777587,5951,NULL,"annon",7763,1,0,0,"annon%1:13:00::",NULL,"n",13,"sweet pulpy tropical fruit with thick scaly rind and shiny black seeds",NULL
+107777587,127858,NULL,"sugar apple",179464,1,0,0,"sugar_apple%1:13:00::",NULL,"n",13,"sweet pulpy tropical fruit with thick scaly rind and shiny black seeds",NULL
+107777587,129072,NULL,"sweetsop",181258,2,0,0,"sweetsop%1:13:00::",NULL,"n",13,"sweet pulpy tropical fruit with thick scaly rind and shiny black seeds",NULL
+107777753,67297,NULL,"ilama",93054,2,0,0,"ilama%1:13:00::",NULL,"n",13,"whitish tropical fruit with a pinkish tinge related to custard apples; grown in the southern United States",NULL
+107777930,102755,NULL,"pond apple",141227,2,0,0,"pond_apple%1:13:00::",NULL,"n",13,"ovoid yellow fruit with very fragrant peach-colored flesh; related to custard apples",NULL
+107778090,96430,NULL,"papaw",132601,2,0,0,"papaw%1:13:00::",NULL,"n",13,"fruit with yellow flesh; related to custard apples",NULL
+107778090,97604,NULL,"pawpaw",134294,3,0,0,"pawpaw%1:13:00::",NULL,"n",13,"fruit with yellow flesh; related to custard apples",NULL
+107778220,96432,NULL,"papaya",132604,2,0,0,"papaya%1:13:00::",NULL,"n",13,"large oval melon-like tropical fruit with yellowish flesh",NULL
+107778349,73167,NULL,"kai apple",101414,1,0,0,"kai_apple%1:13:00::",NULL,"n",13,"South African fruit smelling and tasting like apricots; used for pickles and preserves",NULL
+107778510,73690,NULL,"ketembilla",102056,2,0,0,"ketembilla%1:13:00::",NULL,"n",13,"maroon-purple gooseberry-like fruit of India having tart-sweet purple pulp used especially for preserves",NULL
+107778510,74151,NULL,"kitambilla",102703,2,0,0,"kitambilla%1:13:00::",NULL,"n",13,"maroon-purple gooseberry-like fruit of India having tart-sweet purple pulp used especially for preserves",NULL
+107778510,74173,NULL,"kitembilla",102733,2,0,0,"kitembilla%1:13:00::",NULL,"n",13,"maroon-purple gooseberry-like fruit of India having tart-sweet purple pulp used especially for preserves",NULL
+107778716,1378,NULL,"ackee",1852,1,0,0,"ackee%1:13:00::",NULL,"n",13,"red pear-shaped tropical fruit with poisonous seeds; flesh is poisonous when unripe or overripe",NULL
+107778716,3200,NULL,"akee",4394,2,0,0,"akee%1:13:00::",NULL,"n",13,"red pear-shaped tropical fruit with poisonous seeds; flesh is poisonous when unripe or overripe",NULL
+107778889,39843,NULL,"durian",56368,2,0,0,"durian%1:13:00::",NULL,"n",13,"huge fruit native to southeastern Asia `smelling like Hell and tasting like Heaven'; seeds are roasted and eaten like nuts",NULL
+107779083,47650,NULL,"feijoa",66888,2,0,0,"feijoa%1:13:00::",NULL,"n",13,"dark-green kiwi-sized tropical fruit with white flesh; used chiefly for jellies and preserves",NULL
+107779083,100607,NULL,"pineapple guava",138188,1,0,0,"pineapple_guava%1:13:00::",NULL,"n",13,"dark-green kiwi-sized tropical fruit with white flesh; used chiefly for jellies and preserves",NULL
+107779266,53363,NULL,"genip",75334,2,0,0,"genip%1:13:00::",NULL,"n",13,"round one-inch Caribbean fruit with green leathery skin and sweet juicy translucent pulp; eaten like grapes",NULL
+107779266,123386,29855,"spanish lime",172412,2,0,0,"spanish_lime%1:13:00::","Spanish lime","n",13,"round one-inch Caribbean fruit with green leathery skin and sweet juicy translucent pulp; eaten like grapes",NULL
+107779459,53366,NULL,"genipap",75338,1,0,0,"genipap%1:13:00::",NULL,"n",13,"a succulent orange-sized tropical fruit with a thick rind",NULL
+107779459,53367,NULL,"genipap fruit",75339,2,0,0,"genipap_fruit%1:13:00::",NULL,"n",13,"a succulent orange-sized tropical fruit with a thick rind",NULL
+107779605,24188,6725,"chinese gooseberry",33015,2,0,0,"chinese_gooseberry%1:13:00::","Chinese gooseberry","n",13,"fuzzy brown egg-shaped fruit with slightly tart green flesh",NULL
+107779605,74191,NULL,"kiwi",102757,3,0,0,"kiwi%1:13:00::",NULL,"n",13,"fuzzy brown egg-shaped fruit with slightly tart green flesh",NULL
+107779605,74192,NULL,"kiwi fruit",102761,1,0,0,"kiwi_fruit%1:13:00::",NULL,"n",13,"fuzzy brown egg-shaped fruit with slightly tart green flesh",NULL
+107779768,71789,16238,"japanese plum",99578,3,0,0,"japanese_plum%1:13:00::","Japanese plum","n",13,"yellow olive-sized semitropical fruit with a large free stone and relatively little flesh; used for jellies",NULL
+107779768,79234,NULL,"loquat",109717,2,0,0,"loquat%1:13:00::",NULL,"n",13,"yellow olive-sized semitropical fruit with a large free stone and relatively little flesh; used for jellies",NULL
+107779963,81569,NULL,"mangosteen",112784,2,0,0,"mangosteen%1:13:00::",NULL,"n",13,"two- to three-inch tropical fruit with juicy flesh suggestive of both peaches and pineapples",NULL
+107780131,81564,NULL,"mango",112778,2,0,0,"mango%1:13:00::",NULL,"n",13,"large oval tropical fruit having smooth skin, juicy aromatic pulp, and a large hairy seed",NULL
+107780291,114946,NULL,"sapodilla",159762,2,0,0,"sapodilla%1:13:00::",NULL,"n",13,"tropical fruit with a rough brownish skin and very sweet brownish pulp",NULL
+107780291,114948,NULL,"sapodilla plum",159765,1,0,0,"sapodilla_plum%1:13:00::",NULL,"n",13,"tropical fruit with a rough brownish skin and very sweet brownish pulp",NULL
+107780291,114959,NULL,"sapota",159777,1,0,0,"sapota%1:13:00::",NULL,"n",13,"tropical fruit with a rough brownish skin and very sweet brownish pulp",NULL
+107780462,81381,NULL,"mammee",112519,4,2,0,"mammee%1:13:02::",NULL,"n",13,"brown oval fruit flesh makes excellent sherbet",NULL
+107780462,82141,NULL,"marmalade plum",113590,1,0,0,"marmalade_plum%1:13:00::",NULL,"n",13,"brown oval fruit flesh makes excellent sherbet",NULL
+107780462,114961,NULL,"sapote",159779,2,0,0,"sapote%1:13:00::",NULL,"n",13,"brown oval fruit flesh makes excellent sherbet",NULL
+107780606,130183,NULL,"tamarind",182898,2,0,0,"tamarind%1:13:00::",NULL,"n",13,"large tropical seed pod with very tangy pulp that is eaten fresh or cooked with rice and fish or preserved for curries and chutneys",NULL
+107780606,130185,NULL,"tamarindo",182901,2,0,0,"tamarindo%1:13:00::",NULL,"n",13,"large tropical seed pod with very tangy pulp that is eaten fresh or cooked with rice and fish or preserved for curries and chutneys",NULL
+107780823,2930,NULL,"aguacate",4039,1,0,0,"aguacate%1:13:00::",NULL,"n",13,"a pear-shaped tropical fruit with green or blackish skin and rich yellowish pulp enclosing a single large seed",NULL
+107780823,3961,NULL,"alligator pear",5318,1,0,0,"alligator_pear%1:13:00::",NULL,"n",13,"a pear-shaped tropical fruit with green or blackish skin and rich yellowish pulp enclosing a single large seed",NULL
+107780823,10241,NULL,"avocado",13324,1,0,15,"avocado%1:13:00::",NULL,"n",13,"a pear-shaped tropical fruit with green or blackish skin and rich yellowish pulp enclosing a single large seed",NULL
+107780823,10242,NULL,"avocado pear",13327,1,0,0,"avocado_pear%1:13:00::",NULL,"n",13,"a pear-shaped tropical fruit with green or blackish skin and rich yellowish pulp enclosing a single large seed",NULL
+107781049,33754,NULL,"date",47023,7,0,0,"date%1:13:00::",NULL,"n",13,"sweet edible fruit of the date palm with a single long woody seed",NULL
+107781184,41274,NULL,"elderberry",58232,2,0,0,"elderberry%1:13:00::",NULL,"n",13,"berrylike fruit of an elder used for e.g. wines and jellies",NULL
+107781337,60552,NULL,"guava",83952,3,0,0,"guava%1:13:00::",NULL,"n",13,"tropical fruit having yellow skin and pink pulp; eaten fresh or used for e.g. jellies",NULL
+107781493,86098,NULL,"mombin",118916,2,0,0,"mombin%1:13:00::",NULL,"n",13,"purplish tropical fruit",NULL
+107781588,64542,NULL,"hog plum",89360,4,2,0,"hog_plum%1:13:02::",NULL,"n",13,"yellow oval tropical fruit",NULL
+107781588,146784,NULL,"yellow mombin",206372,2,0,0,"yellow_mombin%1:13:00::",NULL,"n",13,"yellow oval tropical fruit",NULL
+107781704,64542,NULL,"hog plum",89359,3,1,0,"hog_plum%1:13:01::",NULL,"n",13,"fruit of the wild plum of southern United States",NULL
+107781704,144859,NULL,"wild plum",203629,2,0,0,"wild_plum%1:13:00::",NULL,"n",13,"fruit of the wild plum of southern United States",NULL
+107781838,71369,NULL,"jaboticaba",99045,2,0,0,"jaboticaba%1:13:00::",NULL,"n",13,"tough-skinned purple grapelike tropical fruit grown in Brazil",NULL
+107781975,24181,6718,"chinese date",33007,1,0,0,"chinese_date%1:13:00::","Chinese date","n",13,"dark red plumlike fruit of Old World buckthorn trees",NULL
+107781975,24191,6728,"chinese jujube",33019,1,0,0,"chinese_jujube%1:13:00::","Chinese jujube","n",13,"dark red plumlike fruit of Old World buckthorn trees",NULL
+107781975,72849,NULL,"jujube",100965,2,2,0,"jujube%1:13:02::",NULL,"n",13,"dark red plumlike fruit of Old World buckthorn trees",NULL
+107782149,76455,NULL,"leechee",105800,1,0,0,"leechee%1:13:00::",NULL,"n",13,"Chinese fruit having a thin brittle shell enclosing a sweet jellylike pulp and a single seed; often dried",NULL
+107782149,77380,NULL,"lichee",107002,2,0,0,"lichee%1:13:00::",NULL,"n",13,"Chinese fruit having a thin brittle shell enclosing a sweet jellylike pulp and a single seed; often dried",NULL
+107782149,77387,NULL,"lichi",107011,1,0,0,"lichi%1:13:00::",NULL,"n",13,"Chinese fruit having a thin brittle shell enclosing a sweet jellylike pulp and a single seed; often dried",NULL
+107782149,78284,NULL,"litchee",108384,1,0,0,"litchee%1:13:00::",NULL,"n",13,"Chinese fruit having a thin brittle shell enclosing a sweet jellylike pulp and a single seed; often dried",NULL
+107782149,78285,NULL,"litchi",108385,2,0,0,"litchi%1:13:00::",NULL,"n",13,"Chinese fruit having a thin brittle shell enclosing a sweet jellylike pulp and a single seed; often dried",NULL
+107782149,78287,NULL,"litchi nut",108388,1,0,0,"litchi_nut%1:13:00::",NULL,"n",13,"Chinese fruit having a thin brittle shell enclosing a sweet jellylike pulp and a single seed; often dried",NULL
+107782149,80109,NULL,"lychee",110876,1,0,0,"lychee%1:13:00::",NULL,"n",13,"Chinese fruit having a thin brittle shell enclosing a sweet jellylike pulp and a single seed; often dried",NULL
+107782385,38975,NULL,"dragon's eye",54928,1,0,0,"dragon's_eye%1:13:00::",NULL,"n",13,"Asian fruit similar to litchi",NULL
+107782385,79060,NULL,"longanberry",109436,2,0,0,"longanberry%1:13:00::",NULL,"n",13,"Asian fruit similar to litchi",NULL
+107782506,81364,NULL,"mamey",112498,2,0,0,"mamey%1:13:00::",NULL,"n",13,"globular or ovoid tropical fruit with thick russet leathery rind and juicy yellow or reddish flesh",NULL
+107782506,81381,NULL,"mammee",112518,3,1,0,"mammee%1:13:01::",NULL,"n",13,"globular or ovoid tropical fruit with thick russet leathery rind and juicy yellow or reddish flesh",NULL
+107782506,81382,NULL,"mammee apple",112522,2,0,0,"mammee_apple%1:13:00::",NULL,"n",13,"globular or ovoid tropical fruit with thick russet leathery rind and juicy yellow or reddish flesh",NULL
+107782699,81820,NULL,"marang",113156,2,0,0,"marang%1:13:00::",NULL,"n",13,"tropical fruit from the Philippines having a mass of small seeds embedded in sweetish white pulp",NULL
+107782867,83332,NULL,"medlar",115230,4,1,0,"medlar%1:13:01::",NULL,"n",13,"crabapple-like fruit used for preserves",NULL
+107782978,83332,NULL,"medlar",115231,3,2,0,"medlar%1:13:02::",NULL,"n",13,"a South African globular fruit with brown leathery skin and pithy flesh having a sweet-acid taste",NULL
+107783147,87489,NULL,"mulberry",120813,2,0,0,"mulberry%1:13:00::",NULL,"n",13,"sweet usually dark purple blackberry-like fruit of any of several mulberry trees of the genus Morus",NULL
+107783320,92935,NULL,"olive",127937,4,0,0,"olive%1:13:00::",NULL,"n",13,"one-seeded fruit of the European olive tree usually pickled and used as a relish",NULL
+107783525,14595,NULL,"black olive",19427,1,0,1,"black_olive%1:13:00::",NULL,"n",13,"olives picked ripe and cured in brine then dried or pickled or preserved canned or in oil",NULL
+107783525,112058,NULL,"ripe olive",155646,1,0,0,"ripe_olive%1:13:00::",NULL,"n",13,"olives picked ripe and cured in brine then dried or pickled or preserved canned or in oil",NULL
+107783685,59909,NULL,"green olive",83039,1,0,0,"green_olive%1:13:00::",NULL,"n",13,"olives picked green and pickled in brine; infrequently stuffed with e.g. pimento",NULL
+107783823,97762,NULL,"pear",134526,1,0,3,"pear%1:13:00::",NULL,"n",13,"sweet juicy gritty-textured fruit available in many varieties",NULL
+107784044,16295,NULL,"bosc",21877,1,0,0,"bosc%1:13:00::",NULL,"n",13,"greenish-yellow pear",NULL
+107784115,5883,NULL,"anjou",7682,2,0,0,"anjou%1:13:00::",NULL,"n",13,"a pear with firm flesh and a green skin",NULL
+107784206,11757,NULL,"bartlett",15489,3,0,0,"bartlett%1:13:00::",NULL,"n",13,"juicy yellow pear",NULL
+107784206,11758,NULL,"bartlett pear",15492,1,0,1,"bartlett_pear%1:13:00::",NULL,"n",13,"juicy yellow pear",NULL
+107784294,116789,NULL,"seckel",162401,1,0,0,"seckel%1:13:00::",NULL,"n",13,"small yellowish- to reddish-brown pear",NULL
+107784294,116790,NULL,"seckel pear",162402,1,0,0,"seckel_pear%1:13:00::",NULL,"n",13,"small yellowish- to reddish-brown pear",NULL
+107784399,101316,NULL,"plantain",139183,3,0,0,"plantain%1:13:00::",NULL,"n",13,"starchy banana-like fruit; eaten (always cooked) as a staple vegetable throughout the tropics",NULL
+107784566,101858,NULL,"plumcot",139993,2,0,0,"plumcot%1:13:00::",NULL,"n",13,"hybrid between plum and apricot",NULL
+107784670,102718,NULL,"pomegranate",141172,2,0,0,"pomegranate%1:13:00::",NULL,"n",13,"large globular fruit having many seeds with juicy red pulp in a tough brownish-red rind",NULL
+107784834,104468,NULL,"prickly pear",143836,2,0,0,"prickly_pear%1:13:00::",NULL,"n",13,"round or pear-shaped spiny fruit of any of various prickly pear cacti",NULL
+107784981,52679,NULL,"garambulla",74435,2,0,0,"garambulla%1:13:00::",NULL,"n",13,"small berrylike fruit",NULL
+107785078,11453,3436,"barbados gooseberry",15069,2,0,0,"barbados_gooseberry%1:13:00::","Barbados gooseberry","n",13,"small yellow to orange fruit of the Barbados gooseberry cactus used in desserts and preserves and jellies",NULL
+107785078,14778,NULL,"blade apple",19642,1,0,0,"blade_apple%1:13:00::",NULL,"n",13,"small yellow to orange fruit of the Barbados gooseberry cactus used in desserts and preserves and jellies",NULL
+107785282,88891,NULL,"native peach",122595,1,0,0,"native_peach%1:13:00::",NULL,"n",13,"red Australian fruit; used for dessert or in jam",NULL
+107785282,107211,NULL,"quandang",147763,2,0,0,"quandang%1:13:00::",NULL,"n",13,"red Australian fruit; used for dessert or in jam",NULL
+107785282,107213,NULL,"quandong",147767,4,0,0,"quandong%1:13:00::",NULL,"n",13,"red Australian fruit; used for dessert or in jam",NULL
+107785282,107236,NULL,"quantong",147803,1,0,0,"quantong%1:13:00::",NULL,"n",13,"red Australian fruit; used for dessert or in jam",NULL
+107785441,107214,NULL,"quandong nut",147771,1,0,0,"quandong_nut%1:13:00::",NULL,"n",13,"edible nutlike seed of the quandong fruit",NULL
+107785560,107557,NULL,"quince",148296,2,0,0,"quince%1:13:00::",NULL,"n",13,"aromatic acid-tasting pear-shaped fruit used in preserves",NULL
+107785707,108208,NULL,"rambotan",149283,2,0,0,"rambotan%1:13:00::",NULL,"n",13,"pleasantly acid bright red oval Malayan fruit covered with soft spines",NULL
+107785707,108211,NULL,"rambutan",149287,2,0,0,"rambutan%1:13:00::",NULL,"n",13,"pleasantly acid bright red oval Malayan fruit covered with soft spines",NULL
+107785862,106322,NULL,"pulasan",146422,2,0,0,"pulasan%1:13:00::",NULL,"n",13,"fruit of an East Indian tree similar to the rambutan but sweeter",NULL
+107785862,106324,NULL,"pulassan",146425,2,0,0,"pulassan%1:13:00::",NULL,"n",13,"fruit of an East Indian tree similar to the rambutan but sweeter",NULL
+107786010,112880,NULL,"rose apple",156836,2,0,0,"rose_apple%1:13:00::",NULL,"n",13,"fragrant oval yellowish tropical fruit used in jellies and confections",NULL
+107786156,122866,NULL,"sorb",171656,1,0,0,"sorb%1:13:00::",NULL,"n",13,"acid gritty-textured fruit",NULL
+107786156,122867,NULL,"sorb apple",171658,2,0,0,"sorb_apple%1:13:00::",NULL,"n",13,"acid gritty-textured fruit",NULL
+107786265,123065,NULL,"sour gourd",171968,3,1,0,"sour_gourd%1:13:01::",NULL,"n",13,"acid-tasting Australian gourd-like fruit with a woody rind and large seeds",NULL
+107786415,86262,NULL,"monkey bread",119138,1,0,0,"monkey_bread%1:13:00::",NULL,"n",13,"African gourd-like fruit with edible pulp",NULL
+107786415,123065,NULL,"sour gourd",171969,2,2,0,"sour_gourd%1:13:02::",NULL,"n",13,"African gourd-like fruit with edible pulp",NULL
+107786547,40731,NULL,"edible seed",57533,1,0,0,"edible_seed%1:13:00::",NULL,"n",13,"many are used as seasoning",NULL
+107786739,106454,NULL,"pumpkin seed",146644,1,0,0,"pumpkin_seed%1:13:00::",NULL,"n",13,"the edible seed of a pumpkin",NULL
+107786845,7626,NULL,"areca nut",9908,1,0,0,"areca_nut%1:13:00::",NULL,"n",13,"seed of betel palm; chewed with leaves of the betel pepper and lime as a digestive stimulant and narcotic in southeastern Asia",NULL
+107786845,13511,NULL,"betel nut",17938,1,0,0,"betel_nut%1:13:00::",NULL,"n",13,"seed of betel palm; chewed with leaves of the betel pepper and lime as a digestive stimulant and narcotic in southeastern Asia",NULL
+107787058,12703,NULL,"beechnut",16834,1,0,0,"beechnut%1:13:00::",NULL,"n",13,"small sweet triangular nut of any of various beech trees",NULL
+107787188,142828,NULL,"walnut",200610,1,0,1,"walnut%1:13:00::",NULL,"n",13,"nut of any of various walnut trees having a wrinkled two-lobed seed with a hard shell",NULL
+107787381,14645,NULL,"black walnut",19490,2,0,0,"black_walnut%1:13:00::",NULL,"n",13,"American walnut having a very hard and thick woody shell",NULL
+107787515,42527,10352,"english walnut",59930,2,0,0,"english_walnut%1:13:00::","English walnut","n",13,"nut with a wrinkled two-lobed seed and hard but relatively thin shell; widely used in cooking",NULL
+107787707,17029,NULL,"brazil",22923,2,0,0,"brazil%1:13:00::",NULL,"n",13,"three-sided tropical American nut with white oily meat and hard brown shell",NULL
+107787707,17030,NULL,"brazil nut",22926,2,0,0,"brazil_nut%1:13:00::",NULL,"n",13,"three-sided tropical American nut with white oily meat and hard brown shell",NULL
+107787867,18832,NULL,"butternut",25736,2,1,0,"butternut%1:13:01::",NULL,"n",13,"oily egg-shaped nut of an American tree of the walnut family",NULL
+107788002,122962,NULL,"souari nut",171801,2,0,0,"souari_nut%1:13:00::",NULL,"n",13,"a large nutlike seed of a South American tree",NULL
+107788123,21574,NULL,"cashew",29391,2,0,0,"cashew%1:13:00::",NULL,"n",13,"kidney-shaped nut edible only when roasted",NULL
+107788123,21575,NULL,"cashew nut",29393,1,0,0,"cashew_nut%1:13:00::",NULL,"n",13,"kidney-shaped nut edible only when roasted",NULL
+107788250,23850,NULL,"chestnut",32584,3,0,0,"chestnut%1:13:00::",NULL,"n",13,"edible nut of any of various chestnut trees of the genus Castanea",NULL
+107788389,24154,NULL,"chincapin",32970,1,0,0,"chincapin%1:13:00::",NULL,"n",13,"small nut of either of two small chestnut trees of the southern United States; resembles a hazelnut",NULL
+107788389,24224,NULL,"chinkapin",33058,1,0,0,"chinkapin%1:13:00::",NULL,"n",13,"small nut of either of two small chestnut trees of the southern United States; resembles a hazelnut",NULL
+107788389,24238,NULL,"chinquapin",33077,3,0,0,"chinquapin%1:13:00::",NULL,"n",13,"small nut of either of two small chestnut trees of the southern United States; resembles a hazelnut",NULL
+107788607,143194,NULL,"water chinquapin",201262,2,0,0,"water_chinquapin%1:13:00::",NULL,"n",13,"edible nutlike seeds of an American lotus having the flavor of a chinquapin",NULL
+107788764,26624,NULL,"cob",36411,1,0,0,"cob%1:13:00::",NULL,"n",13,"nut of any of several trees of the genus Corylus",NULL
+107788764,26643,NULL,"cobnut",36437,2,0,0,"cobnut%1:13:00::",NULL,"n",13,"nut of any of several trees of the genus Corylus",NULL
+107788764,48368,NULL,"filbert",67874,2,0,0,"filbert%1:13:00::",NULL,"n",13,"nut of any of several trees of the genus Corylus",NULL
+107788764,62485,NULL,"hazelnut",86592,2,0,0,"hazelnut%1:13:00::",NULL,"n",13,"nut of any of several trees of the genus Corylus",NULL
+107788911,26771,NULL,"cocoanut",36603,1,0,0,"cocoanut%1:13:00::",NULL,"n",13,"large hard-shelled oval nut with a fibrous husk containing thick white meat surrounding a central cavity filled (when fresh) with fluid or milk",NULL
+107788911,26775,NULL,"coconut",36607,2,0,1,"coconut%1:13:00::",NULL,"n",13,"large hard-shelled oval nut with a fibrous husk containing thick white meat surrounding a central cavity filled (when fresh) with fluid or milk",NULL
+107789214,26775,NULL,"coconut",36608,1,2,3,"coconut%1:13:02::",NULL,"n",13,"the edible white meat of a coconut; often shredded for use in e.g. cakes and curries",NULL
+107789214,26779,NULL,"coconut meat",36613,1,0,0,"coconut_meat%1:13:00::",NULL,"n",13,"the edible white meat of a coconut; often shredded for use in e.g. cakes and curries",NULL
+107789404,26780,NULL,"coconut milk",36614,2,0,0,"coconut_milk%1:13:00::",NULL,"n",13,"clear to whitish fluid from within a fresh coconut",NULL
+107789404,26784,NULL,"coconut water",36619,1,0,0,"coconut_water%1:13:00::",NULL,"n",13,"clear to whitish fluid from within a fresh coconut",NULL

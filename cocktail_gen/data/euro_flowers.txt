@@ -1,0 +1,83 @@
+lemma
+meadow buttercup
+ranunculus acris
+tall buttercup
+tall crowfoot
+tall field buttercup
+dutch clover
+shamrock
+trifolium repens
+white clover
+bouncing bess
+bouncing bet
+hedge pink
+saponaria officinalis
+soapwort
+chenopodium glaucum
+oak-leaved goosefoot
+oakleaf goosefoot
+berteroa incana
+hoary alison
+hoary alyssum
+honesty
+lunaria annua
+money plant
+satin flower
+satinpod
+silver dollar
+blue succory
+catananche caerulea
+cupid's dart
+cardoon
+cynara cardunculus
+corn mayweed
+matricaria inodorum
+scentless camomile
+scentless false camomile
+scentless hayweed
+scentless mayweed
+tripleurospermum inodorum
+greater butterfly orchid
+habenaria chlorantha
+platanthera chlorantha
+bilberry
+blaeberry
+viccinium myrtillus
+whinberry
+whortleberry
+centaurium minus
+lesser centaury
+daphne mezereum
+february daphne
+mezereon
+bladder senna
+colutea arborescens
+medicago arborea
+moon trefoil
+black medick
+hop clover
+medicago lupulina
+nonesuch clover
+yellow trefoil
+alfalfa
+lucerne
+medicago sativa
+asperula tinctoria
+dyer's woodruff
+dipsacaceae
+family dipsacaceae
+alehoof
+field balm
+gill-over-the-ground
+glechoma hederaceae
+ground ivy
+nepeta hederaceae
+runaway robin
+common speedwell
+gypsyweed
+veronica officinalis
+devil's milk
+euphorbia helioscopia
+sun spurge
+wartweed
+wartwort

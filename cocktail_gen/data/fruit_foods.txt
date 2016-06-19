@@ -1,0 +1,349 @@
+lemma
+banana peel
+banana skin
+lemon peel
+lemon rind
+orange peel
+orange rind
+windfall
+apple
+crab apple
+crabapple
+dessert apple
+eating apple
+baldwin
+cortland
+cox's orange pippin
+delicious
+golden delicious
+yellow delicious
+red delicious
+empire
+grimes' golden
+jonathan
+mcintosh
+macoun
+northern spy
+pearmain
+pippin
+prima
+stayman
+winesap
+stayman winesap
+cooking apple
+bramley's seedling
+granny smith
+lane's prince albert
+newtown wonder
+rome beauty
+berry
+bilberry
+european blueberry
+whortleberry
+huckleberry
+blueberry
+boxberry
+checkerberry
+spiceberry
+teaberry
+wintergreen
+cranberry
+cowberry
+lingonberry
+lowbush cranberry
+mountain cranberry
+currant
+gooseberry
+black currant
+red currant
+blackberry
+boysenberry
+dewberry
+loganberry
+raspberry
+juneberry
+saskatoon
+serviceberry
+shadberry
+lansa
+lansat
+lanseh
+lanset
+strawberry
+hackberry
+sugarberry
+persimmon
+acerola
+barbados cherry
+surinam cherry
+west indian cherry
+carambola
+star fruit
+ceriman
+monstera
+carissa plum
+natal plum
+citrous fruit
+citrus
+citrus fruit
+section
+orange
+temple orange
+mandarin
+mandarin orange
+clementine
+satsuma
+tangerine
+tangelo
+ugli
+ugli fruit
+bitter orange
+seville orange
+sour orange
+sweet orange
+jaffa orange
+navel orange
+valencia orange
+kumquat
+lemon
+lime
+key lime
+grapefruit
+pomelo
+shaddock
+citrange
+citron
+almond
+jordan almond
+apricot
+peach
+nectarine
+pitahaya
+plum
+damson
+damson plum
+greengage
+greengage plum
+beach plum
+sloe
+victoria plum
+dried fruit
+dried apricot
+prune
+raisin
+seedless raisin
+sultana
+seeded raisin
+currant
+fig
+ananas
+pineapple
+anchovy pear
+river pear
+banana
+passion fruit
+granadilla
+sweet calabash
+bell apple
+sweet cup
+water lemon
+yellow granadilla
+breadfruit
+jack
+jackfruit
+jak
+cacao bean
+cocoa bean
+cocoa
+canistel
+eggfruit
+melon
+melon ball
+muskmelon
+sweet melon
+cantaloup
+cantaloupe
+winter melon
+honeydew
+honeydew melon
+persian melon
+net melon
+netted melon
+nutmeg melon
+casaba
+casaba melon
+watermelon
+cherry
+black cherry
+sweet cherry
+bing cherry
+heart cherry
+oxheart
+oxheart cherry
+blackheart
+blackheart cherry
+capulin
+mexican black cherry
+sour cherry
+amarelle
+morello
+coco plum
+cocoa plum
+icaco
+gherkin
+grape
+fox grape
+concord grape
+catawba
+bullace grape
+muscadine
+scuppernong
+slipskin grape
+vinifera grape
+emperor
+muscat
+muscat grape
+muscatel
+ribier
+sultana
+tokay
+flame tokay
+thompson seedless
+custard apple
+cherimolla
+cherimoya
+guanabana
+soursop
+bullock's heart
+jamaica apple
+annon
+sugar apple
+sweetsop
+ilama
+pond apple
+papaw
+pawpaw
+papaya
+kai apple
+ketembilla
+kitambilla
+kitembilla
+ackee
+akee
+durian
+feijoa
+pineapple guava
+genip
+spanish lime
+genipap
+genipap fruit
+chinese gooseberry
+kiwi
+kiwi fruit
+japanese plum
+loquat
+mangosteen
+mango
+sapodilla
+sapodilla plum
+sapota
+mammee
+marmalade plum
+sapote
+tamarind
+tamarindo
+aguacate
+alligator pear
+avocado
+avocado pear
+date
+elderberry
+guava
+mombin
+hog plum
+yellow mombin
+hog plum
+wild plum
+jaboticaba
+chinese date
+chinese jujube
+jujube
+leechee
+lichee
+lichi
+litchee
+litchi
+litchi nut
+lychee
+dragon's eye
+longanberry
+mamey
+mammee
+mammee apple
+marang
+medlar
+medlar
+mulberry
+olive
+black olive
+ripe olive
+green olive
+pear
+bosc
+anjou
+bartlett
+bartlett pear
+seckel
+seckel pear
+plantain
+plumcot
+pomegranate
+prickly pear
+garambulla
+barbados gooseberry
+blade apple
+native peach
+quandang
+quandong
+quantong
+quandong nut
+quince
+rambotan
+rambutan
+pulasan
+pulassan
+rose apple
+sorb
+sorb apple
+sour gourd
+monkey bread
+sour gourd
+edible seed
+pumpkin seed
+areca nut
+betel nut
+beechnut
+walnut
+black walnut
+english walnut
+brazil
+brazil nut
+butternut
+souari nut
+cashew
+cashew nut
+chestnut
+chincapin
+chinkapin
+chinquapin
+water chinquapin
+cob
+cobnut
+filbert
+hazelnut
+cocoanut
+coconut
+coconut
+coconut meat
+coconut milk
+coconut water

@@ -1,0 +1,481 @@
+<html>
+
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+  <style>
+
+/* resets */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/*
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* global */
+body {
+  background-color: antiquewhite;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+}
+.wrapper {
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 850px;
+  overflow: hidden;
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+h2 {
+  font-weight: 700;
+}
+h3 {
+  font-weight: 500;
+}
+
+/* grid */
+.row {
+  margin: 0 -10px;
+  margin-bottom: 10px;
+}
+.row:last-child {
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding: 10px;
+}
+
+  
+  .row {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+  }
+  [class*="col-"] {
+    display: table-cell;
+  }
+
+  /* set col widths */
+  .col-2-3 {
+    width: 66.66%;
+  }
+  .col-1-2 {
+    width: 50%;
+  }
+  .col-1-3 {
+    width: 33.33%;
+  }
+  .col-1-4 {
+    width: 25%;
+  }
+
+.author {
+  font-size: smaller;
+}
+
+  .note {
+      font-style: italic;
+    }
+
+
+  .orig_recipe {
+    font-family: "Noto Serif", serif;
+    min-height: 300px;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+
+  .new_recipe {
+    padding-top: 20px;
+    font-family: "Noto Serif", sans-serif;
+    line-height: 1.5em;
+    padding-left: 50px;
+    min-height: 300px;
+  }
+
+  .pic {
+    position: relative;
+  }
+  .image {
+    max-width: 300px;
+  }
+
+  #image1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  }
+
+  #image2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+  p {
+    margin-left: 50px;
+    padding: 50px;
+  }
+
+  .instructions {
+    padding-top: -20px;
+    margin-top: -50px;
+  }
+
+  .instruct {
+    margin-top: -20px;
+    margin-left: -10px;
+    font-style: italic;
+  }
+
+  </style>
+
+</head>
+
+<body>
+
+
+<div class="wrapper">
+  <h1>Cocktail Recipe Remixer</h2>
+  <div class="row">
+    <div class="col-1-2 recipe">
+        <div class="orig_recipe">
+          <h3 class="note">Inspiration</h2>
+          <h2 class="recipename"></h2>
+          <div class="author"></div>
+          <div class="ingredients"></div>
+        </div>
+    </div>
+    <div class="col-1-2 pic">
+            <div class="image" id="image1">
+            </div>
+    </div>
+    </div><!-- /.row -->
+
+    <div class="row">
+      <div class="col-1-2 pic">
+        <div class="image" id="image2">
+        </div>
+      </div>
+      <div class="col-1-2 recipe">
+        <div class="new_recipe">
+          <h3 class="note">Evolution</h2>
+          <h2 class="new_name"></h2>
+          <div class="new_ingredients"></div>
+          <div class="instructions"><p class="instruct"></p></div>
+      </div>
+    </div>
+    </div><!-- /.row -->
+
+  <p>Work by Lynn Cherny (@arnicas) for <a href="https://github.com/arnicas/eyeo2016-talk/">Alt-Ai and Eyeo 2016</a>, using data from <a href="http://github.com/jordanmeyer/nyt-bar-optimizer">Jordan Meyer's Optimizing Your Liquor Cabinet</a> talk (thanks, Hadley) and <a href="https://wordnet.princeton.edu/">WordNet</a>/<a href="http://sentiwordnet.isti.cnr.it/">SentiWordNet</a> database query extracts. Images from flickr Creative Commons by API, instructions generated using <a href="https://github.com/galaxykate/tracery">Tracery.js.</a></p>
+
+  </div>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/d3.min.js"></script>
+<script src="js/queue.v1.min.js"></script>
+<script src="js/rita-full.js"></script>
+<script src="js/tracery.js"></script>
+
+<script>
+
+var url1 = makePicUrl("1920,1930,cocktails,bars"); // pics from 1920ies etc
+var url2 = makePicUrl("booksubjectplantsmedicinal, booksubjectplantextracts, booksubjectalchemy, booksubjectoccult");
+var lexicon = new RiLexicon();
+var alcohols, fruitlist, flavorlist, poswords, negwords, herblist, flowerlist, clubslist;
+
+var ices = ["iceberg", "frozen slush", "snowcone", "hail", "snow", "sleet"];
+var waters = ["stream water", "puddle water", "lakewater", "pond water", "mineral water", "ocean", "freshwater", "waterfall", "sea water", "steam water", "tears", "rain water", "vapor"];
+var drugs = ["Adderall", "prozac", "aspirin", "alka seltzer", "viagra", "birth control pills", "Claritin", "xanax", "valium", "ibuprofen"];
+var usedDrugs = false;
+var alcCount = 0;
+var story = createStoryRules();
+
+queue()
+    .defer(d3.csv, "data/recipe-df.csv")
+    .defer(d3.csv, "data/recipe-ingredient-df.csv")
+    .defer(d3.text, "data/drinks.txt")
+    .defer(d3.text, "data/fruit_foods.txt")
+    .defer(d3.text, "data/flavorings.txt")
+    .defer(d3.csv, "data/positive_nouns.csv")
+    .defer(d3.csv, "data/negative_nouns.csv")
+    .defer(d3.text, "data/herbs.txt")
+    .defer(d3.text, "data/euro_flowers.txt")
+    .defer(d3.text, "data/clubs.txt")
+    .defer(d3.json, url1)
+    .defer(d3.json, url2)
+    .await(ready);
+
+function ready(error, recipes, ingredients, drinks, fruits, flavors, pos, neg, herbs, flowers, clubs, pics1, pics2) {
+
+  if (error) {console.log("error loading");}
+
+  clubslist = clubs.split("\n");
+
+  alcohols = drinks.split("\n");
+  fruitlist = fruits.split("\n");
+  flavorlist = flavors.split("\n");
+  poswords = pos.map(function (d) {
+    return d.SynsetTerms.split("#")[0].replace(/_/g, " ");
+  });
+  negwords = neg.map(function(d) {
+    return d.SynsetTerms.split("#")[0].replace(/_/g, " ");
+  });
+  herblist = herbs.split("\n");
+  flowerlist = flowers.split("\n");
+
+  recipes.forEach(function(r) {
+    var ingreds = ingredients.filter(function(i) {
+      return i["recipe.link"] == r["recipe.link"];
+    });
+    r.ingredients = ingreds;
+  });
+  console.log(recipes);
+  var recipe = getRandom(recipes);
+
+  d3.select("h2.recipename").text(recipe["recipe.name"]);
+  d3.select(".author").text(recipe["recipe.author"]);
+
+  d3.select(".ingredients").append("ul")
+    .selectAll("li")
+    .data(recipe.ingredients)
+    .enter()
+    .append("li")
+    .text(function(d) {return d["ingredient.quantity"] + " " + d["ingredient.as.written"];});
+
+  //d3.select(".instructions").append("p").text(recipe["recipe.instructions"]);
+
+  var pic1 = getPic(pics1);
+  var pic2 = getPic(pics2);
+
+  d3.select("#image1").html(pic1);
+  d3.select("#image2").html(pic2);
+
+  d3.select(".new_name").text(newTitle(recipe["recipe.name"]));
+
+  var newIng = newIngredients(recipe.ingredients);
+
+  d3.select(".new_ingredients").append("ul").selectAll("li")
+    .data(newIng)
+    .enter()
+    .append("li")
+    .text(function(d) { return d;});
+  d3.select("p.instruct").text(getStory());
+}
+
+
+function newIngredients(ingredients) {
+
+  return ingredients.map(function(i, n) {return lookupReplacement(i);});
+
+}
+
+function newTitle(title) {
+  return getReplacement(title, title).toUpperCase();
+}
+
+
+function lookupReplacement(ingredient) {
+
+    var quant = ingredient["ingredient.quantity"];
+    var original = ingredient["ingredient.as.written"];
+    var cleaned = original.replace(/[,(].+$/g, "").replace(/-/g, " ");
+    var newIng = getReplacement(cleaned, original);
+    return quant + " " + newIng;
+}
+
+function getReplacement(string, original) {
+
+  var similars = [];
+  var replace = "";
+  var words = RiTa.tokenize(string);
+  var lastword = words[words.length-1];
+  var others = words.slice(0, words.length-1); // not including end
+
+  replace = testForObvious(original);
+
+  if (replace) {
+    return replace;
+  }
+
+  // DRY this up
+  var alcmatch = alcohols.indexOf(lastword.toLowerCase());
+  if (alcmatch != -1 && lastword.toLowerCase() != "gin") {
+    if (alcCount == 1 && !usedDrugs) { // assuming the first item in ingreds is alcohol too
+      usedDrugs = true;
+      return getRandom(drugs);
+    } else {
+      replace = getRandom(alcohols);
+      alcCount += 1;
+    }
+  }
+  var fruitmatch = fruitlist.indexOf(lastword.toLowerCase());
+  if (fruitmatch != -1) {
+    replace = getRandom(fruitlist);
+  }
+  var flavormatch = flavorlist.indexOf(lastword.toLowerCase());
+    if (flavormatch != -1) {
+    replace = getRandom(flavorlist);
+  }
+
+  if (replace) {
+    return others.join(" ") + " " + replace;
+  }
+
+  // otherwise, get a similar sound instead
+
+  var similars = lexicon.similarBySound(lastword);
+  if (similars) {
+    return others.join(" ") + " " + getRandom(similars);
+  } else { return string; }
+}
+
+function testForObvious(words) {
+  console.log(words);
+  var string = words.toLowerCase();
+  if (string.indexOf("Pimm's no. 1") !== -1) {
+    var pimms = Array.apply(null, {length: 100}).map(Number.call, Number);
+    return string.replace(/Pimm's No. 1/, "Pimm's No." + getRandom(pimms));
+  }
+  if (string.indexOf("water") !== -1) {
+    return string.replace(/water/, getRandom(waters));
+  }
+  if (string.indexOf("milk") !== -1) {
+    return string.replace(/milk/, getRandom(alcohols));
+  }
+  if (string.indexOf("cointreau") !== -1) {
+    return string.replace(/cointreau/, getRandom(alcohols));
+  }
+  if (string.indexOf("bitters") !== -1) {
+    return string.replace(/bitters/, getRandom(negwords));
+  }
+  if (string.indexOf("amaro") !== -1) {
+    return string.replace(/amoro/, getRandom(negwords));
+  }
+  if (string.indexOf("sugar") !== -1) {
+    return string.replace(/sugar/, getRandom(poswords));
+  }
+  if (string.indexOf("honey") !== -1) {
+    return string.replace(/honey/, getRandom(poswords));
+  }
+  if (string.indexOf("lemon") !== -1) {
+    return string.replace(/lemon/, getRandom(flavorlist));
+  }
+  if (string.indexOf("lime") !== -1) {
+    return string.replace(/lime/, getRandom(flavorlist));
+  }
+  if (string.indexOf("egg white") !== -1) {
+    return string.replace(/egg white/, getRandom(flavorlist));
+  }
+  if (string.indexOf("cinnamon") !== -1) {
+    return string.replace(/cinnamon/, getRandom(herblist));
+  }
+  if (string.indexOf("syrup") !== -1) {
+    return string.replace(/syrup/, getRandom(poswords));
+  }
+  // not quite right yet
+  if (string.indexOf("leaves") !== -1) {
+    return string.replace(/(\w+) leaves/, getRandom(herblist) + " leaves");
+  }
+  if (string.indexOf("leaf") !== -1) {
+    return "leaf of " + getRandom(herblist);
+  }
+  if (string.indexOf("orange peel") !== -1) {
+    return string.replace(/orange peel/, getRandom(fruitlist));
+  }
+  if (string.indexOf("garnish") !== -1) {
+    return "garnish of " + getRandom(flowerlist);
+  }
+  if (string.indexOf("zest") !== -1) {
+    return getRandom(fruitlist) + " zest";
+  }
+  if (string.indexOf("twist") !== -1) {
+    return "Add a twist of " + getRandom(poswords);
+  }
+  if (string.indexOf("cucumber") !== -1) {
+    return string.replace(/cucumber/, getRandom(fruitlist));
+  }
+  if (string.indexOf("club") !== -1) {
+    return string.replace(/club/, getRandom(clubslist));
+  }
+  if (string.indexOf(" ice") !== -1 || string == "ice") {
+    return string.replace(/ice/, getRandom(ices));
+  }
+  return null;
+}
+
+
+function makePicUrl(tags) {
+  var baseUrl = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=e08843a8ba2ec0444013a39cf4082568&per_page=100&format=json&w=commons&nojsoncallback=1&safe_search=1";
+  var search = "&tags=" + tags;
+  //console.log("search string", baseUrl + search);
+  return baseUrl + search;
+}
+
+
+function getRandom(list) {
+
+  function getRandomIntInclusive(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+  if (list.length) {
+    return list[getRandomIntInclusive(0, list.length-1)];
+  } else {
+    return "nothing";
+  }
+}
+
+
+function getPic(result) {
+  // result is from an API call to flickr
+  var photo = getRandom(result.photos.photo);
+  var farmId = photo.farm;
+  var serverId = photo.server;
+  var id = photo.id;
+  var secret = photo.secret;
+
+  // _n is a size attribute, see https://www.flickr.com/services/api/misc.urls.html
+  var url = "https://farm" + farmId + ".staticflickr.com/" + serverId + "/" + id + "_" + secret + "_n.jpg";
+  return "<img src='" + url + "'/></div>";
+  //https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}_[mstzb].jpg
+
+}
+
+function createStoryRules() {
+  // So many ways this could be improved. So little time.
+
+  var rules = {
+
+    "how": ["in one gulp", "alone", "with a stranger", "with a friend", "in a public place", "in the bathroom", "slowly", "in no more than two sips", "and tell no one", "with no regrets", "by candlelight", "with a cat", "with the TV up loud", "listening to ambient music", "in a beach town", "while making a wish", "thanking the Goddess of Wine"],
+    "Drink": ["Consume", "Share", "Sip", "Drink", "Leave", "Swallow"],
+    "Adv": ["with vim", "with panache", "with vigor", "with care", "with exhuberance", "without anger", "without disgust", "with regret", "with feeling", "with a sense of despair", "with relief", "excitedly", "happily", "after a prayer", "in a cauldron", "in a BAPA-free plastic bottle", "in an antique flask", "with no one watching", "with a pure heart"],
+    "Mix": ["Stir", "Shake", "Mix", "Pour", "Combine", "Agitate","Brew"],
+    "Tips": ["Tip", "Idea", "How-to", "Advice", "Recommendation", "Warning", "Be sure", "NB", "I advise","Don't", "Beware"],
+    "story": ["#Tips#: #Mix# it #Adv#. #Drink# it #how#."],
+    "origin": ["#story#"]
+  };
+    return tracery.createGrammar(rules);
+}
+
+function getStory() {
+  return story.flatten("#origin#");
+}
+
+
+</script>
+
+</body>
+
+</html>
