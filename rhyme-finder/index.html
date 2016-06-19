@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rhyme Finder in Books </title>
+  <style>
+  body {
+    margin: 50px;
+    padding-left: 100px;
+    font-family: sans-serif;
+    font-size: 12pt;
+  }
+  .controls {
+    position: relative;
+    padding: 20px;
+    font-size:  15px;
+  }
+  #bookloc {
+    position: absolute;
+    left: 700;
+    top: 100;
+  }
+
+  </style>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+  <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.11.2/lodash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.24/p5.js"></script>
+  <script src="js/rita-full.js"></script>
+</head>
+<body>
+<h2>RhymeFinder</h2>
+<p>This toy finds rhyming(ish) lines in texts using p5.js and RiTa.js. The color bar on the right side indicates where each line occurs in the text. The "slow" ones are not pre-crunched json files which will take longer to load -- wait till it tells you to enter a word.
+
+<div class="controls">
+<select id="file">
+  <option value="yeats">Poems by Yeats (slower)</option>
+  <option value="amerpoetry">American Poetry, 1922 (slow)</option>
+  <option value="emma">Jane Austen, Emma (slow!)</option>
+  <option value="pride">Jane Austen, Pride and Prej</option>
+  <option value="lion">CS Lewis, The Lion The Witch etc. (slower)</option>
+  <option value="peter">JM Barrie, Peter Pan</option>
+  <option value="dunsany" selected>Lord Dunsany, Selections</option>
+  <option value="graves">Robert Graves, Fairies and Fusiliers</option>
+</select>&nbsp; A short word, like "say":
+  <input value=""></input>
+  <button>Find Poem</button>
+</div>
+<div id="word"></div>
+<div id="bookloc"></div>
+<div id="canvas-holder">
+<!-- Our sketch will go here! -->
+</div>
+</p> A toy made by Lynn Cherny (@arnicas) for Alt-Ai and Eyeo2016 talks. See <a href="https://github.com/arnicas/eyeo2016-talk/">repo.</a>
+</body>
+</html>
+
+
+<script>
+
+// todo: style page
+// pulldown for books
+// loading spinner
+// pick before loading one
+
+var lines, lexicon, sentences, rhymehash, booklength=0, currentType="text", x = 160, y = 240;
+var canvwidth = 800, canvheight = 500;
+
+var files = { "yeats": {file: "yeats_poems.txt", type: "text"}, 
+              "pride": {file: "pride.json", type: "json"},
+              "dunsany": {file: "dunsany.json", type: "json"},
+              "graves": {file: "graves_fairies.txt", type: "text"},
+              "emma": {file: "austen_emma.txt", type: "text"},
+              "peter": {file: "pan.json", type: "json"},
+              "lion": {file: "lewis_lionwitch.txt", type: "text"},
+              "amerpoetry": { file: "amer_poetry_1922.txt", type: "text"}
+            };
+
+function loadFile() {
+  var file = $(this).val();
+  lines = ["Loading..."];
+  clear();
+  background(240); // wipe the bgf
+  drawText("", lines);
+  if (files[file].type == "json") {
+    currentType = "json";
+    loadJSON("books/" + files[file].file, loadingText);
+  } else {
+    currentType = "text";
+    loadStrings("books/" + files[file].file, loadingText);
+  }
+}
+
+function loadingText(sentences) {
+  rhymehash = {};
+  if (currentType == "text") {
+    makeRhymeHash(sentences);
+    booklength = sentences.length;
+  } else {
+    rhymehash = sentences;
+    booklength = _.max(_.map(_.values(sentences), "sent"));
+  }
+  background(240); // wipe the bg
+  lines = ["Enter a word above!"];
+  drawText("", lines);
+}
+
+function makeRhymeHash(sentences) {
+
+    sentences.forEach(function(sent, i) {
+    var words = RiTa.tokenize(RiTa.stripPunctuation(sent.replace(/--/g, ' ')));
+    var lastword = words[words.length-1];
+    if (words.length > 3) {
+      var matches = lexicon.words(lastword);
+      if (matches.length >= 1) {
+        rhymehash[lastword] = {
+          words: words,
+          lastword: lastword,
+          sent: i,
+          length: words.length
+        };
+      }
+    }
+  });
+
+}
+
+function preload() {
+  var file = $("#file").val();
+  lexicon = new RiLexicon();
+  if (files[file].type == "json") {
+    currentType = "json";
+    loadJSON("books/" + files[file].file, loadingText);
+  } else {
+    currentType = "text";
+    loadStrings("books/" + files[file].file, loadingText, "text");
+  }
+
+}
+
+function setup() {
+
+  var canvas = createCanvas(canvwidth, canvheight);
+  canvas.parent('canvas-holder');
+  clear();
+  background(240); // wipe the bgf
+  drawText("", lines);
+  $("#file").change(loadFile);
+  $("button").click(buttonClicked);
+  noLoop();
+
+}
+
+function getRhymes(seed) {
+
+  var matches = [];
+  var locs = [];
+  similars = lexicon.similarBySound(seed);
+  if (similars) {
+    similars.push(seed);
+    similars.forEach(function(s) {
+        var results = rhymehash[s];
+        if (results) {
+          var end = _.takeRight(results.words, _.random(1,10));
+          matches.push(end.join(' '));
+          locs.push(results.sent);
+        }
+    });
+  }
+  return [matches, locs];
+}
+
+function drawText(word, lines, colors) {
+
+  var colors = colors || null;
+
+  textSize(20);
+  noStroke();
+  fill(0);
+
+  if (word) {
+    $("#word").text("Your word: " + word);
+  } else {
+    $("#word").text("Your word: <enter a short word>");
+  }
+  //$("#bookloc").text("Where?");
+  lines.forEach(function(line, i) {
+    if (colors) {
+      fill(colors[i]); // else it's black, above.
+    }
+    text(line, x, y + i*22, 600, 500);
+  });
+}
+
+
+function buttonClicked() {
+  var word = $("input").val();
+  x = y = 50;
+  var matches = getRhymes(word); // returns lines and their index in the book
+  var lines = matches[0];
+  var indices = matches[1];
+  if (lines.length > 1) {
+    var colors = drawBook(booklength, indices);
+    drawText(word, lines, colors);
+  } else {
+    lines = ["No lines found!"];
+    background(240); // wipe the bg
+    drawText(word, lines);
+  }
+  $("input").val("");
+}
+
+function drawBook(length, indices) {
+  var highlight = indices || null;
+  var textColors = [];
+
+  background(240); // wipe the bg
+  fill(230);
+  //var height = map(length, 0, length, 0, 500);
+  rect(canvwidth - 100, 0, 100, canvheight); // draw a rect for the text on the right side
+
+  var c1 = color(33, 150, 243);
+  var c2 = color(255,0, 0);
+
+  if (highlight) {
+    highlight.forEach(function(h) {
+      var aLine = map(h, 0, length, 0, canvheight);
+      var inter = map(aLine, 0, canvheight, 0, 1);
+      var c = lerpColor(c1, c2, inter);
+      stroke(c);
+      textColors.push(c);
+      line(canvwidth-100, aLine, canvwidth, aLine);
+    });
+  }
+  return textColors;
+
+}
+
+</script>
