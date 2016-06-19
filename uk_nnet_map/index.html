@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+<title>Fantastical Britain</title>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+<link rel="stylesheet" href="leaflet.label.css" />
+<link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+<style>
+
+body {
+  font-family: Merriweather, sans-serif;
+  background-color: linen;
+  font-size: 10pt;
+  padding-left: 150px;
+}
+
+p {
+  width: 700px;
+}
+
+#map {
+  height: 700px;
+  width: 900px;
+}
+
+
+.labeltext { text-align: center; border:none; }
+.leaflet-label:before { border-right: none; }
+.leaflet-label {
+  background: none;
+  padding-bottom: 10px;
+  padding-left: 0px;
+}
+
+.facts {
+  margin-left: 5px;
+  font-style: bolder;
+  font-color: darkgray;
+}
+
+</style>
+<body>
+
+<h2>Even More Fantastical Britain (a Map for Allison Parrish)</h2>
+<p>This app loads a trained neuralnet and db of UK places, and replaces random locations from the sqlite DB of real places with generated town names. Pan and zoom to generate more. To prevent too much overlap, I restricted how many are placed at any time. Click on a name to find out the real town name at that location.</p>
+
+<div id="map"></div>
+<p> Project by <a href="http://www.ghostweather.com">Lynn Cherny (@arnicas)</a>, using Leaflet maps and neural net code from <a href="https://github.com/karpathy/recurrentjs">Karpathy's recurrentjs</a>. Watercolor map tiles by <a href="http://maps.stamen.com/watercolor/#12/37.7706/-122.3782">Stamen</a> and <a href="http://www.openstreetmap.org/">Open Street Map</a>. Made for my <a href="http://livestream.com/internetsociety/alt-ai/videos/124461200">alt-ai</a> talk in 2016 at SFPC.</p>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.12.0/lodash.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
+<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+<script src="js/leaflet.label.js"></script>
+<script src="js/recurrent.js"></script>
+<script src="js/net.js"></script>
+<script src="js/sql.js"></script>
+<script>
+
+// sqlite db with lat/lons
+var xhr = new XMLHttpRequest();
+var db = null;
+var model;
+var dbname = "data/uk_towns.sqlite";
+
+loadDB(dbname); // do this right away
+$.getJSON("data/uk_town_model4.json", loaded)
+  .fail(function() {
+    console.log("error loading model");
+  });
+
+var map = new L.Map("map", {center: [52, -2], zoom: 7})
+    .addLayer(new L.TileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
+  subdomains: 'abcd',
+  minZoom: 1,
+  maxZoom: 15,
+  ext: 'png'
+    }));
+
+var markers = new L.FeatureGroup(); // layer for town names
+
+var myCastleIcon = L.icon({
+    iconUrl: 'img/castle-one.png',
+    iconSize: [30, 35],
+    iconAnchor: [0, -10],
+    labelAnchor: [-80, 10]
+    });
+
+  var myChurchIcon =  L.icon({
+    iconUrl: 'img/castle-church.png',
+    iconSize: [35, 40],
+    iconAnchor: [0, -10],
+    labelAnchor: [-80, 10]
+    });
+
+  var myTowersIcon =  L.icon({
+    iconUrl: 'img/castle-five.png',
+    iconSize: [35, 30],
+    iconAnchor: [0, -10],
+    labelAnchor: [-80, 10]
+    });
+
+function runNet(data) {
+  learning_rate = 0.0001;
+  model = loadModel(data);  // sets model
+}
+
+function drawTowns(towns,names) {
+
+  markers.clearLayers();
+
+  towns.forEach(function(t,i) {
+    var town = L.marker([+t[0], +t[1]], {
+      icon: getRandom([myChurchIcon, myCastleIcon, myTowersIcon])
+    })
+      .bindLabel(names[i], {
+        noHide: true,
+        offset: [0,0],
+        className: 'labeltext'
+      })
+      .bindPopup(t[2]);
+    markers.addLayer(town);
+    });
+  map.addLayer(markers);
+}
+
+
+function loaded(model) {
+
+  runNet(model);
+  var bounds = map.getBounds();
+  getCityData(bounds, 25);
+
+  var currentZoom = map.getZoom();
+
+  // leaflet maps come with a lot of useful functions:
+  map.on('zoomend', function() {
+    var currentZoom = map.getZoom();
+    var bounds = map.getBounds();
+      getCityData(bounds);
+  });
+
+  map.on('moveend', function() {
+    var bounds = map.getBounds();
+    getCityData(bounds);
+  });
+
+} // end loaded;
+
+
+function moveMap() {
+  var query = "SELECT latitude, longitude FROM uk_towns ORDER by Random() Limit 1";
+  var res = db.exec(query);
+  console.log("location", location);
+  var location = res[0].values[0];
+  map.zoomOut(2);
+  setTimeout(function() {
+    map.panTo({lat: location[0], lon: location[1]}, {animate: true, duration: 2, noMoveStart: true, easeLinearity: 1})}, 2000);
+}
+
+
+function getNRandom(N, list) {
+
+  var results = [];
+
+  if (N < list.length-1) {
+    for (n = 0; n <= N; n++) {
+        results.push(getRandom(list));
+      }
+  } else {
+    results = list;
+  }
+  return _.uniq(results);
+}
+
+function getRandom(list) {
+
+  function getRandomIntInclusive(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  return list[getRandomIntInclusive(0, list.length-1)];
+}
+
+
+function getNames(N) {
+  var names = [];
+  for(var q=0 ;q <= N; q++) {
+        var pred = predictSentence(model, true, 1);
+        names.push(pred);
+    }
+  return names;
+}
+
+function loadDB(dbname) {
+
+    xhr.open('GET', dbname, true);
+    xhr.responseType = 'arraybuffer';
+    xhr.onload = function(e) {
+        var uInt8Array = new Uint8Array(this.response);
+        db = new SQL.Database(uInt8Array);
+        console.log("db loaded", db);
+        return db;
+    }
+    xhr.send(null);
+}
+
+function getCityData(bounds, limit) {
+
+  var cutoff = limit || 100;
+
+  var upperlat = bounds._northEast.lat;
+  var eastlon  = bounds._northEast.lng;
+  var lowerlat = bounds._southWest.lat;
+  var westlon = bounds._southWest.lng;
+
+  var query = "SELECT latitude, longitude, name FROM uk_towns WHERE latitude >= " + lowerlat +
+    " and latitude <= " + upperlat + " and longitude >= " + westlon + " and longitude <= " + eastlon + " ORDER by Random() Limit 30";
+
+  if (!db) {
+    // terrible hack hopefully never needed?
+    db = loadDB(dbname);
+    setTimeout(function() {
+      var contents = db.exec(query);
+        // contents is now [{columns:['col1','col2',...], values:[[first row], [second row], ...]}]
+      var towns = getNRandom(limit, contents[0].values);
+      var names = getNames(towns.length);
+        drawTowns(towns, names);
+      }, 5000);
+  } else {
+    var contents = db.exec(query);
+      // contents is now [{columns:['col1','col2',...], values:[[first row], [second row], ...]}]
+    if (contents[0]) {
+      var towns = getNRandom(10, contents[0].values);
+      var names = getNames(towns.length);
+      drawTowns(towns, names);
+    }
+  }
+}
+
+</script>
+</body>
+</html>
+
+</script>
