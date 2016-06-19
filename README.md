@@ -2,6 +2,8 @@
 
 These are the slides and toys I built for my talk at Eyeo 2016 (and before that, [Alt-ai](http://alt-ai.net) in NYC).
 
+You might want to look at these through [arnicas.github.io](https://arnicas.github.io/eyeo2016-talk/) for the project links to work.
+
 Links:
 
 * [Rhyme-Finder](rhyme-finder)
@@ -11,6 +13,7 @@ Links:
 * [Cocktail Remixes](cocktail_gen)
 
 Slides: [pdf with links](Eyeo_talk.pdf)
+Slidelink on Slideshare if you prefer: [Slideshare](http://www.slideshare.net/arnicas/things-i-think-are-awesome-eyeo-2016-talk)
 
 [Alt-ai conf video of talk about some of these toys](http://livestream.com/internetsociety/alt-ai/videos/124461200)
 
