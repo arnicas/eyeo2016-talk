@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+<link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+<style>
+
+body {
+  font-family: Merriweather, sans-serif;
+  background-color: linen;
+  font-size: 12pt;
+  padding-left: 150px;
+}
+
+.intro {
+  font-style: italic;
+  font-size: 12px;
+  padding-bottom: 20px;
+  max-width: 500px;
+}
+
+.controls {
+  font-size: 11pt;
+  font-style: italic;
+  color: dimgray;
+}
+
+button {
+  background-color: lightgray;
+}
+
+</style>
+
+<body>
+
+<h2>Via 2.0: In a Darkling Wood</h2>
+<p class="intro">A neural net output trained on <a href="http://www.poetryfoundation.org/poems-and-poets/poems/detail/56211#poem">Caroline Bergvall's Via</a>, 47 translations of Dante's Inferno first 3 lines. Raw ouptut, including non-words. Go to <a href="index1.html">next version...</a>.</p>
+
+<p class="controls">
+Total Lines (integer): <input id="phrases" value="15" size="2"></input><br>
+More Structured, Every N Lines (int less than total lines): <input id="everyN" value="4" size="1"></input><br>
+Gibberish/Originality (decimal between .1-1, e.g. ".5"): <input id="gibberish" value="1" size="2"></input>
+<button>ReWood Me</button>
+</p>
+
+<p id="poem"></p>
+
+<script src="js/lodash.min.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/recurrent.js"></script>
+<script src="js/net.js"></script>
+
+<script>
+
+
+var model;
+
+var text = "Along And As At Because Bewildered By Confused For From Gone HALF HALFWAY Half Halfway I IN In Just MIDWAY Midway Misplaced On Since So Struggling That The UPON Upon WAY When Where Within a again alone along and anywhere appeared aright astray at aware away be because been bound by came completely course dark darkened darkling darkness darksome days deep direct does drear dusky failed far find for forest forests found from gaze gloom gloomy go gone great guided had half halfway have highroad in inside into its journey journeyed keep knew lay led life longer lost made maze me men met mid middle midpoint midtime midway might miles missed mortal my myself narrow night no not nowhere oath obscure obscured of off on one our over path pathway proper pursue re reason reawoke right rightful road roused s seen shadowed shadowy shewed sight so some span stage straight straightforward stray strayed strife sunless tangled that the this through to traveling trek true unfathomable unto upon vanished vestige view wandered was way wayfaring ways we went when where wherein which wholly with within woke wonder wood woods";
+
+var textwords = text.split(" ");
+
+$.getJSON("in_a_dark_wood_lstm8.json", loaded)
+  .fail(function() {
+    console.log("error loading model");
+  });
+
+function runNet(data) {
+  learning_rate = 0.0001;
+  model = loadModel(data);  // sets model
+}
+
+function getNRandom(N, list) {
+
+  var results = [];
+  if (N < list.length-1) {
+    for (n = 0; n <= N; n++) {
+        results.push(getRandom(list));
+      }
+  } else {
+    results = list;
+  }
+  return _.uniq(results);
+}
+
+function getRandom(list) {
+
+  function getRandomIntInclusive(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+  return list[getRandomIntInclusive(0, list.length-1)];
+}
+
+
+function getPhrases(N, every, gibberish) {
+  // gibberish is temperature - 0 to 1. Higher is weirder and more original.
+  var lines = [];
+  for(var q=0 ;q <= N; q++) {
+        // softmax
+        if(q % every === 0) {
+          // softmax - better but more repetitive
+          var pred = predictSentence(model, false);
+        } else {
+          var pred = predictSentence(model, true, gibberish);
+        }
+        lines.push(pred);
+    }
+  return lines;
+}
+
+
+function check_words(lines) {
+
+  var newlines = [];
+  lines.forEach(function(l) {
+    var words = l.split(' ');
+    var newords = [];
+    words.forEach(function(w) {
+      w = w.replace(/[,.:]/g, '');
+      newords.push(w);
+    });
+    newlines.push(newords.join(" "));
+  });
+  return newlines;
+}
+
+
+function loaded(mymodel) {
+  model = mymodel;
+  runNet(model);
+  var phrases = parseInt($("#phrases").val());
+  var everyN = parseInt($("#everyN").val());
+  var gibb = parseFloat($("#gibberish").val());
+  run(phrases,  everyN, gibb);
+}
+
+$("button").click(function() {
+  var phrases = parseInt($("#phrases").val());
+  var everyN = parseInt($("#everyN").val());
+  var gibb = parseFloat($("#gibberish").val());
+  if (gibb < .1 || gibb > 1.0) {
+    gibb = 1;
+  }
+  if (everyN >= phrases) {
+    everyN = phrases - 1;
+  }
+  run(phrases, everyN, gibb);
+});
+
+function run(phrases, every, gibb) {
+
+  var poem = getPhrases(phrases, every, gibb);
+  console.log(poem[poem[poem.length-1]]);
+  poem[poem.length-1] = poem[poem.length - 1].replace(/,$/, '');
+  var newpoem = check_words(poem);
+  $("#poem").html(newpoem.join("<br>"));
+
+}
+
+</script>
+</body>
+
