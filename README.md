@@ -1,6 +1,6 @@
 # eyeo2016-talk
 
-These are the slides and toys I built for my talk at Eyeo 2016 (and before that, [Alt-ai](http://alt-ai.net) in NYC).
+These are the slides and toys I built for my talk at Eyeo 2016 (and before that, [Alt-ai](http://alt-ai.net) in NYC).  The talks is about poetry, generated text, AI, bots, twitter, and tools for creativity.
 
 You might want to look at these through [arnicas.github.io](https://arnicas.github.io/eyeo2016-talk/) for the project links to work.
 
@@ -20,6 +20,7 @@ Slidelink on Slideshare if you prefer: [Slideshare](http://www.slideshare.net/ar
 
 [Alt-ai conf video of talk about some of these toys](http://livestream.com/internetsociety/alt-ai/videos/124461200)
 
+Alt-ai slides with more details on a few of the toys: [js slides](http://ghostweather.slides.com/lynncherny/a-little-twist-on-reality#/)
 
 
 ### Contact
